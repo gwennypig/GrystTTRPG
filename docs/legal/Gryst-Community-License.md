@@ -57,13 +57,53 @@ You may NOT use:
 - "Gryst TTRPG presents..."
 - Any phrasing implying official endorsement
 
-### Canon Status
+### Canon & Derivative Works
 
-Community Content exists in **your version** of the Gryst universe. It does not establish, modify, or override official canon unless explicitly adopted by the Licensor.
+Gryst offers **two paths** for community content:
 
-You may expand the setting freely — add planets, factions, characters, history — but cannot claim authority over core setting elements (the Six Grysts, The Consensus, etc.) in ways that contradict official material.
+---
 
-Think of it as: **"This is MY table's Gryst."**
+#### Path A: Open Canon (In-Universe Content)
+
+You may create content that exists within the official Gryst universe and treat it as **real canon** for all intents and purposes.
+
+- Add new planets, factions, characters, history, adventures
+- Reference and build upon existing lore
+- Your content can coexist with other Open Canon works
+
+**There is no central canon authority.** Gryst operates on an open canon model — consumers decide what they accept as canon based on their own judgment of quality, consistency, and worth. Think of it like a shared universe where the community curates through engagement.
+
+You may expand the setting freely, including adding new interpretations of existing elements. Just don't claim your work invalidates or overrides other creators' contributions.
+
+---
+
+#### Path B: Derivative Universe (Parallel/What-If)
+
+You may create **alternate versions** of the Gryst universe — darker, reversed, mashups, what-if scenarios, parallel timelines, etc.
+
+**Requirements for derivative universes:**
+
+1. **Distinct Branding** — Your derivative must have its own name that is clearly different from "Gryst"
+   - ✅ Acceptable: DarkGryst, ReverseGryst, Trygs, Styrg, GrystSouls, NeoGryst, Gryst://Null
+   - ❌ Not acceptable: Gryst 2, Gryst Reloaded, The Real Gryst, Gryst (with no distinction)
+
+2. **Clear Derivative Status** — Your materials must clearly communicate that this is a derivative work, not the original Gryst setting
+   - Include a statement like: "This is a derivative universe inspired by Gryst TTRPG"
+
+3. **No IP Confusion** — Branding, marketing, and presentation must not confuse consumers about whether this is official Gryst content or a derivative work
+
+Derivative universes are **your IP** (built on Gryst's open mechanics). You have more creative freedom — you can contradict, reimagine, or subvert core Gryst lore because you're explicitly building something distinct.
+
+---
+
+#### Summary
+
+| Path | What it is | Naming | Canon relationship |
+|------|------------|--------|-------------------|
+| **Open Canon** | Content IN the Gryst universe | Uses "Gryst" setting | Coexists with other canon |
+| **Derivative** | Your own spin/universe | New distinct name | Your own continuity |
+
+Choose the path that fits your creative vision.
 
 ---
 
