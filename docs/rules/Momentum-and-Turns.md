@@ -23,6 +23,45 @@ This represents how quickly a character builds toward their next action.
 - Use a **d20 as a tracker** (not rolled — just a counter)
 - Start at 0 (or determined by setup)
 - Track carries over between phases
+- Momentum can go **negative** (see Hijack Tax)
+
+---
+
+## Parties & Cooperation
+
+Combat is organized into **Parties** — groups of characters working toward shared goals.
+
+### What is a Party?
+
+A party is any group with **Cooperation** — the ability to freely coordinate during the Add-On window.
+
+**Typical setup:**
+- 1 Player Party vs 1 GM Enemy Party
+- 2 Player Parties vs 1 GM Enemy Party (players split on goals)
+- 1 Player Party vs 2 GM Enemy Parties (multiple factions)
+
+### Forming & Splitting Parties
+
+Parties can form or split **dynamically** during play:
+
+- **Split:** Players disagree on a goal mid-combat → they can split into separate parties
+- **Merge:** Former enemies align against a common threat → new Cooperation
+- **Betrayal:** A character switches sides → joins a different party's Cooperation
+
+The GM adjudicates when Cooperation makes narrative sense.
+
+### What Cooperation Gives You
+
+Within your party (characters you have Cooperation with):
+
+1. **Free Add-Ons** — No special requirements to add onto a partymate's stack
+2. **Flexible Ordering** — Partymates can negotiate who slots where, regardless of raw momentum order
+3. **Shared Strategy** — You're building the stack together
+
+Without Cooperation (different party):
+
+1. **Locked Out** — You cannot Add-On to their stack...
+2. **Unless You Hijack** — Hijack actions open the door (see below)
 
 ---
 
@@ -161,23 +200,116 @@ Each action has an **Add-On Cost** listed. Higher-impact actions cost more.
 
 ---
 
-## Hijack
+## Hijack & The Door
 
-Some actions have the **Hijack** keyword.
+Some actions have the **Hijack** keyword. Hijack is how parties break into each other's stacks.
 
-**Hijack** allows you to Add-On to an **enemy's turn** — interrupting or countering.
+### The Problem
+
+During the Add-On window, you can only add onto characters you have **Cooperation** with. If the Pivotal Character is in a different party, you're locked out.
+
+### The Solution: Hijack Opens the Door
+
+When a character uses a **Hijack action**, they force their way into the stack — and they **open the door** for their entire party.
+
+```
+┌────────────────────────────────────────────────────┐
+│ HIJACK AS DOOR OPENER                              │
+│                                                    │
+│  Party 1 is Pivotal. Party 2 is locked out.        │
+│  ↓                                                 │
+│  Party 2 member uses Hijack action!                │
+│  ↓                                                 │
+│  THE DOOR IS NOW OPEN                              │
+│  ↓                                                 │
+│  Other Party 2 members can now Add-On              │
+│  (but they pay the Hijack Tax)                     │
+└────────────────────────────────────────────────────┘
+```
 
 ### Hijack Rules
 
-- Must have an action with the Hijack keyword
-- Pay the Add-On Cost from your Momentum
-- Your Hijack gambit enters the stack (placement per Hijack ability rules)
+1. **Requires Hijack keyword** — Only certain actions can open the door
+2. **Pay normal Add-On Cost** — The hijacker pays their action's cost
+3. **Door opens for your party** — After your hijack, partymates can add-on
+4. **Ordering still by momentum** — But within your party, you negotiate freely
+
+### The Hijack Tax
+
+Once the door is open, your partymates can Add-On even **without** Hijack actions — but they pay a **Hijack Tax** on top of their normal Add-On Cost.
+
+| Cost | Description |
+|------|-------------|
+| **Hijacker** | Normal Add-On Cost (they opened the door) |
+| **Partymates** | Normal Add-On Cost **+ Hijack Tax (5)** |
+
+The Hijack Tax is paid **after** the normal cost. This means momentum can go **negative**.
+
+### Negative Momentum
+
+If the Hijack Tax drops you below 0, track it as negative:
+- `3 → 2 → 1 → 0 → -1 → -2 → -3...`
+- You can use a negative d20 orientation if you want, but just tracking the number works
+- Negative momentum means you're **far** from your next pivot — you'll be racing back up
+
+### Who Gets Locked Out?
+
+Characters are checked in **momentum order** (highest → lowest). Once a party's opportunity passes without someone hijacking, they don't get another chance that stack.
+
+**Passed over = locked out:**
+- If you're Party 2 and all Party 2 members with higher momentum than the remaining add-on window chose not to hijack, later Party 2 members can't jump in
+- The door must be opened by someone *before* the window closes for your party
+
+### Example: The Ambush
+
+```
+Pivotal: Hawk (Party 1) — "Shoot blaster"
+
+Add-On Window (by momentum):
+
+  Raven [Party 1] 14 mom → "Covering shot" [BEFORE]
+    └─ FREE (Cooperation with Hawk)
+  
+  Vex [Party 2] 12 mom → "Force Reflector" (HIJACK!) [BEFORE]
+    └─ DOOR OPENS for Party 2
+    └─ Costs: 8 momentum (normal Add-On Cost)
+  
+  Wolf [Party 1] 10 mom → "Dive for cover" [AFTER]
+    └─ FREE (Cooperation with Hawk)
+  
+  Kira [Party 2] 8 mom → "Sneak Shot" [AFTER Vex]
+    └─ Door is open! But pays Hijack Tax
+    └─ Costs: 6 + 5 = 11 momentum (goes to -3!)
+  
+  Shade [Party 2] 5 mom → "Smoke Bomb" [BEFORE Vex]
+    └─ Also pays Hijack Tax
+    └─ Costs: 4 + 5 = 9 momentum (goes to -4!)
+
+Final Stack:
+  1. Smoke Bomb (Shade)
+  2. Force Reflector (Vex)
+  3. Covering Shot (Raven)
+  4. Shoot Blaster (Hawk)
+  5. Dive for Cover (Wolf)
+  6. Sneak Shot (Kira)
+```
+
+Party 2 caught Party 1 by surprise! But Kira and Shade paid heavily — they're deep in negative momentum and won't be pivotal for a while.
 
 ### Example Hijack Actions
 
 - **Parry** (Hijack): React to an incoming attack, reduce damage
 - **Counterspell** (Hijack): Interrupt enemy spellcasting
 - **Intercept** (Hijack): Move to block an attack targeting an ally
+- **Force Reflector** (Hijack): Redirect an energy attack
+- **Overwatch** (Hijack): Prepared shot triggers on enemy action
+
+### Strategic Implications
+
+- **Hijack actions are valuable** — They're door-openers, not just interrupts
+- **Coordinate your party** — Who hijacks? Who follows through?
+- **Momentum debt is real** — Going negative is powerful but costly
+- **Lock them out** — If you can bait out their hijackers early, the rest of their party is stuck
 
 ---
 
@@ -203,13 +335,19 @@ The stack resolves as a single moment, not ping-pong turns. "Raven aims, Hawk fi
 
 | Term | Meaning |
 |------|---------|
-| **Momentum** | Resource tracked on d20, builds toward turns |
+| **Momentum** | Resource tracked on d20, builds toward turns (can go negative) |
 | **Momentum Gain** | How much you add each tick (Agility + mods) |
 | **Accumulation** | Phase where everyone races to 20 |
 | **Pivotal Character** | First to reach 20+, leads the resolution |
 | **Resolution** | Phase where the gambit stack builds and resolves |
+| **Party** | Group of characters with shared goals |
+| **Cooperation** | Relationship that allows free Add-Ons and flexible ordering |
 | **Add-On** | Spend momentum to join someone else's stack |
 | **Add-On Cost** | Momentum price to Add-On an action |
-| **Hijack** | Special actions that Add-On to enemy stacks |
+| **Hijack** | Special actions that open the door to enemy stacks |
+| **The Door** | Once a party hijacks, their partymates can also Add-On |
+| **Hijack Tax** | Extra cost (5) for non-hijack Add-Ons after the door opens |
+| **Negative Momentum** | Momentum below 0; you're far from your next pivot |
+| **Locked Out** | Party passed over without hijacking; can't Add-On this stack |
 | **Fizzle** | Gambit can't apply → refund half momentum (round up) |
 | **Stack** | Queue of gambits resolved as one narrative moment |
