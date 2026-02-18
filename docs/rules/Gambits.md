@@ -21,6 +21,10 @@ When a Module grants you a Gambit, you're getting a complete package. The Therma
 
 The outcomes are authored into the Gambit. The Tessera Fati just picks which one fires.
 
+But these outcomes are **interfaces, not scripts**. "Target ignites" is the mechanical truth — the DM brings it to life. *How* do they ignite? Does the fire spread to the curtains? Does the smoke trigger the alarm system? Does a bystander scream and run? The authored outcome is the skeleton; the DM fleshes it out with situational detail, environmental consequences, and narrative weight.
+
+This is where emergent stories happen. The Gambit tells you *what* occurs. The table discovers *what it means*.
+
 ---
 
 ## The Resolution Flow
@@ -235,6 +239,16 @@ The Gambit is the real atomic unit of the system. It's simultaneously:
 - The **scaling formula**
 
 The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the Gambit plugs into. The structure lives in the Gambit itself.
+
+### Outcomes Are Interfaces
+
+Pre-authored outcomes provide **mechanical truth**, not narrative script. "Weapon overheats" tells you what happens mechanically. The DM decides:
+
+- Does the heat blister your hands?
+- Does the glow give away your position?
+- Does the enemy laugh and press their advantage?
+
+Every outcome is an invitation for the DM to add **spice, texture, and consequence**. The authored text is a launchpad, not a cage. This is how emergent stories happen — the rules provide structure, the table provides meaning.
 
 ### ANYTHING IS POSSIBLE
 
