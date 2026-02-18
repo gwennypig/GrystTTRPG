@@ -29,6 +29,9 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[The Consensus](worldbuilding/factions/The-Consensus.md)** | The shattered galactic hegemony; universal currency, laws, bureaucracy |
 | **[The Forgelords](worldbuilding/factions/The-Forgelords.md)** | Blazing Gryst industrialists; caste system, company planets, Lord of the Forge |
 | **[The Pedagogy](worldbuilding/factions/The-Pedagogy.md)** | Flowing Gryst scholars; knowledge must spread like water; ancient, decentralized, living god |
+| **[The Angels](worldbuilding/factions/The-Angels.md)** | Lost precursor civilization; earliest spacefaring; relics taught others to reach the stars |
+| **[The Quarum](worldbuilding/factions/The-Quarum.md)** | Golden Blooming Gryst constructs; not Grystborn; dormant until powered; unknown origin |
+| **[Vanitas Order](worldbuilding/factions/Vanitas-Order.md)** | Blind photophobic war-cult; destroyed their own star; seek to extinguish all light |
 
 ### ✅ Ecosystem (Developed)
 

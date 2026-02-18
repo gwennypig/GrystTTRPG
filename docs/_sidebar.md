@@ -23,6 +23,9 @@
     - [The Consensus](worldbuilding/factions/The-Consensus.md)
     - [The Forgelords](worldbuilding/factions/The-Forgelords.md)
     - [The Pedagogy](worldbuilding/factions/The-Pedagogy.md)
+    - [The Angels](worldbuilding/factions/The-Angels.md)
+    - [The Quarum](worldbuilding/factions/The-Quarum.md)
+    - [Vanitas Order](worldbuilding/factions/Vanitas-Order.md)
   - [Locations](worldbuilding/locations/Location-Template.md)
 
 - **Bestiary**
