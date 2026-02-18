@@ -19,7 +19,9 @@
 - **Worldbuilding**
   - [Overview](worldbuilding/Overview.md)
   - [The Nature of Gryst](worldbuilding/The-Nature-of-Gryst.md)
-  - [Factions](worldbuilding/factions/Faction-Template.md)
+  - **Factions**
+    - [The Consensus (Shattered)](worldbuilding/factions/The-Consensus.md)
+    - [The Forgelords](worldbuilding/factions/The-Forgelords.md)
   - [Locations](worldbuilding/locations/Location-Template.md)
 
 - **Bestiary**
