@@ -10,7 +10,7 @@ All warranties are disclaimed as set forth therein.
 
 If you use our Licensed Material in your own published works, please credit us as follows:
 
-> **Gryst System Reference Document**, © Gwen [Last Name / Studio Name]. Licensed under the ORC License.
+> **Gryst System Reference Document**, © Gwen / CKVGs. Licensed under the ORC License.
 
 ---
 
@@ -103,4 +103,4 @@ See: [Gryst Community License](./Gryst-Community-License.md)
 
 ## Questions?
 
-For licensing questions, contact: [your contact info]
+For licensing questions, contact: [TODO: Add contact email or form]

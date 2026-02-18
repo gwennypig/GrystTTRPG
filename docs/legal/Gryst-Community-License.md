@@ -28,7 +28,7 @@ This license grants permission to create and distribute content set within the G
 
 ## Grant of License
 
-[Gwen / Studio Name] ("Licensor") grants you ("Licensee") a non-exclusive, worldwide, royalty-free license to create, publish, and sell derivative works set within the Gryst universe ("Community Content"), subject to the terms below.
+Gwen / CKVGs ("Licensor") grants you ("Licensee") a non-exclusive, worldwide, royalty-free license to create, publish, and sell derivative works set within the Gryst universe ("Community Content"), subject to the terms below.
 
 ---
 
@@ -38,9 +38,9 @@ This license grants permission to create and distribute content set within the G
 
 All Community Content must include the following attribution in a reasonably prominent location:
 
-> **[Your Product Name]** is unofficial Gryst content permitted under the Gryst Community License. It is not endorsed by [Gwen / Studio Name] and does not represent official Gryst canon.
+> **[Your Product Name]** is unofficial Gryst content permitted under the Gryst Community License. It is not endorsed by Gwen / CKVGs and does not represent official Gryst canon.
 >
-> Gryst TTRPG is © [Gwen / Studio Name]. Used with permission.
+> Gryst TTRPG is © Gwen / CKVGs. Used with permission.
 
 ### Compatibility Statement
 
@@ -115,8 +115,8 @@ By publishing Community Content, you accept these terms.
 
 ## Questions & Official Partnerships
 
-For licensing questions or to discuss official partnerships, content packs, or featured creator programs, contact: [your contact info]
+For licensing questions or to discuss official partnerships, content packs, or featured creator programs, contact: [TODO: Add contact email or form]
 
 ---
 
-*Gryst Community License v1.0 — [Date]*
+*Gryst Community License v1.0 — February 18, 2026*
