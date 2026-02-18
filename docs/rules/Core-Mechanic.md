@@ -194,10 +194,9 @@ When you attack with a rifle, you're not using a generic "attack gambit." You're
 ┌─────────────────────────────────────────────────────────────┐
 │ EXAMPLE: FIRING A RIFLE                                     │
 │                                                             │
-│   LOCULUS: Right Hand                                       │
-│   MODULE: Conventional Firearm Mechanism                    │
+│   LOCULUS: Standard Rifle Frame (the physical object)       │
+│   MODULE: Conventional Firearm Mechanism [Rifle]            │
 │   GAMBIT: "Fire Conventional Single Round"                  │
-│   ENUM: Rifle                                               │
 │                                                             │
 │   This Gambit has pre-authored outcomes:                    │
 │                                                             │
@@ -208,6 +207,10 @@ When you attack with a rifle, you're not using a generic "attack gambit." You're
 │                                                             │
 │   The Module defines these. You're not improvising.         │
 └─────────────────────────────────────────────────────────────┘
+
+Note: A **Loculus** is an object that holds Modules — not a body slot.
+A gunblade would be ONE Loculus containing both a Blade Module and 
+a Firearm Module, granting Gambits from both.
 ```
 
 Different Modules provide different Gambits with different outcomes:
@@ -273,8 +276,8 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 ┌─────────────────────────────────────────────────────────────┐
 │ SETUP                                                       │
 │                                                             │
-│   Character has: Conventional Firearm Mechanism [Rifle]     │
-│   in their Right Hand Loculus                               │
+│   LOCULUS: Standard Rifle Frame (the object itself)         │
+│   MODULE: Conventional Firearm Mechanism [Rifle]            │
 │                                                             │
 │   This Module grants: "Fire Conventional Single Round"      │
 │   with pre-authored outcomes for rifles                     │
