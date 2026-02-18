@@ -244,7 +244,14 @@ The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines t
 
 Pre-authored outcomes are **what usually happens** — not what *must* happen.
 
-A Triumphus might be a clean critical hit. Or it might be a "miss" that accidentally hit a stealthed, more important target behind them. A Calamitas might be your weapon jamming. Or it might be the shot going wide and shattering the window that was the only thing between you and the vacuum of space.
+**A good roll is always good. A bad roll is always bad.** This is sacred.
+
+What can change is the *narrative framing*, not the *quality* of the outcome:
+
+- A Triumphus might be a clean critical hit — or a "miss" that accidentally hit a stealthed, more important target behind them. Either way, **it's good for you.**
+- A Calamitas might be your weapon jamming — or the shot going wide and shattering the only window between you and vacuum. Either way, **it's bad for you.**
+
+The DM can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The DM *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
 
 The DM is encouraged to add **flair** when it creates a better moment:
 
