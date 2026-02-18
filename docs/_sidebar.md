@@ -10,11 +10,13 @@
   - [Core Mechanic](rules/Core-Mechanic.md)
   - [Momentum & Turns](rules/Momentum-and-Turns.md)
   - [Gambits](rules/Gambits.md)
+  - [Modules & Loculi](rules/Modules-and-Loculi.md)
   - [Character Creation](rules/Character-Creation.md)
   - [Advancement](rules/Advancement.md)
 
 - **Worldbuilding**
   - [Overview](worldbuilding/Overview.md)
+  - [The Nature of Gryst](worldbuilding/The-Nature-of-Gryst.md)
   - [Factions](worldbuilding/factions/Faction-Template.md)
   - [Locations](worldbuilding/locations/Location-Template.md)
 
