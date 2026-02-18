@@ -207,9 +207,47 @@ If a **Hijack action itself fails**, the "opportunity" for the hijacking party n
 └────────────────────────────────────────────────────┘
 ```
 
-**Note:** The specifics depend on the hijack action. Some hijacks might partially succeed (deflect but not redirect) — in those cases, the DM judges whether the door truly opened or not.
+### Hijack Outcomes Define the Cascade
 
-The hijacker themselves **does not free fizzle** — they committed to the action and it failed. They pay the normal cost. Only the follow-up add-ons that were conditional on the hijack's success get the free fizzle.
+The hijack's **own Gambit outcomes** determine what happens to follow-up add-ons. This is part of the Gambit's design:
+
+| Hijack Design | On Failure... |
+|---------------|---------------|
+| **Precise Timing** (e.g., Force Reflector) | Clades/Calamitas → Free fizzle cascade. The window never opened. |
+| **Chaotic Disruption** (e.g., Flash Grenade) | No cascade. The mere attempt creates chaos regardless of outcome. |
+| **Partial Success** (e.g., Interception) | Clades → partial, follow-ups proceed. Calamitas → cascade. |
+
+```
+┌────────────────────────────────────────────────────┐
+│ EXAMPLE: Force Reflector Gambit                    │
+│                                                    │
+│ TRIUMPHUS: Deflect + redirect at target of choice  │
+│   → Door opens, full chaos                         │
+│                                                    │
+│ SUCCESSUS: Deflect into environment                │
+│   → Door opens, chaos ensues                       │
+│                                                    │
+│ CLADES: Deflect fails, hit normally                │
+│   → FREE FIZZLE CASCADE — no opportunity arose     │
+│                                                    │
+│ CALAMITAS: Reflector overloads, extra damage       │
+│   → FREE FIZZLE CASCADE — worse than nothing       │
+└────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────┐
+│ EXAMPLE: Flash Grenade Gambit                      │
+│                                                    │
+│ TRIUMPHUS: Full blind, enemies staggered           │
+│ SUCCESSUS: Partial blind, disoriented              │
+│ CLADES: Grenade fizzles, but chaos of the toss     │
+│ CALAMITAS: Blinds allies too                       │
+│                                                    │
+│ → NO CASCADE on any outcome — the disruption       │
+│   itself was the point, not the result             │
+└────────────────────────────────────────────────────┘
+```
+
+The hijacker themselves **does not free fizzle** — they committed to the action regardless. They pay the normal cost. Only the follow-up add-ons are affected by the cascade rules defined in the hijack Gambit.
 
 ### After Resolution
 
