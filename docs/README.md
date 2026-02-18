@@ -28,6 +28,7 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[The Nature of Gryst](worldbuilding/The-Nature-of-Gryst.md)** | Magic = Tech = Gryst; gnosis and the esoteric fabric of reality |
 | **[The Consensus](worldbuilding/factions/The-Consensus.md)** | The shattered galactic hegemony; universal currency, laws, bureaucracy |
 | **[The Forgelords](worldbuilding/factions/The-Forgelords.md)** | Blazing Gryst industrialists; caste system, company planets, Lord of the Forge |
+| **[The Pedagogy](worldbuilding/factions/The-Pedagogy.md)** | Flowing Gryst scholars; knowledge must spread like water; ancient, decentralized, living god |
 
 ### ✅ Ecosystem (Developed)
 
