@@ -10,7 +10,30 @@ Gryst is a story set in a world fundamentally unlike our own — a reality where
 
 The dominant sentient lifeform of this world is a people known by many names, both among themselves and by outsiders. The most common name is **Grystborn**.
 
+### Appearance
+
+Grystborn resemble **bipedal animals** — analogues to the creatures of our world. There are Grystborn who look like wolves, like ravens, like lizards, like deer. Every manner of beast walks upright among them.
+
+**Humans exist too** — but they are viewed simply as a hairless line of apekin. They are not special. They are not different. Just another form the Grystborn take, no more remarkable than any other.
+
+### Attunement
+
 Most Grystborn are uniquely attuned to Gryst — able to feel its presence in the world, sense its currents, and manipulate it through will, craft, or devotion. This attunement is what defines them as a people, though the degree and nature of that connection varies wildly between individuals.
+
+### Spread Across the Stars
+
+The Grystborn are spread far and wide across the known universe. Their civilizations span an enormous range:
+
+- **Spacefaring empires** — Vast civilizations that travel between worlds, their vessels powered by Gryst-engines and crewed by a thousand species of Grystborn
+- **Industrial nations** — Societies that have systematized Gryst manipulation into factories and infrastructure
+- **Pastoral communities** — Quiet lands where Gryst is tended like a garden
+- **Tribal societies** — Untouched peoples who know Gryst through ancient tradition, undiluted by progress
+
+The technology gap between the most and least advanced Grystborn civilizations is immense — yet all of them are working with the same fundamental principle.
+
+### Other Life
+
+The Grystborn are not alone. The universe holds **numerous other forms of life** — creatures, entities, and beings that exist alongside or apart from Grystborn civilization. Some are animals. Some are stranger. Some may be something else entirely.
 
 ---
 
@@ -19,6 +42,27 @@ Most Grystborn are uniquely attuned to Gryst — able to feel its presence in th
 **Gryst** is the fundamental substance of this world. Everything that exists can be broken down into Gryst. It is the elementary principle — the building block of reality itself.
 
 In its most common state, Gryst appears as an **inert colored dust**. Each color corresponds to a primal element, and the combination of different Gryst types gives rise to all matter, energy, and life.
+
+### The Emanation and the Unknowable
+
+But the colored dust is just that — an *emanation*. A shadow of the true principle.
+
+Gryst in its deepest nature is **unknowable**. Gnosis strives toward it but never fully achieves understanding. The greatest sorcerers and most brilliant engineers spend lifetimes chasing a complete comprehension that always recedes before them.
+
+This pursuit — this endless reaching toward the unknowable — is what allows for both the magic and technology of the world. Every spell cast, every machine built, is an attempt to touch something that can never be fully grasped.
+
+```
+┌────────────────────────────────────────────────────┐
+│ THE NATURE OF GRYST                                │
+│                                                    │
+│  What we see: Colored dust, six elements           │
+│  What it is: An emanation, a shadow                │
+│  What lies beneath: The unknowable                 │
+│                                                    │
+│  Gnosis reaches. Gnosis strives.                   │
+│  Gnosis never arrives.                             │
+└────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -114,12 +158,71 @@ Even those without special attunement live in a world *made* of Gryst. The food 
 
 ---
 
+## Religion and the Divine
+
+### Many Faiths
+
+There are **numerous religions** among the Grystborn. Some are ancient beyond memory. Some arose yesterday. Many of them are connected — sharing myths, sharing gods, sharing the sense that something greater exists.
+
+### Some Are More "Real" Than Others
+
+Not all religions are equal in their truth. Some faiths worship entities that have never existed. Others venerate beings that very much *do*.
+
+The line between belief and reality blurs in a world made of Gryst.
+
+### Reality Can Be Persuaded
+
+Here is the unsettling truth: Gryst is not just manipulated by gnosis. It *responds* to belief. To devotion. To the collective weight of souls crying out for something to answer.
+
+**Perhaps the nature of Gryst creates deities.**
+
+A god worshipped by millions, fed by prayers and offerings, shaped by the expectations of the faithful — at what point does such a thing become *real*? At what point does the emanation of belief crystallize into something that can answer?
+
+Some theologians argue that all gods are manifestations of Gryst — emergent patterns in the fabric of reality, given form by worship.
+
+Others argue that the gods existed first, and Gryst is merely their gift to the world.
+
+The truth, as always, remains unknowable.
+
+```
+┌────────────────────────────────────────────────────┐
+│ GODS AND GRYST                                     │
+│                                                    │
+│  "Reality can be persuaded."                       │
+│                                                    │
+│  If a million souls believe in a god...            │
+│  If they pour devotion into the Gryst...           │
+│  If they shape reality with their faith...         │
+│                                                    │
+│  Does the god become real?                         │
+│  Or was the god always real, waiting to be found?  │
+│                                                    │
+│  The answer matters less than the consequence:     │
+│  Some gods answer when called.                     │
+└────────────────────────────────────────────────────┘
+```
+
+---
+
 ## Design Notes
 
-The six-element system provides:
+### The Six Elements
 - **Visual identity** — Each Gryst type has a distinct color
 - **Intuitive associations** — Fire, water, storm, earth, light, void
 - **Combination potential** — Mix elements for complex effects
 - **Aesthetic hooks** — Characters can favor certain Gryst types
+- **Radiant vs Murky** — Light/void duality drives conflict and mystery
 
-The Murky Gryst ("the nothing") intentionally sits opposite Radiant, creating a light/void duality that can drive conflict and mystery.
+### Grystborn as Setting
+- **Anthro-inclusive** — Any bipedal animal form is valid; humans aren't special
+- **Scale-agnostic** — Same rules work for tribal shamans and starship engineers
+- **Tech diversity** — Campaigns can be fantasy, sci-fi, or anything between
+
+### The Unknowable
+- **Mystery preservation** — True Gryst is never fully understood; gnosis is a journey, not a destination
+- **No hard limits** — If Gryst is unknowable, players can always push further
+
+### Religion as Mechanic
+- **Gods can be real** — Divine intervention is possible in this setting
+- **Belief shapes reality** — Opens design space for faith-based mechanics
+- **Ambiguity is intentional** — Which gods are "real" is a campaign-level question
