@@ -520,6 +520,55 @@ SESSION 4:
 2. **Emergent detail** — World fills in as it becomes relevant
 3. **Player agency** — You choose in the moment (but only once)
 4. **Prevents retroactive convenience** — No "actually it was always on my other arm"
+5. **Artificial luck** — Undefined details let players "get lucky" in narratively interesting ways
+
+### The Lucky Shot: RDC as Narrative Fortune
+
+Here's the fun part: RDC lets players make advantageous choices *in the moment* — and that's a feature, not a bug.
+
+```
+┌────────────────────────────────────────────────────┐
+│ THE LUCKY SHOT                                     │
+│ ─────────────────────────────────────────────────  │
+│                                                    │
+│ GM: "A shot rings out! Critical hit to your        │
+│      Walker's RIGHT SHOULDER mount!"               │
+│                                                    │
+│ GM: "Wait... where are your Shoulder Missiles?     │
+│      The loaded ones that would explode if hit?"   │
+│                                                    │
+│ Player: (hasn't defined this yet)                  │
+│ Player: "Oh, those are on my LEFT shoulder."       │
+│                                                    │
+│ GM: (smiles) "Well, it's your lucky day. Your      │
+│      unloaded decoy launcher got damaged — needs   │
+│      repairs, but you avoided catastrophe!"        │
+│                                                    │
+│ (LEFT SHOULDER = Missiles is now CANON)            │
+└────────────────────────────────────────────────────┘
+```
+
+### Why This Works
+
+The player didn't cheat — they made a choice about something that was genuinely undefined. But now:
+
+- **The missiles are locked to LEFT shoulder forever**
+- **Next time the left shoulder gets hit?** Boom.
+- **The player used their "luck" — it's spent**
+
+This creates **dramatic tension**: every undefined detail is a potential save... but also a potential lock-in that might hurt later.
+
+### The Trade-Off
+
+Players who over-specify early lose this flexibility. Players who stay vague keep their options open — but risk the GM asking at the worst possible moment.
+
+> **GM:** "The explosion tears through the cockpit. Where exactly is your ejection system?"
+> 
+> **Player:** "...I never said."
+> 
+> **GM:** "Then you get to decide right now. Choose wisely."
+
+It's Schrödinger's Loadout: undefined until observed, then permanent.
 
 ### Tracking Canonized Details
 
