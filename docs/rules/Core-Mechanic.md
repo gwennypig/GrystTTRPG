@@ -184,44 +184,68 @@ The Icosaedrum handles **numbers**, not success/failure. That's the Tessera Fati
 
 ---
 
-## Standardized Gambits
+## Module Gambits vs. Core Gambits
 
-Some Gambits are so common that we provide **standardized templates**. The DM can use these as-is or modify them.
+### Most Gambits Come From Modules
 
-### The Attack Gambit
+When you attack with a rifle, you're not using a generic "attack gambit." You're using the **specific Gambit provided by your weapon's Module**.
 
-The most common reusable Gambit: **did your attack hit?**
+```
+┌─────────────────────────────────────────────────────────────┐
+│ EXAMPLE: FIRING A RIFLE                                     │
+│                                                             │
+│   LOCULUS: Right Hand                                       │
+│   MODULE: Conventional Firearm Mechanism                    │
+│   GAMBIT: "Fire Conventional Single Round"                  │
+│   ENUM: Rifle                                               │
+│                                                             │
+│   This Gambit has pre-authored outcomes:                    │
+│                                                             │
+│   TRIUMPHUS: Clean hit + bonus (penetration, stagger, etc.) │
+│   SUCCESSUS: Hit, deal damage based on Mag                  │
+│   CLADES: Miss, round expended                              │
+│   CALAMITAS: Misfire, jam, or worse                         │
+│                                                             │
+│   The Module defines these. You're not improvising.         │
+└─────────────────────────────────────────────────────────────┘
+```
+
+Different Modules provide different Gambits with different outcomes:
+
+| Module | Gambit | Triumphus includes... |
+|--------|--------|----------------------|
+| Conventional Firearm Mechanism | Fire Single Round | Penetration, stagger |
+| Thermal Lance Array | Focused Burn | Target ignites |
+| Psi-Amp Cortex | Mind Probe | Full memory access |
+| Grav-Boot System | Assisted Leap | Graceful arc, bonus distance |
+
+The **enum** (Rifle, Pistol, SMG, etc.) can modify specific parameters within the same Gambit — range, damage multiplier, ammo consumption — while keeping the same outcome structure.
+
+### Core Gambits Are Fallbacks
+
+Core Gambits exist for situations where **no Module provides a better option**:
 
 ```
 ┌────────────────────────────────────────────────────┐
-│ STANDARD ATTACK GAMBIT                             │
+│ CORE ATTACK GAMBIT (Fallback)                      │
 │ ─────────────────────────────────────────────────  │
 │                                                    │
-│ Tessera Fati: [DM's choice based on difficulty]    │
+│ Use when: No weapon Module, improvised attack,     │
+│           punching someone with your bare fists    │
 │                                                    │
-│ TRIUMPHUS: Hit with bonus effect                   │
-│   → Full damage + critical effect (DM determines)  │
-│   → Examples: Extra damage, target staggered,      │
-│               hit a weak point, disarm             │
+│ TRIUMPHUS: Hit with bonus effect (DM determines)   │
+│ SUCCESSUS: Clean hit, deal base damage             │
+│ CLADES: Miss, possible minor complication          │
+│ CALAMITAS: Something goes wrong                    │
 │                                                    │
-│ SUCCESSUS: Clean hit                               │
-│   → Deal damage (calculate with Icosaedrum)        │
-│                                                    │
-│ CLADES: Miss                                       │
-│   → No damage                                      │
-│   → Minor complication possible (position lost,    │
-│     attention drawn, etc.)                         │
-│                                                    │
-│ CALAMITAS: Critical miss                           │
-│   → No damage AND something goes wrong             │
-│   → Examples: Weapon jams, friendly fire risk,     │
-│               overextended, fall prone             │
+│ This is GENERIC. Module Gambits are SPECIFIC.      │
+│ If you have a Module, use its Gambit instead.      │
 └────────────────────────────────────────────────────┘
 ```
 
-### Modifying the Attack Gambit
+### DM Adjustments
 
-The DM adjusts the **dice and ranges** based on circumstances:
+Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **Tessera Fati dice and ranges** based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -230,62 +254,108 @@ The DM adjusts the **dice and ranges** based on circumstances:
 | Desperate attack | Wider Calamitas range |
 | Careful aim | Wider Triumphus range |
 
-### Other Standardized Gambits
+### Other Core Gambits
 
-*[TODO: Define additional standard gambits]*
+*[TODO: Define these as fallbacks]*
 
-- **Defense Gambit** — Did you avoid the attack?
-- **Skill Gambit** — Did you succeed at a task?
-- **Social Gambit** — Did you convince them?
-- **Movement Gambit** — Did you reach your destination safely?
+- **Core Defense** — Dodge/block when no defensive Module applies
+- **Core Skill** — Attempt tasks based on raw ability
+- **Core Social** — Persuade/deceive without specialized gear
+- **Core Movement** — Navigate hazards without movement Modules
 
 ---
 
 ## Putting It Together
 
-### Example: Full Attack Sequence
+### Example: Rifle Attack (Module Gambit)
 
 ```
+┌─────────────────────────────────────────────────────────────┐
+│ SETUP                                                       │
+│                                                             │
+│   Character has: Conventional Firearm Mechanism [Rifle]     │
+│   in their Right Hand Loculus                               │
+│                                                             │
+│   This Module grants: "Fire Conventional Single Round"      │
+│   with pre-authored outcomes for rifles                     │
+└─────────────────────────────────────────────────────────────┘
+
 1. Player: "I shoot the cultist with my rifle."
 
-2. DM: "Standard attack. Roll d6." (selects Tessera Fati)
+2. DM checks the Gambit: "Fire Conventional Single Round [Rifle]"
+   → Outcomes are pre-defined by the Module
+   → DM selects Tessera Fati: "Roll d6."
 
-3. Player rolls Tessera Fati: 5 (Successus — fate favors the shot)
+3. Player rolls Tessera Fati: 5 (Successus)
+   → The Gambit's Successus outcome: "Hit, deal damage based on Mag"
 
-4. DM: "Hit! Roll damage."
+4. Player calculates damage using Icosaedrum:
+   → Rifle Mag 4 + Marksmanship skill +2 = 6 damage
 
-5. Player rolls Icosaedrum: Rifle Mag 4 + Marksmanship +2 = 6 damage
-   (physics determines the wound)
-
-6. DM: "The cultist takes 6 damage and staggers back."
+5. DM: "The cultist takes 6 damage and staggers back."
 ```
 
-### Example: Triumphus Attack
+### Example: Triumphus with Module Gambit
 
 ```
 1. Player rolls Tessera Fati: 6 on d6 (Triumphus!)
-   → Fate grants an exceptional outcome
 
-2. DM: "Critical hit! You hit a weak point."
+2. DM checks the Module Gambit's Triumphus outcome:
+   → "Fire Conventional Single Round [Rifle]" says:
+     "Clean hit + penetration (ignores light cover/armor)"
 
-3. Player rolls Icosaedrum: 6 base damage + Triumphus bonus
-   → Physics amplifies the effect
+3. Player calculates: 6 base damage, penetrates the cultist's vest
 
-4. DM: "Double damage, and the cultist drops their weapon."
+4. DM expands the interface: "The round punches through their 
+   armor — they stumble, clutching the wound. Blood on the wall."
+```
+
+### Example: Thermal Lance (Different Module, Different Gambit)
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ Different Module = Different Gambit = Different Outcomes    │
+└─────────────────────────────────────────────────────────────┘
+
+1. Player: "I fire my thermal lance at the cultist."
+
+2. DM checks the Gambit: "Focused Burn" from Thermal Lance Array
+   → Different outcomes than a conventional firearm
+
+3. Player rolls Tessera Fati: 6 (Triumphus!)
+   → Gambit's Triumphus: "Target ignites, ongoing burn damage"
+
+4. DM: "The beam catches them center mass — they ignite. 
+   Fire spreads to their robes. They're screaming."
 ```
 
 ### Example: Contested Effect
 
 ```
-1. Wizard casts a binding spell on a knight.
+1. Psion uses "Mind Probe" Gambit from their Psi-Amp Module.
 
-2. DM: "Roll opposing Icosaedra."
+2. DM: "Roll opposing Icosaedra — your will against their mental defenses."
    → Both roll d20 + their relevant Mag
 
-3. Wizard: d20 (14) + Binding Mag (3) = 17
-   Knight: d20 (11) + Resistance (2) = 13
+3. Psion: d20 (14) + Psi-Amp Mag (3) = 17
+   Knight: d20 (11) + Mental Resistance (2) = 13
 
-4. Wizard wins by 4 — the binding holds for 4 rounds.
+4. Psion wins by 4 — per the Gambit, the probe holds for 4 rounds.
+```
+
+### Example: No Module (Core Gambit Fallback)
+
+```
+1. Player: "I punch the cultist in the face."
+   → No unarmed combat Module equipped
+
+2. DM: "No Module applies. Using Core Attack Gambit. Roll d6."
+   → Generic outcomes, DM determines specifics
+
+3. Player rolls: 4 (Successus)
+
+4. DM: "You connect. Base unarmed damage... that's 2. 
+   He reels but he's not down."
 ```
 
 ---
