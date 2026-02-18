@@ -414,8 +414,138 @@ A **Loculus** (plural: **Loculi**) is anything that can hold modules. Think of i
 ### Loculus Rules
 
 1. **Capacity** — A Loculus can hold modules up to its total capacity
-2. **Slots** — Some Loculi have specific slots (e.g., "2 Arm slots, 1 Core slot")
-3. **Overflow** — You cannot exceed capacity; choose what to install
+2. **No Rigid Slots** — Modules exist arbitrarily within a Loculus; the DM determines what makes narrative sense
+3. **Module Tags** — Modules have tags that define what they are (see below)
+4. **Overflow** — You cannot exceed capacity; choose what to install
+
+---
+
+## Module Tags & Narrative Constraints
+
+Modules have **tags** that define what type of component they are. These tags create soft constraints that the DM interprets narratively.
+
+### Example: The Cor System
+
+Every Walker needs a **Cor** (heart/core) — a power source. All core modules are tagged `[Cor]`.
+
+```
+┌────────────────────────────────────────────────────┐
+│ MODULE: Fusion Cor Mk.III                          │
+│ Tags: [Cor] [Power] [Thermal]                      │
+│ Mass: 8 | Complexitās: 15                          │
+│ ─────────────────────────────────────────────────  │
+│                                                    │
+│ STAT: Power Output = Mag × 10                      │
+│ STAT: Heat Capacity = 20 + Mag                     │
+│                                                    │
+│ PERK: Overcharge                                   │
+│   Once per combat, double Power Output for 1 tick. │
+│   Risk: Roll Integrity check or trigger            │
+│   COR INTEGRITY FAILURE EVENT.                     │
+└────────────────────────────────────────────────────┘
+```
+
+### Soft Constraints via Tags
+
+The DM understands baseline expectations:
+- "A Walker has 1 Cor" — this is the default
+- "A Walker has 2 Arms" — this is the default
+- "A character has 1 Head" — hopefully
+
+But modules can **modify these constraints**:
+
+```
+┌────────────────────────────────────────────────────┐
+│ MODULE: Redundancy Protocol Cor Chambering         │
+│ Tags: [System] [Redundancy]                        │
+│ Mass: 4 | Complexitās: 12                          │
+│ ─────────────────────────────────────────────────  │
+│                                                    │
+│ PERK: Additional Cor Slot                          │
+│   Your Loculus can hold one additional [Cor]       │
+│   module beyond the normal limit.                  │
+│                                                    │
+│ PERK: Synchronized Hearts                          │
+│   Gain the gambits and perks of both Cor modules.  │
+│                                                    │
+│ FLAW: Cascading Failure                            │
+│   When a COR INTEGRITY FAILURE EVENT occurs,       │
+│   BOTH Cors are affected. Double the trouble.      │
+└────────────────────────────────────────────────────┘
+```
+
+### Why No Rigid Slots?
+
+Rigid slot systems ("you have exactly 2 arm slots") limit creativity. Instead:
+
+- **Tags define what something IS** — A `[Cor]` is a core. An `[Arm]` is an arm.
+- **DM interprets what makes sense** — "Can I mount three arms?" "Describe how that would work..."
+- **Modules can bend rules** — Special modules explicitly break baseline assumptions
+- **Flexibility enables weird builds** — Spider-Walker with 8 legs? Centaur-Walker? Possible with the right modules.
+
+---
+
+## Required Disambiguation Canonization (RDC)
+
+Details can remain undefined — until they matter.
+
+### The Principle
+
+> **When the DM asks for a detail and you answer, that answer becomes canon.**
+
+This is the **Thread of Fate** — once something is declared, it's locked in.
+
+### Example
+
+```
+SESSION 1:
+  Player: "I fire my Thermal Lance."
+  GM: "It hits. Moving on..."
+  (Location of Thermal Lance: UNDEFINED)
+
+SESSION 3:
+  GM: "The enemy targets your right arm. What's mounted there?"
+  Player: "My Thermal Lance."
+  GM: "Okay, it's damaged."
+  (Location of Thermal Lance: NOW CANON — right arm)
+  
+SESSION 4:
+  Player: "Wait, I want my Thermal Lance on my left arm now."
+  GM: "No — you declared it was on your right arm. That's canon."
+```
+
+### Why RDC?
+
+1. **Reduces upfront bookkeeping** — Don't need to specify everything at character creation
+2. **Emergent detail** — World fills in as it becomes relevant
+3. **Player agency** — You choose in the moment (but only once)
+4. **Prevents retroactive convenience** — No "actually it was always on my other arm"
+
+### Tracking Canonized Details
+
+PDA and character sheets need a **Notes** section for tracking RDC details:
+
+```
+┌────────────────────────────────────────────────────┐
+│ CANONIZED DETAILS                                  │
+│ ─────────────────────────────────────────────────  │
+│                                                    │
+│ • Thermal Lance mounted on RIGHT ARM (Session 3)   │
+│ • Cor is positioned in upper torso (Session 5)     │
+│ • Ejection hatch is on the BACK (Session 7)        │
+│ • Character has a scar on left cheek (Session 2)   │
+│                                                    │
+└────────────────────────────────────────────────────┘
+```
+
+### When to Invoke RDC
+
+- **Physical placement** — "Where is your module mounted?"
+- **Appearance details** — "What does your character look like?"
+- **Backstory elements** — "Where did you get that weapon?"
+- **Relationships** — "How do you know this NPC?"
+
+Once stated, it's woven into the Thread of Fate.
 
 ---
 
