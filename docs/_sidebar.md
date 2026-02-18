@@ -10,7 +10,9 @@
   - [Core Mechanic](rules/Core-Mechanic.md)
   - [Momentum & Turns](rules/Momentum-and-Turns.md)
   - [Gambits](rules/Gambits.md)
+  - [Tags](rules/Tags.md)
   - [Modules & Loculi](rules/Modules-and-Loculi.md)
+  - [RDC (Thread of Fate)](rules/Required-Disambiguation-Canonization.md)
   - [Character Creation](rules/Character-Creation.md)
   - [Advancement](rules/Advancement.md)
 

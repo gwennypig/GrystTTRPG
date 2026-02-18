@@ -243,72 +243,16 @@ This means:
 
 ### Tags: What Modifies Mag
 
-Every Gambit has one or more **Tags**. Tags determine which of your character's skills can modify the effective Magnitūdō.
+Every Gambit has **Tags** that determine which skills can modify Magnitūdō.
 
+**See [Tags](rules/Tags.md) for the full tag system.**
+
+Quick example:
 ```
-┌────────────────────────────────────────────────────┐
-│ TAGS → SKILLS → MAGNITŪDŌ                          │
-│                                                    │
-│  Gambit: "Aimed Shot"                              │
-│  Tags: [Marksmanship] [Precision]                  │
-│                                                    │
-│  Your Marksmanship skill: +3                       │
-│  Weapon Mag: 4                                     │
-│  ─────────────────────────                         │
-│  Effective Mag: 4 + 3 = 7                          │
-└────────────────────────────────────────────────────┘
+Gambit: "Aimed Shot" | Tags: [Marksmanship]
+Your Marksmanship skill: +3 | Weapon Mag: 4
+Effective Mag: 7
 ```
-
-### Common Tags
-
-| Tag | Associated Skill | Typical Gambits |
-|-----|------------------|-----------------|
-| **Marksmanship** | Marksmanship | Ranged attacks, aiming |
-| **Melee** | Combat | Sword strikes, brawling |
-| **Finesse** | Finesse | Precise strikes, parries |
-| **Might** | Might | Heavy blows, lifting, breaking |
-| **Arcana** | Arcana | Spellcasting, channeling |
-| **Tech** | Tech | Hacking, device operation |
-| **Piloting** | Piloting | Walker/Strider/vehicle control |
-| **Athletics** | Athletics | Movement, dodging, climbing |
-| **Stealth** | Stealth | Sneaking, ambushes |
-| **Social** | Charisma | Persuasion, intimidation |
-
-*[TODO: Define full tag/skill list]*
-
-### Multiple Tags
-
-Some Gambits have multiple tags, letting the player choose which skill to apply:
-
-```
-GAMBIT: Riposte
-Tags: [Melee] [Finesse]
-
-Player can use Combat OR Finesse — whichever is higher.
-(Or GM may allow combining in special circumstances)
-```
-
-### GM Flexibility: Ad-Hoc Tag Application
-
-Tags are guidelines, not prisons. If a player makes a compelling argument that their skill should apply to a Gambit — even without the matching tag — the GM can allow it.
-
-> **Player:** "My character was a circus knife-thrower. Can I use my Performance skill for this throwing attack?"
-> 
-> **GM:** "Sure, that makes sense for your character. Use Performance this time."
-
-The rules exist to provide structure, not to prevent cool moments.
-
-### Helper Section (Coming Soon)
-
-*[TODO: Include guidance for balancing ad-hoc tag applications]*
-
-Questions GMs should consider:
-- Does the skill make narrative sense for this action?
-- Is the player trying to always use their highest skill inappropriately?
-- Would allowing this create a cool character moment?
-- Is the player building their character around a creative interpretation?
-
-When in doubt: if it sounds cool and isn't being abused, allow it.
 
 ### Complexitās Modifier
 
@@ -424,6 +368,8 @@ A **Loculus** (plural: **Loculi**) is anything that can hold modules. Think of i
 
 Modules have **tags** that define what type of component they are. These tags create soft constraints that the DM interprets narratively.
 
+**See [Tags](rules/Tags.md) for the full tag system.**
+
 ### Example: The Cor System
 
 Every Walker needs a **Cor** (heart/core) — a power source. All core modules are tagged `[Cor]`.
@@ -433,15 +379,6 @@ Every Walker needs a **Cor** (heart/core) — a power source. All core modules a
 │ MODULE: Fusion Cor Mk.III                          │
 │ Tags: [Cor] [Power] [Thermal]                      │
 │ Mass: 8 | Complexitās: 15                          │
-│ ─────────────────────────────────────────────────  │
-│                                                    │
-│ STAT: Power Output = Mag × 10                      │
-│ STAT: Heat Capacity = 20 + Mag                     │
-│                                                    │
-│ PERK: Overcharge                                   │
-│   Once per combat, double Power Output for 1 tick. │
-│   Risk: Roll Integrity check or trigger            │
-│   COR INTEGRITY FAILURE EVENT.                     │
 └────────────────────────────────────────────────────┘
 ```
 
@@ -450,151 +387,26 @@ Every Walker needs a **Cor** (heart/core) — a power source. All core modules a
 The DM understands baseline expectations:
 - "A Walker has 1 Cor" — this is the default
 - "A Walker has 2 Arms" — this is the default
-- "A character has 1 Head" — hopefully
 
-But modules can **modify these constraints**:
-
-```
-┌────────────────────────────────────────────────────┐
-│ MODULE: Redundancy Protocol Cor Chambering         │
-│ Tags: [System] [Redundancy]                        │
-│ Mass: 4 | Complexitās: 12                          │
-│ ─────────────────────────────────────────────────  │
-│                                                    │
-│ PERK: Additional Cor Slot                          │
-│   Your Loculus can hold one additional [Cor]       │
-│   module beyond the normal limit.                  │
-│                                                    │
-│ PERK: Synchronized Hearts                          │
-│   Gain the gambits and perks of both Cor modules.  │
-│                                                    │
-│ FLAW: Cascading Failure                            │
-│   When a COR INTEGRITY FAILURE EVENT occurs,       │
-│   BOTH Cors are affected. Double the trouble.      │
-└────────────────────────────────────────────────────┘
-```
+But modules can **modify these constraints** (e.g., Redundancy Protocol Cor Chambering allows an extra Cor — with trade-offs).
 
 ### Why No Rigid Slots?
 
-Rigid slot systems ("you have exactly 2 arm slots") limit creativity. Instead:
-
-- **Tags define what something IS** — A `[Cor]` is a core. An `[Arm]` is an arm.
-- **DM interprets what makes sense** — "Can I mount three arms?" "Describe how that would work..."
-- **Modules can bend rules** — Special modules explicitly break baseline assumptions
-- **Flexibility enables weird builds** — Spider-Walker with 8 legs? Centaur-Walker? Possible with the right modules.
+Rigid slot systems limit creativity. Instead:
+- **Tags define what something IS**
+- **DM interprets what makes sense**
+- **Modules can bend rules**
+- **Flexibility enables weird builds**
 
 ---
 
 ## Required Disambiguation Canonization (RDC)
 
-Details can remain undefined — until they matter.
+Details can remain undefined — until they matter. When you answer, it becomes permanent canon.
 
-### The Principle
+**See [Required Disambiguation Canonization](rules/Required-Disambiguation-Canonization.md) for the full RDC system.**
 
-> **When the DM asks for a detail and you answer, that answer becomes canon.**
-
-This is the **Thread of Fate** — once something is declared, it's locked in.
-
-### Example
-
-```
-SESSION 1:
-  Player: "I fire my Thermal Lance."
-  GM: "It hits. Moving on..."
-  (Location of Thermal Lance: UNDEFINED)
-
-SESSION 3:
-  GM: "The enemy targets your right arm. What's mounted there?"
-  Player: "My Thermal Lance."
-  GM: "Okay, it's damaged."
-  (Location of Thermal Lance: NOW CANON — right arm)
-  
-SESSION 4:
-  Player: "Wait, I want my Thermal Lance on my left arm now."
-  GM: "No — you declared it was on your right arm. That's canon."
-```
-
-### Why RDC?
-
-1. **Reduces upfront bookkeeping** — Don't need to specify everything at character creation
-2. **Emergent detail** — World fills in as it becomes relevant
-3. **Player agency** — You choose in the moment (but only once)
-4. **Prevents retroactive convenience** — No "actually it was always on my other arm"
-5. **Artificial luck** — Undefined details let players "get lucky" in narratively interesting ways
-
-### The Lucky Shot: RDC as Narrative Fortune
-
-Here's the fun part: RDC lets players make advantageous choices *in the moment* — and that's a feature, not a bug.
-
-```
-┌────────────────────────────────────────────────────┐
-│ THE LUCKY SHOT                                     │
-│ ─────────────────────────────────────────────────  │
-│                                                    │
-│ GM: "A shot rings out! Critical hit to your        │
-│      Walker's RIGHT SHOULDER mount!"               │
-│                                                    │
-│ GM: "Wait... where are your Shoulder Missiles?     │
-│      The loaded ones that would explode if hit?"   │
-│                                                    │
-│ Player: (hasn't defined this yet)                  │
-│ Player: "Oh, those are on my LEFT shoulder."       │
-│                                                    │
-│ GM: (smiles) "Well, it's your lucky day. Your      │
-│      unloaded decoy launcher got damaged — needs   │
-│      repairs, but you avoided catastrophe!"        │
-│                                                    │
-│ (LEFT SHOULDER = Missiles is now CANON)            │
-└────────────────────────────────────────────────────┘
-```
-
-### Why This Works
-
-The player didn't cheat — they made a choice about something that was genuinely undefined. But now:
-
-- **The missiles are locked to LEFT shoulder forever**
-- **Next time the left shoulder gets hit?** Boom.
-- **The player used their "luck" — it's spent**
-
-This creates **dramatic tension**: every undefined detail is a potential save... but also a potential lock-in that might hurt later.
-
-### The Trade-Off
-
-Players who over-specify early lose this flexibility. Players who stay vague keep their options open — but risk the GM asking at the worst possible moment.
-
-> **GM:** "The explosion tears through the cockpit. Where exactly is your ejection system?"
-> 
-> **Player:** "...I never said."
-> 
-> **GM:** "Then you get to decide right now. Choose wisely."
-
-It's Schrödinger's Loadout: undefined until observed, then permanent.
-
-### Tracking Canonized Details
-
-PDA and character sheets need a **Notes** section for tracking RDC details:
-
-```
-┌────────────────────────────────────────────────────┐
-│ CANONIZED DETAILS                                  │
-│ ─────────────────────────────────────────────────  │
-│                                                    │
-│ • Thermal Lance mounted on RIGHT ARM (Session 3)   │
-│ • Cor is positioned in upper torso (Session 5)     │
-│ • Ejection hatch is on the BACK (Session 7)        │
-│ • Character has a scar on left cheek (Session 2)   │
-│                                                    │
-└────────────────────────────────────────────────────┘
-```
-
-### When to Invoke RDC
-
-- **Physical placement** — "Where is your module mounted?"
-- **Appearance details** — "What does your character look like?"
-- **Backstory elements** — "Where did you get that weapon?"
-- **Relationships** — "How do you know this NPC?"
-
-Once stated, it's woven into the Thread of Fate.
+Quick summary: If you never specified where your Thermal Lance is mounted, you get to decide when the GM asks — but then it's locked forever. This creates "artificial luck" where undefined details can save you... but also lock you into consequences later.
 
 ---
 
