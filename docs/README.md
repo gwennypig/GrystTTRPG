@@ -1,6 +1,6 @@
 # Gryst TTRPG
 
-> A momentum-based tabletop roleplaying game where magic is tech, tech is magic, and turns are earned — not given.
+> A momentum-based tabletop roleplaying game where magic is tech, tech is magic, I decided to make a TTRPG instead of sleeping, idk why. The docfiles you see here were crafted with intent but the exact language and actual scaffolding is generated with OPUS. Why? I'm trying to make a ttrpg as a single person instead of sleeping, please forgive. The AI is merely organizing my thoughts. I probably have ADHD, this LLM is essentially an executive function proxy. The end product will be handwritten. This is an organizational document.
 
 ## What is Gryst?
 
