@@ -356,16 +356,27 @@ Party 2 turned Party 1's attack against them! But Kira and Shade paid heavily �
 
 The stack represents a **chaotic cluster of events** happening in a single dramatic beat. The numbered order is **mechanical** — it determines what fizzles, what lands, how effects interact — but it's not a strict second-by-second timeline.
 
+Remember our example stack:
+```
+1. Covering Shot (Raven)
+2. [COUPLE] Shoot Blaster (Hawk) ↔ Force Reflector (Vex)
+3. Dive for Cover (Wolf)
+4. Smoke Bomb (Shade)
+5. Sneak Shot (Kira)
+```
+
 The DM weaves the narration however best tells the story:
 
 **Option A — Sequential:**
-> "Shade throws a smoke bomb. Through the haze, Vex raises her Force Reflector. Raven lines up a covering shot as Hawk pulls the trigger—"
+> "Raven lines up a covering shot. Hawk pulls the trigger — but Vex's Force Reflector flares to life, deflecting the bolt into the ceiling! Wolf dives behind a crate as sparks rain down. In the chaos, Shade hurls a smoke bomb and Kira's sneak shot cracks through the haze."
 
-**Option B — Simultaneous:**
-> "Hawk fires her blaster BUT Vex was already channeling a Force Reflector! The bolt ricochets as smoke fills the air—"
+**Option B — Action-Reaction:**
+> "Hawk fires her blaster BUT Vex was ready — the Force Reflector catches it and sends it screaming past Raven's covering fire! Wolf hits the deck. Before the dust settles, smoke fills the air and a shot rings out from Kira's position."
 
-**Option C — Interleaved:**
-> "Everything happens at once. Smoke, blaster fire, the shimmer of a force field. When it clears, Kira's sneak shot has found its mark."
+**Option C — Chaos First:**
+> "Everything erupts at once. Blaster fire, the shimmer of a force field, bodies diving for cover. When the smoke clears — wait, where did that smoke come from? — Kira's already taken her shot."
+
+**The key constraint:** The couple (Hawk's shot ↔ Vex's reflector) always resolves together — that's the dramatic hinge. Party 2's follow-up (smoke bomb, sneak shot) always comes after, capitalizing on the chaos. But *how* the DM describes that beat is completely flexible.
 
 The stack order tells you **what mechanically succeeded** — the DM decides **how it felt**. Same outcomes, different cinema.
 
@@ -376,6 +387,9 @@ The stack order tells you **what mechanically succeeded** — the DM decides **h
 │                                                    │
 │ The stack answers: "What happened?"                │
 │ The DM answers: "How did it look?"                 │
+│                                                    │
+│ The COUPLE is sacred — action meets reaction.      │
+│ Everything else flows around that moment.          │
 └────────────────────────────────────────────────────┘
 ```
 
