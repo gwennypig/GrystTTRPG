@@ -86,6 +86,15 @@ When it's time to resolve:
 ### Standalone Mode
 Use PDA solo — great for players managing their own sheets, or DMs running quick sessions.
 
+Even without Mundi connected, PDA includes a **lightweight 3D tactical view**:
+
+- **Position Markers** — Place tokens in 3D space
+- **Rulers & Measurement** — Distance calculation tools
+- **AoE Checkers** — Sphere, cone, line templates for ability ranges
+- **Grid Options** — Hex, square, or gridless
+
+It's not the full Mundi experience, but it's enough for tactical encounters without needing a second app.
+
 ### Session Mode
 Connect multiple PDAs in a shared session:
 
