@@ -59,17 +59,53 @@ These aren't generic categories you improvise at the table — they're **pre-def
 
 ---
 
-## Three Layers of Gambits
+## Where Gambits Come From
 
-The system operates on a spectrum from structured to improvised:
+### Module Gambits (Primary Source)
 
-### 1. Pre-Authored Gambits (The Floor)
+The vast majority of Gambits come from **Modules** — your equipment, abilities, implants, spells, tech.
 
-Modules ship with fully-defined Gambits. Outcomes are written. Mag formulas are specified. Pick up your rifle, you know exactly what its Attack Gambit does on every outcome.
+When you equip a Module, you gain access to its Gambits. Each Module defines exactly what actions it enables and what the four outcomes are:
 
-This is your baseline. Use it 90% of the time. It keeps combat flowing.
+| Module | Gambit | Triumphus | Calamitas |
+|--------|--------|-----------|-----------|
+| Thermal Lance Mk.II | Burn Attack | Target ignites | Weapon overheats |
+| Grav-Boots | Assisted Leap | Graceful arc, bonus distance | Ankle twist, prone |
+| Psi-Amp | Mind Probe | Full memory access | Psychic feedback |
+| Shield Drone | Intercept | Block + riposte opening | Drone disabled |
 
-### 2. GM-Modified Gambits (The Flex)
+This is where **character builds diverge**. Your Thermal Lance does THIS on a Triumphus. My Cryo-Rifle does THAT. The Gambits are part of what you're buying when you spend Complexitās on a Module.
+
+### Core Gambits (Utility Fallbacks)
+
+Some Gambits are so universal they exist outside any specific Module:
+
+- **Defense** — Dodge, block, or resist when you have no specific defensive Module
+- **Skill Check** — Attempt a task based on raw ability
+- **Social** — Persuade, deceive, or intimidate without specialized gear
+- **Movement** — Navigate difficult terrain without movement-enhancing Modules
+
+These are **fallbacks**. If you have a Module that grants a better version (Shield Drone's Intercept vs. generic Defense), use the Module Gambit.
+
+### Improvised Gambits (Anything Else)
+
+Anyone at the table — player OR GM — can propose entirely new Gambits from nothing. Negotiate the outcomes, agree on the Tessera Fati, resolve on the spot.
+
+> "I want to swing from the chandelier and kick the baron out the window."
+
+That's not in any Module. But it's a Gambit now. Define the four outcomes together, roll, and see what happens.
+
+---
+
+## Three Layers of Flexibility
+
+Even within this structure, the system flexes:
+
+### 1. Pre-Authored (The Floor)
+
+Module Gambits and Core Gambits ship with fully-defined outcomes. Pick up your rifle, you know exactly what its Attack Gambit does. This is your baseline — use it most of the time. It keeps play flowing.
+
+### 2. GM-Modified (The Flex)
 
 The GM can twist outcomes in the moment when it makes the session better.
 
@@ -77,13 +113,9 @@ Maybe your Thermal Lance's Calamitas isn't "weapon overheats" this time — it's
 
 **But respect the build.** (See GM Guidance below.)
 
-### 3. Improvised Gambits (The Ceiling)
+### 3. Improvised (The Ceiling)
 
-Anyone at the table — player OR GM — can propose entirely new Gambits from nothing. Negotiate the outcomes, agree on the Tessera Fati, resolve on the spot.
-
-> "I want to swing from the chandelier and kick the baron out the window."
-
-That's not in any Module. But it's a Gambit now. Define the four outcomes together, roll, and see what happens.
+Propose new Gambits from nothing. Negotiate outcomes. Roll. This is for the moments no Module anticipated.
 
 ---
 
@@ -144,11 +176,11 @@ If someone built their character around a specific Gambit, they chose that Gambi
 
 ---
 
-## Standardized Gambits
+## Core Gambits (Utility Fallbacks)
 
-Some Gambits are so common that the rules provide templates. These can be used as-is or modified.
+These universal Gambits exist for situations where no specific Module applies. They're the safety net — if you have a Module that grants a better version, use that instead.
 
-### Attack Gambit (Standard)
+### Attack Gambit (Generic)
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -179,15 +211,17 @@ The DM adjusts the Tessera Fati ranges based on circumstances:
 | Desperate | Wider Calamitas range |
 | Careful aim | Wider Triumphus range |
 
-### Other Standardized Gambits
+### Other Core Gambits
 
 *[TODO: Define these with full outcome structures]*
 
-- **Defense Gambit** — Did you avoid or mitigate the attack?
-- **Skill Gambit** — Did you succeed at a non-combat task?
-- **Social Gambit** — Did you convince, deceive, or intimidate?
-- **Movement Gambit** — Did you reach your destination safely?
-- **Piloting Gambit** — Did you execute the maneuver?
+- **Defense Gambit** — Dodge, block, or resist (when no defensive Module applies)
+- **Skill Gambit** — Attempt a task based on raw ability
+- **Social Gambit** — Persuade, deceive, or intimidate (when no social Module applies)
+- **Movement Gambit** — Navigate difficult terrain (when no movement Module applies)
+- **Piloting Gambit** — Execute a vehicle maneuver (when no piloting Module applies)
+
+Remember: if you have a Module that grants a specific Gambit for the situation, **use the Module Gambit** — it's probably better and it's what you paid Complexitās for.
 
 ---
 
@@ -225,14 +259,19 @@ The four-tier system (not binary pass/fail) creates narrative texture. A Clades 
 ```
 GAMBIT = Action + Outcomes + Mag Formulas
 
-Three Layers:
-  1. Pre-authored (from Modules) — use most of the time
-  2. GM-modified — twist when it improves the session
-  3. Improvised — anyone can propose, negotiate together
+Sources:
+  MODULE GAMBITS — Primary. Equipment defines specific Gambits.
+  CORE GAMBITS   — Fallbacks. Universal actions without Modules.
+  IMPROVISED     — Anything else. Negotiate at the table.
+
+Flexibility:
+  1. Pre-authored — use the written outcomes most of the time
+  2. GM-modified  — twist when it improves the session
+  3. Improvised   — anyone can propose, negotiate together
 
 Resolution:
   Tessera Fati → picks which outcome fires
-  Icosaedrum → calculates the numbers within that outcome
+  Icosaedrum   → calculates the numbers within that outcome
 
 Golden Rule:
   Modify outcomes to fit the fiction,
