@@ -240,15 +240,38 @@ The Gambit is the real atomic unit of the system. It's simultaneously:
 
 The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the Gambit plugs into. The structure lives in the Gambit itself.
 
-### Outcomes Are Interfaces
+### Outcomes Are Baselines, Not Laws
 
-Pre-authored outcomes provide **mechanical truth**, not narrative script. "Weapon overheats" tells you what happens mechanically. The DM decides:
+Pre-authored outcomes are **what usually happens** — not what *must* happen.
 
-- Does the heat blister your hands?
-- Does the glow give away your position?
-- Does the enemy laugh and press their advantage?
+A Triumphus might be a clean critical hit. Or it might be a "miss" that accidentally hit a stealthed, more important target behind them. A Calamitas might be your weapon jamming. Or it might be the shot going wide and shattering the window that was the only thing between you and the vacuum of space.
 
-Every outcome is an invitation for the DM to add **spice, texture, and consequence**. The authored text is a launchpad, not a cage. This is how emergent stories happen — the rules provide structure, the table provides meaning.
+The DM is encouraged to add **flair** when it creates a better moment:
+
+- "Weapon overheats" → Does the heat blister your hands? Does the glow give away your position?
+- "Target ignites" → Does the fire spread? Does someone scream?
+- "Critical hit" → Did you find a weak point, or did fate intervene in a stranger way?
+
+The authored outcomes are the baseline expectation — what happens 90% of the time. The other 10% is where memorable stories live.
+
+### Gryst Lives and Dies by GM Quality
+
+This is a feature, not a bug.
+
+The system explicitly trusts the DM to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
+
+**The DM's goal is to create a good session and a great story.**
+
+Flair is good. Surprise is good. Unexpected consequences are good. What's *not* good is constantly treading on player agency until they feel powerless. The difference:
+
+| Good Flair | Bad Habit |
+|------------|-----------|
+| Occasional narrative twist that creates a story beat | Routinely rewriting outcomes to nerf player success |
+| "Your miss actually hit something interesting" | "Your hit actually missed because I said so" |
+| Consequences that open new possibilities | Consequences that just punish creativity |
+| Players excited by the unexpected | Players frustrated they can't rely on anything |
+
+**The golden ratio:** Follow the authored outcomes most of the time, so that when you diverge, it *means* something.
 
 ### ANYTHING IS POSSIBLE
 
