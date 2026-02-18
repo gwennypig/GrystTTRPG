@@ -19,6 +19,7 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[Tags](rules/Tags.md)** | How skills connect to gambits and modules; soft constraints via type labels |
 | **[Modules & Loculi](rules/Modules-and-Loculi.md)** | Equipment system — Mass, Complexitās, Magnitūdō; scaling from pistols to Walkers |
 | **[RDC (Thread of Fate)](rules/Required-Disambiguation-Canonization.md)** | Undefined details become canon when declared; Schrödinger's Loadout |
+| **[Core Mechanic](rules/Core-Mechanic.md)** | d20 for Mag calculations; dice-agnostic four-tier gambit resolution |
 
 ### ✅ Worldbuilding (Developed)
 
@@ -44,8 +45,6 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 ### 🚧 Work In Progress
 
 | Section | Status |
-|---------|--------|
-| [Core Mechanic](rules/Core-Mechanic.md) | Dice system undefined |
 | [Character Creation](rules/Character-Creation.md) | Template only |
 | [Advancement](rules/Advancement.md) | Template only |
 | [Vision Statement](core-design/Vision-Statement.md) | Template only |
