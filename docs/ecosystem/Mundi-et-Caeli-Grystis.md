@@ -150,6 +150,83 @@ The goal is the same: **reduce the barrier between imagination and realization**
 
 ---
 
+## World Builder: Content Authoring
+
+Mundi isn't just for playing — it's for **creating**. The built-in World Builder lets you define game content that both Mundi and PDA can read.
+
+### What You Can Create
+
+| Content Type | Description |
+|--------------|-------------|
+| **Characters** | NPCs, enemies, playable archetypes with full stat blocks |
+| **Objects** | Interactive items, artifacts, environmental props |
+| **Weapons** | Stats, Add-On costs, special abilities, visual models |
+| **Modules** | Customization parts for Walkers and Heavenstriders |
+| **Walkers** | Full mecha definitions with module slots |
+| **Heavenstriders** | Flight-capable units with their own systems |
+| **Actions & Gambits** | Custom abilities with dice pools and outcomes |
+| **Environments** | Pre-built 3D scenes with interactive elements |
+
+### Gryst Content Packs (.gcp)
+
+All content exports to a **Gryst Content Pack** — a portable data format that works across the ecosystem.
+
+```
+┌────────────────────────────────────────────────────┐
+│ CONTENT PACK FLOW                                  │
+│                                                    │
+│  Creator uses World Builder in Mundi               │
+│  ↓                                                 │
+│  Exports .gcp file                                 │
+│  ↓                                                 │
+│  Distributes however they want                     │
+│  (website, Discord, itch.io, etc.)                 │
+│  ↓                                                 │
+│  Users import into Mundi OR PDA                    │
+│  ↓                                                 │
+│  Content appears in their library                  │
+└────────────────────────────────────────────────────┘
+```
+
+### File Format
+
+```
+mypack.gcp
+├── manifest.json      # Pack metadata, version, dependencies
+├── characters/        # Character definitions
+├── weapons/           # Weapon stats and models
+├── modules/           # Walker/Heavenstrider modules
+├── actions/           # Custom gambits and abilities
+├── environments/      # 3D scene data
+└── assets/            # Textures, models, icons
+```
+
+The format is **open and documented**. While Mundi provides a visual editor, power users can hand-edit JSON or build their own authoring tools.
+
+### The Lancer Precedent
+
+This approach is inspired by **Lancer's LCP system** (Lancer Content Packs), which enabled a thriving homebrew community:
+
+- Official content and homebrew use the same format
+- Community tools (like COMP/CON) can read all packs
+- Creators can distribute freely or sell their work
+- Players mix-and-match content from multiple sources
+
+Gryst aims for the same openness. The .gcp format will be fully documented, and community content is first-class.
+
+### Homebrew Marketplace (Future)
+
+*Planned:* An optional marketplace within Mundi/PDA where creators can:
+
+- Share free content packs
+- Sell premium content packs
+- Rate and review community content
+- Follow favorite creators
+
+The marketplace is optional — you can always share .gcp files directly.
+
+---
+
 ## Platform
 
 | Platform | Technology | Status |
@@ -189,6 +266,13 @@ Stack:
 - Networking: Mirror or custom UDP for low-latency sync
 - Integration: JSON protocol over WebSocket for PDA connection
 - Rendering: Stylized/toon shader to embrace sketch aesthetic
+- Content Format: .gcp (JSON + binary assets, ZIP-compressed)
+
+Content Pack Structure:
+- manifest.json: Pack ID, name, version, author, dependencies
+- JSON schemas for each content type (characters, weapons, etc.)
+- Binary assets (models, textures) with hash-based deduplication
+- Designed for diffing/merging (git-friendly for collab projects)
 ```
 
 ### Teddy Implementation Resources
