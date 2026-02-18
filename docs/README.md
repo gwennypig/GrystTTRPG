@@ -24,6 +24,7 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 
 | Section | Description |
 |---------|-------------|
+| **[Overview](worldbuilding/Overview.md)** | The Grystborn, the Six Grysts (Blazing, Flowing, Storming, Blooming, Radiant, Murky) |
 | **[The Nature of Gryst](worldbuilding/The-Nature-of-Gryst.md)** | Magic = Tech = Gryst; gnosis and the esoteric fabric of reality |
 
 ### ✅ Ecosystem (Developed)
