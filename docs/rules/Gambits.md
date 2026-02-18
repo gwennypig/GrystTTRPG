@@ -77,11 +77,13 @@ Players can propose Gambits for:
 
 The GM sets the difficulty and stakes, but the structure remains consistent.
 
+THE GM HAS FULL POWER OVER HOW GAMBITS ARE STRUCTURED AND RESOLVED, use this power wisely! The rules will attempt to cover as many basic actions as possible introducing systems for hero, walker (mecha), and heavenstrider (flyers) combat, as well as many other narratively interesting actions, with anybody being able to propose more gambits on the fly, as long as the DM agrees its fair and interesting. Mundane actions that don't require rolls can out of nowhere require a check if the DM thinks it would add some spice to the narrative. Use sparingly so that it does not become a chore or frustrating to players. Conversely, gambits can appear out of nowhere as boons to the players!
+ANYTHING IS POSSIBLE. Gryst is a wacky reality. Instead of just saying you can't do that, try to stack the odds against the player if you must! Life is unpredictable!
+
 ---
 
 ## Design Notes
 
-- Latin terminology gives it flavor and makes outcomes feel distinct
 - Four-tier system (not binary pass/fail) creates narrative texture
 - Player-declared Gambits encourage creative problem-solving
 - Stakes should always be meaningful — if failure doesn't matter, don't roll

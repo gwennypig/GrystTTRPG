@@ -105,7 +105,7 @@ When someone becomes Pivotal, combat shifts from racing to **stack building**.
 
 The DM resolves the gambit stack, narrating it as **one fluid sequence**. This isn't "you go, then you go" — it's a single cinematic moment built collaboratively.
 
-**Fizzle Rule:** If a gambit no longer applies when it resolves (target dead, situation changed, etc.), it **fizzles** and returns **half the momentum spent, rounded up**.
+**Fizzle Rule:** If a gambit no longer applies when it resolves (target dead, situation changed, etc.), it **fizzles** and returns **half the momentum spent, rounded up**. The idea is the character lost some momentum because they were planning on doing something that no longer was possible, they're caught flatfooted, losing half of them momentum they would have fully spent but didn't fully commit to something so they still have energy left in the tank.
 
 ### After Resolution
 

@@ -8,10 +8,15 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 
 ## Quick Links
 
-- **[Vision Statement](core-design/Vision-Statement.md)** — What we're building and why
-- **[Core Mechanic](rules/Core-Mechanic.md)** — How dice work
+
+THESE THINGS EXIST
+
 - **[Momentum & Turns](rules/Momentum-and-Turns.md)** — The heart of the system
 - **[Gambits](rules/Gambits.md)** — The atomic unit of action resolution
+
+WIP LOL
+- **[Vision Statement](core-design/Vision-Statement.md)** — What we're building and why
+- **[Core Mechanic](rules/Core-Mechanic.md)** — How dice work
 
 ## Core Concepts
 
