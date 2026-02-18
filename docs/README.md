@@ -1,6 +1,6 @@
 # Gryst TTRPG
 
-> A momentum-based tabletop roleplaying game where turns are earned, not given.
+> Uhhh lets make a ttrpg I guess.
 
 ## What is Gryst?
 
@@ -31,3 +31,5 @@ Every action is a **Gambit** with four possible outcomes:
 ---
 
 *This documentation is a living design document. Expect things to change as we playtest.*
+
+Most of this site is AI generated placeholder template, only some basic worldbuilding and core rules are designed right now! 
