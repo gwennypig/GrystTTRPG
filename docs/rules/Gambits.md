@@ -21,9 +21,11 @@ When a Module grants you a Gambit, you're getting a complete package. The Therma
 
 The outcomes are authored into the Gambit. The Tessera Fati just picks which one fires.
 
-But these outcomes are **interfaces, not scripts**. "Target ignites" is the mechanical truth — the DM brings it to life. *How* do they ignite? Does the fire spread to the curtains? Does the smoke trigger the alarm system? Does a bystander scream and run? The authored outcome is the skeleton; the DM fleshes it out with situational detail, environmental consequences, and narrative weight.
+But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The DM can override them dynamically when something else would serve the story better.
 
-This is where emergent stories happen. The Gambit tells you *what* occurs. The table discovers *what it means*.
+"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the DM can pivot when inspiration strikes.
+
+This is where emergent stories happen. The Gambit tells you *what usually occurs*. The table discovers *what actually happens*.
 
 ---
 
