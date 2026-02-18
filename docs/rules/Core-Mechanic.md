@@ -6,9 +6,37 @@ The core mechanic is built around two principles: **d20 for calculations** and *
 
 ---
 
-## The d20: Your Universal Tool
+## Mag vs Gambits: What Does What?
 
-Players already bring d20s for tracking Momentum. We use them for everything else too.
+First, let's be clear about the division:
+
+| System | Question | Examples |
+|--------|----------|----------|
+| **Gambits** | "Did X happen?" | Did the attack hit? Did I pick the lock? Did I convince them? |
+| **Magnitūdō** | "How much?" | How much damage? How far? How effective? |
+
+```
+┌────────────────────────────────────────────────────┐
+│ THE FLOW                                           │
+│                                                    │
+│  GAMBIT: Did the attack hit?                       │
+│  ↓                                                 │
+│  Triumphus / Successus / Clades / Calamitas        │
+│  ↓                                                 │
+│  If hit → MAGNITŪDŌ determines damage/effects      │
+│                                                    │
+│  Gambit = DID it happen                            │
+│  Mag = HOW MUCH happened                           │
+└────────────────────────────────────────────────────┘
+```
+
+**Gambits are primary.** They resolve whether something occurs. Magnitūdō kicks in afterward to determine the magnitude of effects.
+
+---
+
+## The d20: For Magnitūdō Math
+
+Players already bring d20s for tracking Momentum. We use them for Mag-related calculations too.
 
 ### Why d20?
 
@@ -19,28 +47,21 @@ Players already bring d20s for tracking Momentum. We use them for everything els
 
 ### What Uses d20?
 
-All **Magnitūdō-related calculations**:
+**Effect calculations** that scale with Magnitūdō:
 
 ```
-┌────────────────────────────────────────────────────┐
-│ THE d20 ROLL                                       │
-│                                                    │
-│  Roll = d20 + Effective Magnitūdō                  │
-│                                                    │
-│  Where:                                            │
-│    Effective Mag = Base Mag + Skill Modifier       │
-│                                                    │
-│  Compare to target number or opposed roll          │
-└────────────────────────────────────────────────────┘
+Damage = Base + (Effective Mag × multiplier)
+Range = Base + (Effective Mag × 5) meters
+Duration = Effective Mag rounds
 ```
 
-**Examples:**
-- Attack roll: `d20 + Weapon Mag + Skill`
-- Defense check: `d20 + Armor Mag + Skill`
-- Contested action: Both sides roll, higher wins
-- Fixed difficulty: Roll vs GM-set target
+When you need to **roll for magnitude** (variable damage, contested effects), use d20:
 
-The d20 handles the **numerical question**: Did you succeed at the task?
+- Damage roll: `d20 + Weapon Mag` vs armor/threshold
+- Contested effect: Both sides roll `d20 + Mag`, higher wins
+- Variable outcome: `d20 + Mag` determines intensity
+
+The d20 handles **numbers**, not hit/miss. That's the Gambit's job.
 
 ---
 
@@ -104,44 +125,113 @@ This negotiation IS the game. The rules provide structure; the table provides ju
 
 ---
 
+## Standardized Gambits
+
+Some Gambits are so common that we provide **standardized templates**. The DM can use these as-is or modify them.
+
+### The Attack Gambit
+
+The most common reusable Gambit: **did your attack hit?**
+
+```
+┌────────────────────────────────────────────────────┐
+│ STANDARD ATTACK GAMBIT                             │
+│ ─────────────────────────────────────────────────  │
+│                                                    │
+│ Dice: [DM's choice based on difficulty]            │
+│                                                    │
+│ TRIUMPHUS: Hit with bonus effect                   │
+│   → Full damage + critical effect (DM determines)  │
+│   → Examples: Extra damage, target staggered,      │
+│               hit a weak point, disarm             │
+│                                                    │
+│ SUCCESSUS: Clean hit                               │
+│   → Deal damage (calculate with Mag)               │
+│                                                    │
+│ CLADES: Miss                                       │
+│   → No damage                                      │
+│   → Minor complication possible (position lost,    │
+│     attention drawn, etc.)                         │
+│                                                    │
+│ CALAMITAS: Critical miss                           │
+│   → No damage AND something goes wrong             │
+│   → Examples: Weapon jams, friendly fire risk,     │
+│               overextended, fall prone             │
+└────────────────────────────────────────────────────┘
+```
+
+### Modifying the Attack Gambit
+
+The DM adjusts the **dice and ranges** based on circumstances:
+
+| Situation | Adjustment |
+|-----------|------------|
+| Easy shot (close, stationary) | Wider Successus range |
+| Hard shot (far, moving, cover) | Narrower Successus range |
+| Desperate attack | Wider Calamitas range |
+| Careful aim | Wider Triumphus range |
+
+### Other Standardized Gambits
+
+*[TODO: Define additional standard gambits]*
+
+- **Defense Gambit** — Did you avoid the attack?
+- **Skill Gambit** — Did you succeed at a task?
+- **Social Gambit** — Did you convince them?
+- **Movement Gambit** — Did you reach your destination safely?
+
+These templates speed up play while preserving flexibility.
+
+---
+
 ## Putting It Together
 
-A typical action involves both systems:
+A typical attack involves both systems:
 
-### Step 1: The Numerical Question (d20)
+### Step 1: Resolve the Gambit
 
-*Can you do it at all?*
+*Did the attack hit?*
 
-Roll `d20 + Effective Mag` against difficulty or opposition.
+Roll the agreed-upon dice for the four-tier outcome:
 
-- If you fail this, you don't even attempt the Gambit
-- If you succeed, proceed to Step 2
+- **Triumphus** — Critical hit, bonus effects
+- **Successus** — Clean hit, proceed to damage
+- **Clades** — Miss, possible minor complication
+- **Calamitas** — Critical miss, something goes wrong
 
-### Step 2: The Outcome Question (Dice-Agnostic)
+### Step 2: Calculate Effects with Mag (If Hit)
 
-*How well did it go?*
+*How much damage?*
 
-Roll the agreed-upon dice to determine the four-tier outcome.
-
-- **Triumphus** — Best case scenario
-- **Successus** — You did it
-- **Clades** — You didn't do it
-- **Calamitas** — Worst case scenario
-
-### Optional: Combined Roll
-
-Some tables may prefer to combine both into a single d20 roll:
+If the Gambit resulted in Successus or Triumphus:
 
 ```
-d20 + Mods vs Target
+Damage = Weapon Base + Effective Mag (+ Triumphus bonus if applicable)
 
-  Beat by 10+ → Triumphus
-  Beat by 1-9 → Successus
-  Miss by 1-9 → Clades
-  Miss by 10+ → Calamitas
+Effective Mag = Weapon Mag + Skill Modifier
 ```
 
-This is faster but less flexible. Use what works for your table.
+The d20 may be used if damage is variable or contested (e.g., rolling against armor).
+
+### Example: Full Attack Sequence
+
+```
+1. Player: "I shoot the cultist with my rifle."
+2. DM: "Standard attack. Roll d6."
+3. Player rolls: 5 (Successus)
+4. DM: "Hit! Roll damage."
+5. Player calculates: Rifle Mag 4 + Marksmanship +2 = 6 damage
+6. DM: "The cultist takes 6 damage and staggers back."
+```
+
+### Example: Triumphus Attack
+
+```
+1. Player rolls attack: 6 on d6 (Triumphus!)
+2. DM: "Critical hit! You hit a weak point."
+3. Player calculates: 6 base damage + Triumphus bonus (double? extra effect?)
+4. DM decides: "Double damage, and the cultist drops their weapon."
+```
 
 ---
 
@@ -174,14 +264,19 @@ The system is named after a fictional galactic bureaucracy, and appropriately, i
 
 ## Quick Reference
 
-| Question | Die | Method |
-|----------|-----|--------|
-| "Can I do it?" | d20 | Roll + Mag vs difficulty |
-| "How well?" | Any | Four-tier outcome distribution |
+| System | Question | Method |
+|--------|----------|--------|
+| **Gambit** | "Did it happen?" | Dice-agnostic four-tier outcome |
+| **Magnitūdō** | "How much?" | d20 + Mag for calculations |
 
 | Outcome | Result |
 |---------|--------|
 | Triumphus | Critical success, bonus effects |
-| Successus | Success, achieved goal |
-| Clades | Failure, complications possible |
+| Successus | Success, proceed to Mag calculations |
+| Clades | Failure, minor complications possible |
 | Calamitas | Critical failure, disaster |
+
+### Attack Flow
+```
+Gambit (did it hit?) → If hit → Mag (how much damage?)
+```
