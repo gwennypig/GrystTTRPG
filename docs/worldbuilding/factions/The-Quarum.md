@@ -76,6 +76,75 @@ Like so many unknowns in the universe, those with gnosis of the Quarum **chalk i
 
 ---
 
+## Gameplay: Quarum as Equipment
+
+Here's where it gets interesting for players: **Quarum can take any form and massshift**. A Quarum can become a weapon. A vehicle. A piece of armor. A Walker's Cor.
+
+**Modules or Loculi can BE a Quarum.**
+
+### The [Quarum] Tag
+
+Equipment that is actually a Quarum carries the `[Quarum]` tag, which provides unique gameplay traits:
+
+```
+┌────────────────────────────────────────────────────┐
+│ QUARUM EQUIPMENT                                   │
+│                                                    │
+│  Your gun is not a gun.                            │
+│  Your gun is a SOMEONE.                            │
+│                                                    │
+│  It thinks. It feels. It wants.                    │
+│  And right now, it wants to be your gun.           │
+└────────────────────────────────────────────────────┘
+```
+
+### What the [Quarum] Tag Provides
+
+| Trait | Description |
+|-------|-------------|
+| **Sentience** | The equipment is aware, can communicate, has personality |
+| **Independent Action** | May act on its own in certain circumstances (mini-character) |
+| **Advanced Processing** | Thinking targeting, predictive systems, intuitive responses |
+| **Self-Repair** | Can manipulate own Blooming Gryst to heal damage |
+| **Form Shifting** | May reconfigure within limits (GM discretion) |
+| **Emotional Bond** | Develops relationship with wielder over time |
+
+### Roleplay Potential
+
+DMs and players can **roleplay Quarum companions**:
+
+- The rifle that offers tactical suggestions
+- The armor that worries about your safety
+- The Walker Cor that hums when content
+- The sword that has *opinions* about your fighting style
+
+Quarum are characters, not just equipment. They can have arcs, growth, and relationships.
+
+### The Desire for Purpose
+
+Why would a Quarum agree to become your gun?
+
+Because **Quarum seek purpose**. They awaken without one. They have no memory of why they exist, no mission, no meaning.
+
+And so they **desire form and function**.
+
+To BE something — a weapon, a tool, a companion — is to have purpose. To have purpose is to have meaning. The Quarum don't merely tolerate being equipment. They **revel in it**.
+
+> *"I was nothing. Now I am your shield. I have never been happier."*
+
+### Mechanical Considerations
+
+*[TODO: Define specific [Quarum] tag mechanics]*
+
+Possible rules:
+- Quarum equipment may grant bonus Gambits (the Quarum acting)
+- Quarum may refuse orders that violate their values (if any develop)
+- Quarum may need "feeding" (power, attention, purpose affirmation)
+- Destroying Quarum equipment is killing a sentient being
+- Quarum may voluntarily leave if mistreated or purposeless
+
+---
+
 ## Story Hooks
 
 - **Awakening** — A Quarum activates. What does it want? What does it remember?
