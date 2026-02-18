@@ -231,8 +231,58 @@ When a character uses a **Hijack action**, they force their way into the stack �
 
 1. **Requires Hijack keyword** — Only certain actions can open the door
 2. **Pay normal Add-On Cost** — The hijacker pays their action's cost
-3. **Door opens for your party** — After your hijack, partymates can add-on
-4. **Ordering still by momentum** — But within your party, you negotiate freely
+3. **Coupling** — Your hijack action **couples** with the action it's hijacking (see below)
+4. **Door opens for your party** — After your hijack, partymates can add-on
+5. **Post-Couple Ordering** — Hijacking party's follow-up actions must come AFTER the couple
+
+### Coupling: The Heart of Hijack
+
+When you hijack, your action doesn't just slot into the stack — it **couples** with the action you're hijacking. The two resolve as a single dramatic unit.
+
+```
+┌────────────────────────────────────────────────────┐
+│ COUPLING                                           │
+│                                                    │
+│  Hawk: "Shoot Blaster"                             │
+│  Vex: "Force Reflector" (HIJACK!)                  │
+│  ↓                                                 │
+│  These become COUPLED:                             │
+│  [Shoot Blaster ↔ Force Reflector]                 │
+│  ↓                                                 │
+│  They resolve together as one moment               │
+│  "Hawk fires — Vex deflects!"                      │
+└────────────────────────────────────────────────────┘
+```
+
+**Why coupling matters:**
+- The hijack IS the reaction — it doesn't make sense before the action it's reacting to
+- The chaos of the couple is what opens the door for your party
+- It creates a clear narrative beat: action → reaction → fallout
+
+### Resolution Order with Hijack
+
+When a hijack occurs, the stack has three zones:
+
+```
+┌────────────────────────────────────────────────────┐
+│ RESOLUTION ORDER                                   │
+│                                                    │
+│  1. PIVOTAL PARTY (free ordering)                  │
+│     Actions from the pivotal character's party     │
+│     can go BEFORE or AFTER the couple              │
+│                                                    │
+│  2. THE COUPLE (locked position)                   │
+│     [Hijacked Action ↔ Hijack Reaction]            │
+│     Resolves as one unit                           │
+│                                                    │
+│  3. HIJACKING PARTY FOLLOW-UP (after couple)       │
+│     All non-hijack add-ons from the hijacking      │
+│     party MUST resolve AFTER the couple            │
+│     (they can negotiate order among themselves)    │
+└────────────────────────────────────────────────────┘
+```
+
+The pivotal party still has flexibility — they can set up before the couple or react after it. But the hijacking party's follow-up actions represent capitalizing on the chaos, so they always come after.
 
 ### The Hijack Tax
 
@@ -267,34 +317,40 @@ Pivotal: Hawk (Party 1) — "Shoot blaster"
 
 Add-On Window (by momentum):
 
-  Raven [Party 1] 14 mom → "Covering shot" [BEFORE]
+  Raven [Party 1] 14 mom → "Covering shot" [BEFORE couple]
     └─ FREE (Cooperation with Hawk)
+    └─ Party 1 can freely place before or after
   
-  Vex [Party 2] 12 mom → "Force Reflector" (HIJACK!) [BEFORE]
+  Vex [Party 2] 12 mom → "Force Reflector" (HIJACK!)
+    └─ COUPLES with "Shoot Blaster"
     └─ DOOR OPENS for Party 2
     └─ Costs: 8 momentum (normal Add-On Cost)
   
-  Wolf [Party 1] 10 mom → "Dive for cover" [AFTER]
+  Wolf [Party 1] 10 mom → "Dive for cover" [AFTER couple]
     └─ FREE (Cooperation with Hawk)
+    └─ Party 1 can freely place before or after
   
-  Kira [Party 2] 8 mom → "Sneak Shot" [AFTER Vex]
+  Kira [Party 2] 8 mom → "Sneak Shot" [AFTER couple — required]
     └─ Door is open! But pays Hijack Tax
     └─ Costs: 6 + 5 = 11 momentum (goes to -3!)
+    └─ Must be after the couple (capitalizing on chaos)
   
-  Shade [Party 2] 5 mom → "Smoke Bomb" [BEFORE Vex]
+  Shade [Party 2] 5 mom → "Smoke Bomb" [AFTER couple — required]
     └─ Also pays Hijack Tax
     └─ Costs: 4 + 5 = 9 momentum (goes to -4!)
+    └─ Party 2 negotiates: Shade goes before Kira
 
-Final Stack:
-  1. Smoke Bomb (Shade)
-  2. Force Reflector (Vex)
-  3. Covering Shot (Raven)
-  4. Shoot Blaster (Hawk)
-  5. Dive for Cover (Wolf)
-  6. Sneak Shot (Kira)
+Resolution Order:
+  1. Covering Shot (Raven)         ← Party 1, before couple
+  2. [COUPLE] Shoot Blaster (Hawk) ↔ Force Reflector (Vex)
+  3. Dive for Cover (Wolf)         ← Party 1, after couple
+  4. Smoke Bomb (Shade)            ← Party 2 follow-up (chaos!)
+  5. Sneak Shot (Kira)             ← Party 2 follow-up
 ```
 
-Party 2 caught Party 1 by surprise! But Kira and Shade paid heavily — they're deep in negative momentum and won't be pivotal for a while.
+**The narrative:** Raven sets up a covering shot. Hawk fires her blaster — but Vex's Force Reflector was ready, deflecting the bolt into the air (or maybe into a bystander — the gambit decides!). Wolf dives for cover as chaos erupts. In that confusion, Shade throws a smoke bomb and Kira takes a sneak shot through the haze.
+
+Party 2 turned Party 1's attack against them! But Kira and Shade paid heavily — they're deep in negative momentum and won't be pivotal for a while.
 
 ### The Stack is a Moment, Not a Timeline
 
@@ -372,6 +428,7 @@ The stack resolves as a single moment, not ping-pong turns. "Raven aims, Hawk fi
 | **Add-On** | Spend momentum to join someone else's stack |
 | **Add-On Cost** | Momentum price to Add-On an action |
 | **Hijack** | Special actions that open the door to enemy stacks |
+| **Coupling** | Hijack + hijacked action resolve as one unit |
 | **The Door** | Once a party hijacks, their partymates can also Add-On |
 | **Hijack Tax** | Extra cost (5) for non-hijack Add-Ons after the door opens |
 | **Negative Momentum** | Momentum below 0; you're far from your next pivot |
