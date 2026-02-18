@@ -296,6 +296,33 @@ Final Stack:
 
 Party 2 caught Party 1 by surprise! But Kira and Shade paid heavily — they're deep in negative momentum and won't be pivotal for a while.
 
+### The Stack is a Moment, Not a Timeline
+
+The stack represents a **chaotic cluster of events** happening in a single dramatic beat. The numbered order is **mechanical** — it determines what fizzles, what lands, how effects interact — but it's not a strict second-by-second timeline.
+
+The DM weaves the narration however best tells the story:
+
+**Option A — Sequential:**
+> "Shade throws a smoke bomb. Through the haze, Vex raises her Force Reflector. Raven lines up a covering shot as Hawk pulls the trigger—"
+
+**Option B — Simultaneous:**
+> "Hawk fires her blaster BUT Vex was already channeling a Force Reflector! The bolt ricochets as smoke fills the air—"
+
+**Option C — Interleaved:**
+> "Everything happens at once. Smoke, blaster fire, the shimmer of a force field. When it clears, Kira's sneak shot has found its mark."
+
+The stack order tells you **what mechanically succeeded** — the DM decides **how it felt**. Same outcomes, different cinema.
+
+```
+┌────────────────────────────────────────────────────┐
+│ STACK = MECHANICAL TRUTH                           │
+│ NARRATION = DRAMATIC TRUTH                         │
+│                                                    │
+│ The stack answers: "What happened?"                │
+│ The DM answers: "How did it look?"                 │
+└────────────────────────────────────────────────────┘
+```
+
 ### Example Hijack Actions
 
 - **Parry** (Hijack): React to an incoming attack, reduce damage
