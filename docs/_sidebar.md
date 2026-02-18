@@ -41,3 +41,7 @@
   - [Overview](ecosystem/Overview.md)
   - [PDA](ecosystem/PDA.md)
   - [Mundi et Caeli Grystis](ecosystem/Mundi-et-Caeli-Grystis.md)
+
+- **Legal**
+  - [ORC Notice](legal/ORC-Notice.md)
+  - [Community License](legal/Gryst-Community-License.md)
