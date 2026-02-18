@@ -149,27 +149,53 @@ A Walker (complex Loculus) with advanced modules = expensive.
 
 ---
 
-## Magnitūdō: Quality & Scaling
+## Magnitūdō: The Scaling Number
 
-**Magnitūdō** represents how *good* something is — its quality tier. Two pistols might have the same modules, but different Magnitūdō means different performance.
+**Magnitūdō** is a number that flows through all calculations. It represents how *good* something is, and every module defines how that number affects its performance.
 
-### The Magnitūdō Scale
+### The Core Idea
+
+Magnitūdō isn't a tier lookup — it's a **variable in your formulas**.
 
 ```
-Magnitūdō 0  ─  Broken/Rusted (barely functional)
-Magnitūdō 1  ─  Poor (functional but unreliable)
-Magnitūdō 2  ─  Standard (baseline performance)
-Magnitūdō 3  ─  Quality (well-made, reliable)
-Magnitūdō 4  ─  Superior (exceptional craftsmanship)
-Magnitūdō 5  ─  Masterwork (peak mortal craft)
-Magnitūdō 6+ ─  Legendary (mythical, artifact-tier)
+┌────────────────────────────────────────────────────┐
+│ MAGNITŪDŌ AS A NUMBER                              │
+│                                                    │
+│  Module defines: "Damage = Base + (Mag × 2)"       │
+│                                                    │
+│  Rusty sword (Mag 1):   Damage = 2 + (1 × 2) = 4   │
+│  Quality sword (Mag 3): Damage = 2 + (3 × 2) = 8   │
+│  Legend sword (Mag 6):  Damage = 2 + (6 × 2) = 14  │
+│                                                    │
+│  Same module, same formula, different Mag.         │
+└────────────────────────────────────────────────────┘
 ```
 
-### What Magnitūdō Affects
+### Typical Magnitūdō Ranges
 
-**1. Effect Scaling**
+```
+Mag 0-1  ─  Broken, rusted, barely functional
+Mag 2-3  ─  Standard, common equipment
+Mag 4-5  ─  High quality, well-crafted
+Mag 6-8  ─  Exceptional, masterwork
+Mag 9+   ─  Legendary, artifact-tier
+```
 
-Every module defines how its effects scale with Magnitūdō:
+But there's no hard cap — Magnitūdō can scale as high as the fiction allows.
+
+### How Modules Use Magnitūdō
+
+Each module defines its own formulas. Common patterns:
+
+| Usage | Example Formula |
+|-------|-----------------|
+| **Direct bonus** | Accuracy = Mag |
+| **Multiplied** | Damage = Mag × 2 |
+| **Added to base** | Range = 10 + (Mag × 5) meters |
+| **Reduced cost** | Add-On Cost = 8 - Mag (min 2) |
+| **Dice scaling** | Roll = Mag d6 |
+
+### Example Module
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -177,74 +203,104 @@ Every module defines how its effects scale with Magnitūdō:
 │ Mass: 2 | Base Complexitās: 3                      │
 │ ─────────────────────────────────────────────────  │
 │                                                    │
-│ STAT: Accuracy Bonus                               │
-│   Magnitūdō 1: +0                                  │
-│   Magnitūdō 2: +1                                  │
-│   Magnitūdō 3: +2                                  │
-│   Magnitūdō 4: +3                                  │
-│   Magnitūdō 5: +4                                  │
+│ STAT: Accuracy Bonus = Mag                         │
+│ STAT: Effective Range = 20 + (Mag × 10) meters     │
 │                                                    │
-│ PERK: Steady (Magnitūdō 3+)                        │
-│   Ignore penalties from unstable footing           │
+│ GAMBIT: Aimed Shot                                 │
+│   Add-On Cost: 7 - floor(Mag / 2)                  │
+│   Damage: 1d6 + Mag                                │
 │                                                    │
-│ PERK: True Strike (Magnitūdō 5+)                   │
+│ PERK (Optional, Mag 5+): True Strike               │
 │   Once per Resolution, reroll an attack gambit     │
 └────────────────────────────────────────────────────┘
 ```
 
-Higher Magnitūdō might:
-- Increase numerical bonuses
-- Unlock additional perks
-- Reduce Add-On costs
-- Improve Gambit outcomes
+The optional tier-locked perk is still possible, but the primary scaling is through the number itself.
 
-**2. Complexitās Modifier**
+### Character Stats Modify Magnitūdō
 
-Magnitūdō affects the final Complexitās cost:
+Here's the key: in combat, your character's relevant stats can **modify the effective Magnitūdō** of your equipment.
 
 ```
-Effective Complexitās = Base Complexitās × Magnitūdō Multiplier
-
-Magnitūdō 1: ×0.5  (cheap, but weak)
-Magnitūdō 2: ×1.0  (baseline)
-Magnitūdō 3: ×1.5  
-Magnitūdō 4: ×2.0
-Magnitūdō 5: ×3.0
-Magnitūdō 6: ×5.0  (legendary = expensive)
+┌────────────────────────────────────────────────────┐
+│ EFFECTIVE MAGNITŪDŌ IN COMBAT                      │
+│                                                    │
+│  Effective Mag = Base Mag + Stat Modifier          │
+│                                                    │
+│  Example:                                          │
+│    Sword Base Mag: 3                               │
+│    Character's Might: +2                           │
+│    Effective Mag: 5                                │
+│                                                    │
+│  The same sword hits harder in skilled hands.      │
+└────────────────────────────────────────────────────┘
 ```
 
-### Example: The Same Gun, Different Quality
+This means:
+- A novice with a masterwork weapon uses its base Mag
+- A master with a rusty sword can still be deadly (stat modifier compensates)
+- A master with a masterwork weapon is terrifying (stacking Mag)
+
+### Which Stat Applies?
+
+Modules or Gambits define which stat modifies their Magnitūdō:
+
+| Module Type | Typical Stat |
+|-------------|--------------|
+| Melee weapons | Might, Finesse |
+| Ranged weapons | Perception, Finesse |
+| Defensive gear | Resilience, Agility |
+| Tech/Hacking | Intellect |
+| Sorcery/Channeling | Gnosis, Will |
+
+*[TODO: Define full stat list]*
+
+### Complexitās Modifier
+
+Magnitūdō also affects cost. Higher quality = more expensive:
+
+```
+Effective Complexitās = Base Complexitās × (1 + Mag/4)
+
+Mag 0:  ×1.0  (baseline)
+Mag 2:  ×1.5  
+Mag 4:  ×2.0
+Mag 6:  ×2.5
+Mag 8:  ×3.0
+```
+
+### Example: The Same Gun, Different Mag
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │ RUSTY REVOLVER              │ MASTERWORK REVOLVER           │
-│ Magnitūdō: 1                │ Magnitūdō: 5                  │
+│ Magnitūdō: 1                │ Magnitūdō: 6                  │
 │ ────────────────────────────│──────────────────────────────│
-│ Loculus Capacity: 4         │ Loculus Capacity: 6           │
-│ Loculus Complexitās: 1      │ Loculus Complexitās: 8        │
 │                             │                               │
-│ Installed: Basic Chamber    │ Installed: Enhanced Chamber   │
-│   Damage: 1d6               │   Damage: 2d6+2               │
-│   Range: Short              │   Range: Medium               │
-│   Add-On: 5                 │   Add-On: 4                   │
+│ Installed: Chamber Module   │ Installed: Chamber Module     │
+│   Damage = 1d6 + Mag        │   Damage = 1d6 + Mag          │
+│   → 1d6 + 1                 │   → 1d6 + 6                   │
 │                             │                               │
-│                             │ Built-in Perk: Quick Draw     │
-│                             │   +2 Momentum on first pivot  │
-│                             │   of combat                   │
+│   Range = 10 + (Mag × 5)    │   Range = 10 + (Mag × 5)      │
+│   → 15 meters               │   → 40 meters                 │
+│                             │                               │
+│   Add-On = 6 - floor(Mag/2) │   Add-On = 6 - floor(Mag/2)   │
+│   → 6 (no reduction)        │   → 3 (fast to use)           │
 │ ────────────────────────────│──────────────────────────────│
-│ Total Complexitās: ~2       │ Total Complexitās: ~25        │
-│ "Found in a ditch"          │ "Family heirloom"             │
+│ In the hands of a Gunslinger (Perception +3):              │
+│   Effective Mag: 4          │   Effective Mag: 9            │
+│   Damage: 1d6 + 4           │   Damage: 1d6 + 9             │
+│   Range: 30 meters          │   Range: 55 meters            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ### Loculus Magnitūdō
 
-Loculi also have Magnitūdō, which affects:
+Loculi also have Magnitūdō, which typically affects:
 
-- **Capacity** — Higher Magnitūdō = more Mass capacity
-- **Durability** — Resistance to damage/degradation
-- **Built-in Features** — Legendary Loculi may have inherent modules
-- **Compatibility** — Some modules require minimum Loculus Magnitūdō
+- **Capacity** — Capacity = Base + Mag (higher quality = more slots)
+- **Durability** — Damage resistance scales with Mag
+- **Built-in Bonuses** — Some Loculi add their Mag to all installed modules
 
 ---
 
