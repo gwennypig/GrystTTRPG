@@ -19,7 +19,6 @@ This license grants permission to create and distribute content set within the G
 ❌ **You CANNOT:**
 - Claim official endorsement or partnership without written agreement
 - Use the Gryst logo or official trade dress
-- Contradict core canon in ways that claim authority over the official setting
 - Republish the core rules as your own product
 - Create content that is defamatory, illegal, or harmful
 - Sub-license these rights to others
@@ -73,7 +72,9 @@ You may create content that exists within the official Gryst universe and treat 
 
 **There is no central canon authority.** Gryst operates on an open canon model — consumers decide what they accept as canon based on their own judgment of quality, consistency, and worth. Think of it like a shared universe where the community curates through engagement.
 
-You may expand the setting freely, including adding new interpretations of existing elements. Just don't claim your work invalidates or overrides other creators' contributions.
+You may expand, reinterpret, or even contradict existing lore. The community will decide whether your contribution fits their understanding of the universe. Works that contradict established lore aren't *forbidden* — they just live or die by community reception. If your "actually, the Consensus was secretly good all along" take resonates, it becomes part of someone's canon. If it doesn't, it fades.
+
+No single creator — including CKVGs — has absolute authority over what "counts." We're all contributors to a living universe.
 
 ---
 
