@@ -241,19 +241,74 @@ This means:
 - A master with a rusty sword can still be deadly (stat modifier compensates)
 - A master with a masterwork weapon is terrifying (stacking Mag)
 
-### Which Stat Applies?
+### Tags: What Modifies Mag
 
-Modules or Gambits define which stat modifies their Magnitūdō:
+Every Gambit has one or more **Tags**. Tags determine which of your character's skills can modify the effective Magnitūdō.
 
-| Module Type | Typical Stat |
-|-------------|--------------|
-| Melee weapons | Might, Finesse |
-| Ranged weapons | Perception, Finesse |
-| Defensive gear | Resilience, Agility |
-| Tech/Hacking | Intellect |
-| Sorcery/Channeling | Gnosis, Will |
+```
+┌────────────────────────────────────────────────────┐
+│ TAGS → SKILLS → MAGNITŪDŌ                          │
+│                                                    │
+│  Gambit: "Aimed Shot"                              │
+│  Tags: [Marksmanship] [Precision]                  │
+│                                                    │
+│  Your Marksmanship skill: +3                       │
+│  Weapon Mag: 4                                     │
+│  ─────────────────────────                         │
+│  Effective Mag: 4 + 3 = 7                          │
+└────────────────────────────────────────────────────┘
+```
 
-*[TODO: Define full stat list]*
+### Common Tags
+
+| Tag | Associated Skill | Typical Gambits |
+|-----|------------------|-----------------|
+| **Marksmanship** | Marksmanship | Ranged attacks, aiming |
+| **Melee** | Combat | Sword strikes, brawling |
+| **Finesse** | Finesse | Precise strikes, parries |
+| **Might** | Might | Heavy blows, lifting, breaking |
+| **Arcana** | Arcana | Spellcasting, channeling |
+| **Tech** | Tech | Hacking, device operation |
+| **Piloting** | Piloting | Walker/Strider/vehicle control |
+| **Athletics** | Athletics | Movement, dodging, climbing |
+| **Stealth** | Stealth | Sneaking, ambushes |
+| **Social** | Charisma | Persuasion, intimidation |
+
+*[TODO: Define full tag/skill list]*
+
+### Multiple Tags
+
+Some Gambits have multiple tags, letting the player choose which skill to apply:
+
+```
+GAMBIT: Riposte
+Tags: [Melee] [Finesse]
+
+Player can use Combat OR Finesse — whichever is higher.
+(Or GM may allow combining in special circumstances)
+```
+
+### GM Flexibility: Ad-Hoc Tag Application
+
+Tags are guidelines, not prisons. If a player makes a compelling argument that their skill should apply to a Gambit — even without the matching tag — the GM can allow it.
+
+> **Player:** "My character was a circus knife-thrower. Can I use my Performance skill for this throwing attack?"
+> 
+> **GM:** "Sure, that makes sense for your character. Use Performance this time."
+
+The rules exist to provide structure, not to prevent cool moments.
+
+### Helper Section (Coming Soon)
+
+*[TODO: Include guidance for balancing ad-hoc tag applications]*
+
+Questions GMs should consider:
+- Does the skill make narrative sense for this action?
+- Is the player trying to always use their highest skill inappropriately?
+- Would allowing this create a cool character moment?
+- Is the player building their character around a creative interpretation?
+
+When in doubt: if it sounds cool and isn't being abused, allow it.
 
 ### Complexitās Modifier
 
