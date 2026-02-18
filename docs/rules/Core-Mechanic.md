@@ -65,6 +65,21 @@ The Icosaedrum is the **physics engine**. Reality is consistent. Gryst responds 
 
 ---
 
+## Where the Structure Lives
+
+The two dice systems are resolution *engines* — but the structure lives in **Gambits**.
+
+A Gambit isn't just "roll to see what happens." It's a complete package:
+- The **action** (what you're doing)
+- The **four outcomes** (what happens on Triumphus, Successus, Clades, Calamitas)
+- The **Mag formulas** (how the Icosaedrum calculates effects)
+
+When a Module grants you a Gambit, you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
+
+See the [Gambits](rules/Gambits.md) page for the full breakdown.
+
+---
+
 ## Resolution Flow
 
 A typical action involves both axes:
