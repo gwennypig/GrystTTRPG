@@ -18,7 +18,7 @@ Who are you? What's your deal? This informs everything else.
 
 ### 2. Species
 
-All sapient beings in Gryst are **Grystborn** — bipedal creatures evolved alongside Gryst energy. Humans are "hairless apekin" — not special, just one of many.
+The dominant race in Gryst are **Grystborn** — bipedal creatures evolved alongside Gryst energy. Humans are "hairless apekin" — not special, just one of many.
 
 | Species | Notes |
 |---------|-------|
@@ -227,7 +227,6 @@ How do you know the other PCs? The GM may have you:
 
 ## Design Principles
 
-- **No bad builds** — every combination should be viable
 - **Competent start** — you're an adventurer, not a peasant
 - **Meaningful choices** — AP scarcity forces identity
 - **Multiclass by default** — mix skills freely
