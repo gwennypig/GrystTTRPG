@@ -6,6 +6,45 @@ Tags are labels that define what something IS and what it CAN DO. They appear on
 
 ---
 
+## Tag Classes
+
+Every tag belongs to one of these classes:
+
+| Class | Purpose | Examples |
+|-------|---------|----------|
+| **Form** | What something IS (its nature) | [Mechanism], [Cor], [Blade] |
+| **Category** | Mechanical grouping for rules | [Firearm], [Heavy], [Walker] |
+| **Proficiency** | Training/skill required | [Martial], [Arcane], [Tech] |
+| **Element** | Damage or effect type | [Fire], [Kinetic], [Psionic] |
+| **Range** | Distance classification | [Melee], [Close], [Far] |
+| **Source** | Origin (mechanically equivalent) | [Tech], [Magic], [Hybrid] |
+| **Condition** | Status effects | [Burning], [Stunned], [Prone] |
+| **Other** | Catch-all | [Unique], [Prototype] |
+
+### Form vs Category
+
+- **Form** = What it IS (ontological). A plasma rifle's Form is [Mechanism].
+- **Category** = How it's classified (taxonomical). That same rifle's Category might be [Firearm], [Heavy].
+
+A gunblade has Form tags [Mechanism] and [Blade], and Category tags [Firearm] and [Melee Weapon]. All true simultaneously.
+
+---
+
+## Parameterized Tags
+
+Any tag can optionally carry a value when assigned:
+
+```
+[Melee]           → just the tag
+[Melee: 2m]       → tag with a parameter
+[Burning: 3 turns]
+[Range: 50m]
+```
+
+The parameter is just a string — write whatever makes sense.
+
+---
+
 ## What Tags Do
 
 Tags serve two primary functions:
@@ -179,21 +218,27 @@ Questions GMs should consider:
 
 ## Design Notes
 
-### Why Tags Instead of Categories?
+### Why Multiple Tags?
 
-Tags are flexible where categories are rigid:
+Tags are flexible where single labels are rigid:
 
-| Categories | Tags |
-|------------|------|
-| "This is a Ranged Weapon" | [Weapon] [Ranged] [Marksmanship] |
-| One label | Multiple labels |
+| Single Label | Multiple Tags |
+|--------------|---------------|
+| "Ranged Weapon" | [Mechanism] [Firearm] [Ranged] [Marksmanship] [Thermal] |
+| One box | Many hooks |
 | Hard boundaries | Soft, combinable |
-| "Does it fit this box?" | "What boxes does it touch?" |
 
-A plasma rifle might be `[Weapon] [Ranged] [Marksmanship] [Tech] [Thermal]` — giving it multiple hooks for skills, constraints, and interactions.
+A plasma rifle might have:
+- **Form:** [Mechanism]
+- **Category:** [Firearm], [Heavy]  
+- **Proficiency:** [Marksmanship]
+- **Element:** [Thermal]
+- **Range:** [Ranged: 100m]
+
+Each tag is a hook for skills, rules, and interactions.
 
 ### Tag Discovery
 
-As you play, you'll discover which tags matter in your campaign. A stealth-focused game might care a lot about `[Stealth]` and `[Sensor]` tags. A mecha combat game might focus on `[Piloting]` and `[Cor]` interactions.
+As you play, you'll discover which tags matter in your campaign. A stealth-focused game might care about `[Stealth]` and `[Sensor]` tags. A mecha combat game might focus on `[Piloting]` and `[Cor]` interactions.
 
 Tags grow with your table.
