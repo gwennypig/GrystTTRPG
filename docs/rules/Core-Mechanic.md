@@ -125,62 +125,111 @@ This negotiation IS the game. The rules provide structure; the table provides ju
 
 ---
 
-## Standardized Gambits
+## Where Do Gambits Come From?
 
-Some Gambits are so common that we provide **standardized templates**. The DM can use these as-is or modify them.
+**Everything you can "do" in Gryst is a Gambit.** Gambits don't come from a short list of core actions — they come from your **equipment, skills, and the situation**.
 
-### The Attack Gambit
-
-The most common reusable Gambit: **did your attack hit?**
+### The Hierarchy
 
 ```
 ┌────────────────────────────────────────────────────┐
-│ STANDARD ATTACK GAMBIT                             │
-│ ─────────────────────────────────────────────────  │
+│ GAMBIT SOURCES (in priority order)                 │
 │                                                    │
-│ Dice: [DM's choice based on difficulty]            │
+│ 1. MODULE-PROVIDED GAMBITS (primary)               │
+│    Your rifle's "Fire Single Round" gambit         │
+│    Your armor's "Brace for Impact" gambit          │
+│    Your ship's "Evasive Maneuver" gambit           │
 │                                                    │
-│ TRIUMPHUS: Hit with bonus effect                   │
-│   → Full damage + critical effect (DM determines)  │
-│   → Examples: Extra damage, target staggered,      │
-│               hit a weak point, disarm             │
+│ 2. SKILL-PROVIDED GAMBITS                          │
+│    Gunslinger's "Fan the Hammer" gambit            │
+│    Arcanist's "Arcane Bolt" gambit                 │
 │                                                    │
-│ SUCCESSUS: Clean hit                               │
-│   → Deal damage (calculate with Mag)               │
-│                                                    │
-│ CLADES: Miss                                       │
-│   → No damage                                      │
-│   → Minor complication possible (position lost,    │
-│     attention drawn, etc.)                         │
-│                                                    │
-│ CALAMITAS: Critical miss                           │
-│   → No damage AND something goes wrong             │
-│   → Examples: Weapon jams, friendly fire risk,     │
-│               overextended, fall prone             │
+│ 3. CORE FALLBACK GAMBITS (last resort)             │
+│    Generic "Attack" when nothing else applies      │
+│    Generic "Defend" when nothing else applies      │
 └────────────────────────────────────────────────────┘
 ```
 
-### Modifying the Attack Gambit
+**Module Gambits are primary.** A rifle doesn't use a generic "Attack" — it uses the specific Gambit granted by its firing mechanism Module (e.g., "Fire Conventional Single Round" with predefined outcomes for that weapon type).
 
-The DM adjusts the **dice and ranges** based on circumstances:
+**Core Fallback Gambits exist for edge cases** — when you're improvising with something that doesn't have a Module, when you're doing something truly generic, or when the DM needs a quick resolution.
 
-| Situation | Adjustment |
-|-----------|------------|
-| Easy shot (close, stationary) | Wider Successus range |
-| Hard shot (far, moving, cover) | Narrower Successus range |
-| Desperate attack | Wider Calamitas range |
-| Careful aim | Wider Triumphus range |
+### Example: Rifle Attack
 
-### Other Standardized Gambits
+Your rifle has a **Conventional Firearm Mechanism** Module installed. That Module grants the Gambit:
 
-*[TODO: Define additional standard gambits]*
+```
+┌────────────────────────────────────────────────────┐
+│ FIRE CONVENTIONAL SINGLE ROUND                     │
+│ (Gambit from Conventional Firearm Mechanism)       │
+│ ─────────────────────────────────────────────────  │
+│ Add-On Cost: 3                                     │
+│ Tags: Ranged, Ballistic                            │
+│                                                    │
+│ TRIUMPHUS: Precision hit                           │
+│   → Full damage + choose: vital hit (+50% damage)  │
+│     OR target staggered (loses momentum)           │
+│                                                    │
+│ SUCCESSUS: Clean hit                               │
+│   → Deal weapon damage                             │
+│                                                    │
+│ CLADES: Miss                                       │
+│   → No damage, expend ammunition                   │
+│                                                    │
+│ CALAMITAS: Malfunction                             │
+│   → No damage, weapon jams (clear as action)       │
+└────────────────────────────────────────────────────┘
+```
 
-- **Defense Gambit** — Did you avoid the attack?
-- **Skill Gambit** — Did you succeed at a task?
-- **Social Gambit** — Did you convince them?
-- **Movement Gambit** — Did you reach your destination safely?
+This is NOT a generic attack. This is a **specific Gambit** authored for conventional firearms, with outcomes that make sense for that weapon type.
 
-These templates speed up play while preserving flexibility.
+A plasma rifle would have a different Module with a different Gambit ("Fire Plasma Bolt") — different outcomes, different flavor, different risks.
+
+---
+
+## Core Fallback Gambits
+
+**Fallback Gambits are the exception, not the rule.** Use them only when:
+- You're improvising with something that has no Module
+- The situation is truly generic
+- You need a quick resolution and don't have a better Gambit
+
+### Generic Attack (Fallback)
+
+```
+┌────────────────────────────────────────────────────┐
+│ GENERIC ATTACK (Fallback Gambit)                   │
+│ ─────────────────────────────────────────────────  │
+│ Use when: No specific Gambit applies               │
+│                                                    │
+│ TRIUMPHUS: Solid hit with bonus                    │
+│   → Damage + DM determines a bonus effect          │
+│                                                    │
+│ SUCCESSUS: You hit                                 │
+│   → Deal appropriate damage                        │
+│                                                    │
+│ CLADES: You miss                                   │
+│   → No damage                                      │
+│                                                    │
+│ CALAMITAS: Something goes wrong                    │
+│   → No damage AND a complication                   │
+└────────────────────────────────────────────────────┘
+```
+
+Notice how **vague** this is compared to the rifle's specific Gambit. That's intentional — fallbacks are generic because they have to cover everything. Specific Gambits from Modules are richer and more interesting.
+
+### Other Fallback Gambits
+
+These exist for when nothing else applies:
+
+| Fallback | Use When |
+|----------|----------|
+| **Generic Attack** | Hitting something without a weapon Gambit |
+| **Generic Defense** | Blocking/dodging without a defense Gambit |
+| **Generic Skill** | Attempting something with no relevant Gambit |
+| **Generic Social** | Persuading when no social Gambit applies |
+
+**The goal is to NOT use these.** Build your character with Skills and Equipment that give you specific, interesting Gambits.
 
 ---
 
@@ -213,25 +262,30 @@ Effective Mag = Weapon Mag + Skill Modifier
 
 The d20 may be used if damage is variable or contested (e.g., rolling against armor).
 
-### Example: Full Attack Sequence
+### Example: Rifle Attack (Using Module Gambit)
 
 ```
 1. Player: "I shoot the cultist with my rifle."
-2. DM: "Standard attack. Roll d6."
+2. DM: "That's 'Fire Conventional Single Round' from your 
+        rifle's mechanism. Roll d6 for the Gambit."
 3. Player rolls: 5 (Successus)
-4. DM: "Hit! Roll damage."
-5. Player calculates: Rifle Mag 4 + Marksmanship +2 = 6 damage
-6. DM: "The cultist takes 6 damage and staggers back."
+4. DM: "Clean hit. Calculate damage with Mag."
+5. Player: Rifle base 4 + Marksmanship modifier +2 = 6 damage
+6. DM: "The cultist takes 6 damage and stumbles."
 ```
 
-### Example: Triumphus Attack
+### Example: Triumphus (Critical Hit)
 
 ```
-1. Player rolls attack: 6 on d6 (Triumphus!)
-2. DM: "Critical hit! You hit a weak point."
-3. Player calculates: 6 base damage + Triumphus bonus (double? extra effect?)
-4. DM decides: "Double damage, and the cultist drops their weapon."
+1. Player rolls: 6 on d6 (Triumphus!)
+2. DM: "Precision hit! The Gambit says you choose: 
+        vital hit (+50% damage) OR target staggered."
+3. Player: "Vital hit — I want maximum damage."
+4. Player calculates: 6 base × 1.5 = 9 damage
+5. DM: "The cultist crumples. That was decisive."
 ```
+
+Notice how the **Gambit itself** defined what Triumphus means — we didn't improvise "critical hit does X." The Module Gambit pre-authored the outcome choices.
 
 ---
 
