@@ -2,19 +2,74 @@
 
 #ttrpg #rules #mechanics #dice
 
-Gryst uses a **two-axis resolution system**. One axis measures fate — whether your intent lands at all. The other measures physics — how reality responds when it does.
+The core mechanic is built around two principles: **d20 for calculations** and **dice-agnostic resolution**.
 
 ---
 
-## The Two Dice
+## Mag vs Gambits: What Does What?
 
-### Tessera Fati — The Dice of Fate
+First, let's be clear about the division:
 
-*"Did it happen?"*
+| System | Question | Examples |
+|--------|----------|----------|
+| **Gambits** | "Did X happen?" | Did the attack hit? Did I pick the lock? Did I convince them? |
+| **Magnitūdō** | "How much?" | How much damage? How far? How effective? |
 
-The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the DM selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
+```
+┌────────────────────────────────────────────────────┐
+│ THE FLOW                                           │
+│                                                    │
+│  GAMBIT: Did the attack hit?                       │
+│  ↓                                                 │
+│  Triumphus / Successus / Clades / Calamitas        │
+│  ↓                                                 │
+│  If hit → MAGNITŪDŌ determines damage/effects      │
+│                                                    │
+│  Gambit = DID it happen                            │
+│  Mag = HOW MUCH happened                           │
+└────────────────────────────────────────────────────┘
+```
 
-These dice map to the **four outcomes**:
+**Gambits are primary.** They resolve whether something occurs. Magnitūdō kicks in afterward to determine the magnitude of effects.
+
+---
+
+## The d20: For Magnitūdō Math
+
+Players already bring d20s for tracking Momentum. We use them for Mag-related calculations too.
+
+### Why d20?
+
+- **Already at the table** — Momentum tracking requires d20s anyway
+- **Familiar** — Most players know the d20
+- **Good range** — 1-20 provides granular results
+- **Easy math** — Adding modifiers is intuitive
+
+### What Uses d20?
+
+**Effect calculations** that scale with Magnitūdō:
+
+```
+Damage = Base + (Effective Mag × multiplier)
+Range = Base + (Effective Mag × 5) meters
+Duration = Effective Mag rounds
+```
+
+When you need to **roll for magnitude** (variable damage, contested effects), use d20:
+
+- Damage roll: `d20 + Weapon Mag` vs armor/threshold
+- Contested effect: Both sides roll `d20 + Mag`, higher wins
+- Variable outcome: `d20 + Mag` determines intensity
+
+The d20 handles **numbers**, not hit/miss. That's the Gambit's job.
+
+---
+
+## Gambit Resolution: Dice-Agnostic
+
+Here's where Gryst differs: the **four-tier outcome** (Triumphus, Successus, Clades, Calamitas) is resolved separately, and the system is **dice-agnostic**.
+
+### The Four Outcomes
 
 | Outcome | Latin | Meaning |
 |---------|-------|---------|
@@ -23,108 +78,22 @@ These dice map to the **four outcomes**:
 | **Failure** | *Clades* | You don't achieve it, complications may arise |
 | **Critical Failure** | *Calamitas* | Disaster, significant consequences |
 
-The Tessera Fati are the **drama engine**. The universe deciding if your story goes the way you intended.
-
-### Icosaedrum Magnitudinis — The d20 of Magnitude
-
-*"How much?"*
-
-The **Icosaedrum Magnitudinis** (also called the *Icosaedrum Grysti*) is always a d20. When you reach into reality and twist Gryst, this die measures how hard the universe pushes back. How far does your will extend? How much force? How much power?
-
-The Icosaedrum is the **physics engine**. Reality is consistent. Gryst responds predictably to manipulation. Physics doesn't negotiate.
-
----
-
-## The Two Axes
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   TESSERA FATI              ICOSAEDRUM MAGNITUDINIS         │
-│   ─────────────             ────────────────────────        │
-│                                                             │
-│   "Did it happen?"          "How much happened?"            │
-│                                                             │
-│   Variable dice             Always d20                      │
-│   DM's choice               Consistent                      │
-│   Negotiated                Calculated                      │
-│   Narrative/Drama           Physics/Reality                 │
-│   Fate is mutable           Gryst is predictable            │
-│                                                             │
-│   ───────────────────────────────────────────────────────   │
-│                                                             │
-│   One is DRAMA.             One is PHYSICS.                 │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
-| Axis | Die | Question | Nature |
-|------|-----|----------|--------|
-| **Tessera Fati** | DM's choice | "Did it happen?" | Drama — fate is negotiable |
-| **Icosaedrum Magnitudinis** | d20 | "How much?" | Physics — Gryst is consistent |
-
----
-
-## Where the Structure Lives
-
-The two dice systems are resolution *engines* — but the structure lives in **Gambits**.
-
-A Gambit isn't just "roll to see what happens." It's a complete package:
-- The **action** (what you're doing)
-- The **four outcomes** (what happens on Triumphus, Successus, Clades, Calamitas)
-- The **Mag formulas** (how the Icosaedrum calculates effects)
-
-When a Module grants you a Gambit, you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
-
-See the [Gambits](rules/Gambits.md) page for the full breakdown.
-
----
-
-## Resolution Flow
-
-A typical action involves both axes:
-
-```
-┌────────────────────────────────────────────────────┐
-│ THE FLOW                                           │
-│                                                    │
-│  TESSERA FATI: Did the attack hit?                 │
-│  ↓                                                 │
-│  Triumphus / Successus / Clades / Calamitas        │
-│  ↓                                                 │
-│  If hit → ICOSAEDRUM MAGNITUDINIS determines       │
-│           damage, range, effect intensity          │
-│                                                    │
-│  Fate resolves WHETHER.                            │
-│  Magnitude resolves HOW MUCH.                      │
-└────────────────────────────────────────────────────┘
-```
-
-**Fate is primary.** The Tessera Fati resolve whether something occurs. The Icosaedrum kicks in afterward to determine the magnitude of effects.
-
----
-
-## Tessera Fati: The Drama Engine
-
 ### Any Dice, Any Distribution
 
-As long as all parties agree on a mapping to the four outcomes, **any dice work**:
+As long as all parties agree on a system that maps chance into these four results, **any dice work**:
 
 | Method | How It Works |
 |--------|--------------|
 | **d4** | 1 = Calamitas, 2 = Clades, 3 = Successus, 4 = Triumphus |
 | **d6** | 1 = Calamitas, 2-3 = Clades, 4-5 = Successus, 6 = Triumphus |
 | **d20** | 1 = Calamitas, 2-7 = Clades, 8-17 = Successus, 18-20 = Triumphus |
-| **Percentile** | DM defines ranges based on difficulty |
-| **2d6** | Bell curve distribution, DM defines thresholds |
-| **Coin** | Heads = Successus, Tails = Clades (no crits) |
+| **Percentile** | GM defines ranges based on difficulty |
+| **2d6** | Bell curve distribution, GM defines thresholds |
 | **Custom** | Whatever the table agrees on |
-
-The undefined nature of the Tessera Fati is intentional. Fate is mutable, negotiated, situation-dependent.
 
 ### The DM Decides
 
-The **DM determines the best dice and distribution** for any given Gambit. Factors:
+The **DM determines the best dice and distribution** for any given Gambit. Factors to consider:
 
 - **Difficulty** — Harder tasks might have narrower success ranges
 - **Risk** — High-stakes actions might have wider Calamitas ranges
@@ -152,103 +121,48 @@ When a player proposes a Gambit, the DM and player **come to a consensus** on wh
 └────────────────────────────────────────────────────┘
 ```
 
-This negotiation IS the game. The Tessera Fati provide structure; the table provides judgment.
+This negotiation IS the game. The rules provide structure; the table provides judgment.
 
 ---
 
-## Icosaedrum Magnitudinis: The Physics Engine
+## Standardized Gambits
 
-### Always d20
+Some Gambits are so common that we provide **standardized templates**. The DM can use these as-is or modify them.
 
-The Icosaedrum Magnitudinis is **always a d20**. Reality is consistent.
+### The Attack Gambit
 
-Players already bring d20s for tracking Momentum. We use them for all Mag-related calculations too.
-
-### What Uses the Icosaedrum?
-
-**Effect calculations** that scale with Magnitūdō:
-
-```
-Damage = Base + (Effective Mag × multiplier)
-Range = Base + (Effective Mag × 5) meters
-Duration = Effective Mag rounds
-```
-
-When you need to **roll for variable magnitude** (damage, contested effects):
-
-- Damage roll: `d20 + Weapon Mag` vs armor/threshold
-- Contested effect: Both sides roll `d20 + Mag`, higher wins
-- Variable outcome: `d20 + Mag` determines intensity
-
-The Icosaedrum handles **numbers**, not success/failure. That's the Tessera Fati's domain.
-
----
-
-## Module Gambits vs. Core Gambits
-
-### Most Gambits Come From Modules
-
-When you attack with a rifle, you're not using a generic "attack gambit." You're using the **specific Gambit provided by your weapon's Module**.
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│ EXAMPLE: FIRING A RIFLE                                     │
-│                                                             │
-│   LOCULUS: Standard Rifle Frame (the physical object)       │
-│   MODULE: Conventional Firearm Mechanism [Rifle]            │
-│   GAMBIT: "Fire Conventional Single Round"                  │
-│                                                             │
-│   This Gambit has pre-authored outcomes:                    │
-│                                                             │
-│   TRIUMPHUS: Clean hit + bonus (penetration, stagger, etc.) │
-│   SUCCESSUS: Hit, deal damage based on Mag                  │
-│   CLADES: Miss, round expended                              │
-│   CALAMITAS: Misfire, jam, or worse                         │
-│                                                             │
-│   The Module defines these. You're not improvising.         │
-└─────────────────────────────────────────────────────────────┘
-
-Note: A **Loculus** is an object that holds Modules — not a body slot.
-A gunblade would be ONE Loculus containing both a Blade Module and 
-a Firearm Module, granting Gambits from both.
-```
-
-Different Modules provide different Gambits with different outcomes:
-
-| Module | Gambit | Triumphus includes... |
-|--------|--------|----------------------|
-| Conventional Firearm Mechanism | Fire Single Round | Penetration, stagger |
-| Thermal Lance Array | Focused Burn | Target ignites |
-| Psi-Amp Cortex | Mind Probe | Full memory access |
-| Grav-Boot System | Assisted Leap | Graceful arc, bonus distance |
-
-The **enum** (Rifle, Pistol, SMG, etc.) can modify specific parameters within the same Gambit — range, damage multiplier, ammo consumption — while keeping the same outcome structure.
-
-### Core Gambits Are Fallbacks
-
-Core Gambits exist for situations where **no Module provides a better option**:
+The most common reusable Gambit: **did your attack hit?**
 
 ```
 ┌────────────────────────────────────────────────────┐
-│ CORE ATTACK GAMBIT (Fallback)                      │
+│ STANDARD ATTACK GAMBIT                             │
 │ ─────────────────────────────────────────────────  │
 │                                                    │
-│ Use when: No weapon Module, improvised attack,     │
-│           punching someone with your bare fists    │
+│ Dice: [DM's choice based on difficulty]            │
 │                                                    │
-│ TRIUMPHUS: Hit with bonus effect (DM determines)   │
-│ SUCCESSUS: Clean hit, deal base damage             │
-│ CLADES: Miss, possible minor complication          │
-│ CALAMITAS: Something goes wrong                    │
+│ TRIUMPHUS: Hit with bonus effect                   │
+│   → Full damage + critical effect (DM determines)  │
+│   → Examples: Extra damage, target staggered,      │
+│               hit a weak point, disarm             │
 │                                                    │
-│ This is GENERIC. Module Gambits are SPECIFIC.      │
-│ If you have a Module, use its Gambit instead.      │
+│ SUCCESSUS: Clean hit                               │
+│   → Deal damage (calculate with Mag)               │
+│                                                    │
+│ CLADES: Miss                                       │
+│   → No damage                                      │
+│   → Minor complication possible (position lost,    │
+│     attention drawn, etc.)                         │
+│                                                    │
+│ CALAMITAS: Critical miss                           │
+│   → No damage AND something goes wrong             │
+│   → Examples: Weapon jams, friendly fire risk,     │
+│               overextended, fall prone             │
 └────────────────────────────────────────────────────┘
 ```
 
-### DM Adjustments
+### Modifying the Attack Gambit
 
-Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **Tessera Fati dice and ranges** based on circumstances:
+The DM adjusts the **dice and ranges** based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -257,135 +171,83 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 | Desperate attack | Wider Calamitas range |
 | Careful aim | Wider Triumphus range |
 
-### Other Core Gambits
+### Other Standardized Gambits
 
-*[TODO: Define these as fallbacks]*
+*[TODO: Define additional standard gambits]*
 
-- **Core Defense** — Dodge/block when no defensive Module applies
-- **Core Skill** — Attempt tasks based on raw ability
-- **Core Social** — Persuade/deceive without specialized gear
-- **Core Movement** — Navigate hazards without movement Modules
+- **Defense Gambit** — Did you avoid the attack?
+- **Skill Gambit** — Did you succeed at a task?
+- **Social Gambit** — Did you convince them?
+- **Movement Gambit** — Did you reach your destination safely?
+
+These templates speed up play while preserving flexibility.
 
 ---
 
 ## Putting It Together
 
-### Example: Rifle Attack (Module Gambit)
+A typical attack involves both systems:
+
+### Step 1: Resolve the Gambit
+
+*Did the attack hit?*
+
+Roll the agreed-upon dice for the four-tier outcome:
+
+- **Triumphus** — Critical hit, bonus effects
+- **Successus** — Clean hit, proceed to damage
+- **Clades** — Miss, possible minor complication
+- **Calamitas** — Critical miss, something goes wrong
+
+### Step 2: Calculate Effects with Mag (If Hit)
+
+*How much damage?*
+
+If the Gambit resulted in Successus or Triumphus:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│ SETUP                                                       │
-│                                                             │
-│   LOCULUS: Standard Rifle Frame (the object itself)         │
-│   MODULE: Conventional Firearm Mechanism [Rifle]            │
-│                                                             │
-│   This Module grants: "Fire Conventional Single Round"      │
-│   with pre-authored outcomes for rifles                     │
-└─────────────────────────────────────────────────────────────┘
+Damage = Weapon Base + Effective Mag (+ Triumphus bonus if applicable)
 
+Effective Mag = Weapon Mag + Skill Modifier
+```
+
+The d20 may be used if damage is variable or contested (e.g., rolling against armor).
+
+### Example: Full Attack Sequence
+
+```
 1. Player: "I shoot the cultist with my rifle."
-
-2. DM checks the Gambit: "Fire Conventional Single Round [Rifle]"
-   → Outcomes are pre-defined by the Module
-   → DM selects Tessera Fati: "Roll d6."
-
-3. Player rolls Tessera Fati: 5 (Successus)
-   → The Gambit's Successus outcome: "Hit, deal damage based on Mag"
-
-4. Player calculates damage using Icosaedrum:
-   → Rifle Mag 4 + Marksmanship skill +2 = 6 damage
-
-5. DM: "The cultist takes 6 damage and staggers back."
+2. DM: "Standard attack. Roll d6."
+3. Player rolls: 5 (Successus)
+4. DM: "Hit! Roll damage."
+5. Player calculates: Rifle Mag 4 + Marksmanship +2 = 6 damage
+6. DM: "The cultist takes 6 damage and staggers back."
 ```
 
-### Example: Triumphus with Module Gambit
+### Example: Triumphus Attack
 
 ```
-1. Player rolls Tessera Fati: 6 on d6 (Triumphus!)
-
-2. DM checks the Module Gambit's Triumphus outcome:
-   → "Fire Conventional Single Round [Rifle]" says:
-     "Clean hit + penetration (ignores light cover/armor)"
-
-3. Player calculates: 6 base damage, penetrates the cultist's vest
-
-4. DM expands the interface: "The round punches through their 
-   armor — they stumble, clutching the wound. Blood on the wall."
-```
-
-### Example: Thermal Lance (Different Module, Different Gambit)
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│ Different Module = Different Gambit = Different Outcomes    │
-└─────────────────────────────────────────────────────────────┘
-
-1. Player: "I fire my thermal lance at the cultist."
-
-2. DM checks the Gambit: "Focused Burn" from Thermal Lance Array
-   → Different outcomes than a conventional firearm
-
-3. Player rolls Tessera Fati: 6 (Triumphus!)
-   → Gambit's Triumphus: "Target ignites, ongoing burn damage"
-
-4. DM: "The beam catches them center mass — they ignite. 
-   Fire spreads to their robes. They're screaming."
-```
-
-### Example: Contested Effect
-
-```
-1. Psion uses "Mind Probe" Gambit from their Psi-Amp Module.
-
-2. DM: "Roll opposing Icosaedra — your will against their mental defenses."
-   → Both roll d20 + their relevant Mag
-
-3. Psion: d20 (14) + Psi-Amp Mag (3) = 17
-   Knight: d20 (11) + Mental Resistance (2) = 13
-
-4. Psion wins by 4 — per the Gambit, the probe holds for 4 rounds.
-```
-
-### Example: No Module (Core Gambit Fallback)
-
-```
-1. Player: "I punch the cultist in the face."
-   → No unarmed combat Module equipped
-
-2. DM: "No Module applies. Using Core Attack Gambit. Roll d6."
-   → Generic outcomes, DM determines specifics
-
-3. Player rolls: 4 (Successus)
-
-4. DM: "You connect. Base unarmed damage... that's 2. 
-   He reels but he's not down."
+1. Player rolls attack: 6 on d6 (Triumphus!)
+2. DM: "Critical hit! You hit a weak point."
+3. Player calculates: 6 base damage + Triumphus bonus (double? extra effect?)
+4. DM decides: "Double damage, and the cultist drops their weapon."
 ```
 
 ---
 
 ## Design Philosophy
 
-### Why Two Axes?
+### Why Dice-Agnostic?
 
-The separation reflects a deeper truth about how stories work:
-
-**Fate** is capricious, negotiable, and dramatic. The same action might succeed gloriously or fail catastrophically depending on the moment. This is why the Tessera Fati are undefined — they flex to serve the narrative.
-
-**Physics** is consistent, calculable, and fair. When you channel Gryst, the universe responds predictably. A fireball with Mag 5 always has roughly the same destructive potential. This is why the Icosaedrum is always d20 — reliability in chaos.
-
-Together, they create tension: fate decides *if* you succeed, physics decides *what that means*.
-
-### Why Dice-Agnostic Fate?
-
-1. **DM Control** — The DM can tune probability to the fiction
+1. **GM Control** — The DM can tune probability to the fiction
 2. **Flexibility** — Different situations deserve different odds
 3. **Negotiation as Play** — Discussing the gambit IS roleplaying
 4. **No Universal Balance** — Not everything should have equal odds
 
-### Why d20 for Magnitude?
+### Why d20 for Mag?
 
-1. **Consistency** — One die type for all physics calculations
-2. **Availability** — Already at the table for Momentum tracking
+1. **Consistency** — One die type for calculations
+2. **Availability** — Already at the table for Momentum
 3. **Tradition** — Familiar to most players
 4. **Range** — 1-20 + mods provides meaningful spread
 
@@ -394,34 +256,27 @@ Together, they create tension: fate decides *if* you succeed, physics decides *w
 The system is named after a fictional galactic bureaucracy, and appropriately, it runs on **consensus**:
 
 - Players and DM agree on Gambits
-- Players and DM agree on which Tessera Fati to use
-- Players and DM agree on outcome ranges
+- Players and DM agree on dice
+- Players and DM agree on ranges
 - Rules provide framework, not dictation
 
 ---
 
 ## Quick Reference
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  TESSERA FATI                 ICOSAEDRUM MAGNITUDINIS       │
-│  (Fate Dice)                  (d20 of Magnitude)            │
-│                                                             │
-│  "Did it happen?"             "How much?"                   │
-│  Variable dice                Always d20                    │
-│  Drama                        Physics                       │
-│                                                             │
-│  → Triumphus                  → d20 + Mag calculations      │
-│  → Successus                  → Damage, range, duration     │
-│  → Clades                     → Contested rolls             │
-│  → Calamitas                  → Effect intensity            │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+| System | Question | Method |
+|--------|----------|--------|
+| **Gambit** | "Did it happen?" | Dice-agnostic four-tier outcome |
+| **Magnitūdō** | "How much?" | d20 + Mag for calculations |
 
-### Resolution Flow
+| Outcome | Result |
+|---------|--------|
+| Triumphus | Critical success, bonus effects |
+| Successus | Success, proceed to Mag calculations |
+| Clades | Failure, minor complications possible |
+| Calamitas | Critical failure, disaster |
+
+### Attack Flow
 ```
-Tessera Fati (did it happen?) → If yes → Icosaedrum (how much?)
-         FATE                              PHYSICS
+Gambit (did it hit?) → If hit → Mag (how much damage?)
 ```

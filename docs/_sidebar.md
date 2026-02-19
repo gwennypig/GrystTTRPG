@@ -13,8 +13,11 @@
   - [Tags](rules/Tags.md)
   - [Modules & Loculi](rules/Modules-and-Loculi.md)
   - [RDC (Thread of Fate)](rules/Required-Disambiguation-Canonization.md)
-  - [Character Creation](rules/Character-Creation.md)
-  - [Advancement](rules/Advancement.md)
+  - **Characters**
+    - [Character Creation](rules/Character-Creation.md)
+    - [SPARKLE Attributes](rules/SPARKLE.md)
+    - [Skills](rules/Skills.md)
+    - [Advancement](rules/Advancement.md)
 
 - **Worldbuilding**
   - [Overview](worldbuilding/Overview.md)
