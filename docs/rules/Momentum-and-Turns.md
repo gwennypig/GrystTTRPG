@@ -303,17 +303,14 @@ Each action has an **Add-On Cost** listed. Higher-impact actions cost more.
 
 ---
 
-## Hijack & The Door
+## Hijack
 
-Some actions have the **Hijack** keyword. Hijack is how parties break into each other's stacks.
-
-### The Problem
-
+Some gambits have the **Hijack** keyword. Hijack is how parties break into each other's stacks.
 During the Add-On window, you can only add onto characters you have **Cooperation** with. If the Pivotal Character is in a different party, you're locked out.
 
-### The Solution: Hijack Opens the Door
+### **Occāsiō Turbida**, Chaotic Opportunity
 
-When a character uses a **Hijack action**, they force their way into the stack — and they **open the door** for their entire party.
+When a character uses a **Hijack gambit**, they force their way into the stack. Hijack gambits are responses to other gambits. They create "moments of chaos" when careful plans break down. Putting the stack into this **Occāsiō Turbida** state allows non-pivotal parties to join the fray!
 
 ```
 ┌────────────────────────────────────────────────────┐
