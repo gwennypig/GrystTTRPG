@@ -4,74 +4,49 @@
 
 ## What is a Gambit?
 
-A **Gambit** is the atomic unit of resolution in Gryst — the fundamental building block for **everything you can do**.
+A **Gambit** is the atomic unit of resolution — any action with uncertain outcome that matters to the story.
 
-**If it has an uncertain outcome and matters to the story, it's a Gambit.**
+But a Gambit is more than just "roll to see what happens." A well-designed Gambit contains:
 
-- Firing your rifle? That's a Gambit (from your rifle's Module).
-- Casting a spell? That's a Gambit (from your Arcanist skill or a Module).
-- Picking a lock? That's a Gambit.
-- Convincing the guard? That's a Gambit.
-- Jumping a chasm? That's a Gambit.
+- **The action itself** — what you're doing
+- **All four outcomes** — pre-defined results for Triumphus, Successus, Clades, Calamitas
+- **Magnitūdō formulas** — how the Icosaedrum calculates damage, range, duration, etc.
 
-**Gambits are everywhere.** They're not a small list of "core actions" — they're the entire mechanical vocabulary of the game.
+When a Module grants you a Gambit, you're getting a complete package. The Thermal Lance Mk.II doesn't just say "deal damage on a hit" — it says:
 
----
+> **Triumphus:** Target ignites, taking ongoing burn damage  
+> **Successus:** Clean hit, deal Mag × 2 thermal damage  
+> **Clades:** Miss, beam scorches the environment  
+> **Calamitas:** Weapon overheats, disabled for one round
 
-## Where Do Gambits Come From?
+The outcomes are authored into the Gambit. The Tessera Fati just picks which one fires.
 
-Gambits come from three sources, in priority order:
+But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The DM can override them dynamically when something else would serve the story better.
 
-### 1. Module-Provided Gambits (Primary)
+"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the DM can pivot when inspiration strikes.
 
-Your **equipment** grants Gambits through its Modules. A rifle with a Conventional Firearm Mechanism Module grants the "Fire Conventional Single Round" Gambit. A plasma rifle has different Modules with different Gambits.
-
-**This is the primary source of Gambits.** Your gear defines what you can do.
-
-### 2. Skill-Provided Gambits
-
-Your **Skills** grant Gambits as you level up. A Gunslinger learns "Fan the Hammer." An Arcanist learns "Arcane Bolt."
-
-These are inherent capabilities — you have them even without specific equipment.
-
-### 3. Improvised & Fallback Gambits
-
-When you try something that doesn't have a Module or Skill Gambit, you can **improvise**. The DM and player negotiate the outcomes together.
-
-**Core Fallback Gambits** exist for truly generic situations (generic attack, generic defense), but these are last resorts, not the default.
-
-```
-┌────────────────────────────────────────────────────┐
-│ GAMBIT PRIORITY                                    │
-│                                                    │
-│ "I shoot the cultist"                              │
-│                                                    │
-│ 1. Do I have a Module Gambit? → Use "Fire Single   │
-│    Round" from my rifle's mechanism                │
-│                                                    │
-│ 2. Do I have a Skill Gambit? → Maybe "Trick Shot"  │
-│    from Gunslinger if I'm doing something fancy    │
-│                                                    │
-│ 3. Neither? → Use Generic Attack (fallback)        │
-│                                                    │
-│ The goal: almost never use #3                      │
-└────────────────────────────────────────────────────┘
-```
+This is where emergent stories happen. The Gambit tells you *what usually occurs*. The table discovers *what actually happens*.
 
 ---
 
-## Pre-Authored Outcomes
+## The Resolution Flow
 
-**Gambits from Modules and Skills come with pre-authored outcomes.** You don't improvise what "Triumphus" means for your rifle shot — the "Fire Conventional Single Round" Gambit already defines it:
-
-- **Triumphus:** Precision hit — full damage + choose: vital hit (+50%) OR target staggered
-- **Successus:** Clean hit — deal weapon damage
-- **Clades:** Miss — no damage, expend ammunition
-- **Calamitas:** Malfunction — no damage, weapon jams
-
-The outcomes are **designed as part of the Gambit**, not made up on the spot. This makes Gambits feel distinct and gives players predictable (but interesting) success/failure states.
-
-**The DM can still modify outcomes** for narrative reasons, but the pre-authored outcomes are the baseline. See [[Core-Mechanic#Gambit Resolution Dice-Agnostic|Core Mechanic]] for how outcome quality is sacred.
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   MODULE                                                    │
+│     ↓ grants                                                │
+│   GAMBIT (contains outcomes + Mag formulas)                 │
+│     ↓ resolved by                                           │
+│   TESSERA FATI (picks which outcome fires)                  │
+│     ↓ then                                                  │
+│   ICOSAEDRUM MAGNITUDINIS (calculates the numbers)          │
+│                                                             │
+│   GM negotiates PROBABILITY, not RESULTS.                   │
+│   The outcomes are pre-authored in the Gambit.              │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -86,21 +61,84 @@ Every Gambit has four possible outcomes:
 | **Failure** | *Clades* | You don't achieve it, complications may arise |
 | **Critical Failure** | *Calamitas* | Disaster, significant consequences |
 
+These aren't generic categories you improvise at the table — they're **pre-defined** for each Gambit. A rifle's Attack Gambit has different outcomes than a social manipulation Gambit or a piloting maneuver Gambit.
+
 ---
 
-## Declaring a Gambit
+## Where Gambits Come From
 
-When introducing a Gambit, define:
+### Module Gambits (Primary Source)
+
+The vast majority of Gambits come from **Modules** — your equipment, abilities, implants, spells, tech.
+
+When you equip a Module, you gain access to its Gambits. Each Module defines exactly what actions it enables and what the four outcomes are:
+
+| Module | Gambit | Triumphus | Calamitas |
+|--------|--------|-----------|-----------|
+| Thermal Lance Mk.II | Burn Attack | Target ignites | Weapon overheats |
+| Grav-Boots | Assisted Leap | Graceful arc, bonus distance | Ankle twist, prone |
+| Psi-Amp | Mind Probe | Full memory access | Psychic feedback |
+| Shield Drone | Intercept | Block + riposte opening | Drone disabled |
+
+This is where **character builds diverge**. Your Thermal Lance does THIS on a Triumphus. My Cryo-Rifle does THAT. The Gambits are part of what you're buying when you spend Complexitās on a Module.
+
+### Core Gambits (Utility Fallbacks)
+
+Some Gambits are so universal they exist outside any specific Module:
+
+- **Defense** — Dodge, block, or resist when you have no specific defensive Module
+- **Skill Check** — Attempt a task based on raw ability
+- **Social** — Persuade, deceive, or intimidate without specialized gear
+- **Movement** — Navigate difficult terrain without movement-enhancing Modules
+
+These are **fallbacks**. If you have a Module that grants a better version (Shield Drone's Intercept vs. generic Defense), use the Module Gambit.
+
+### Improvised Gambits (Anything Else)
+
+Anyone at the table — player OR GM — can propose entirely new Gambits from nothing. Negotiate the outcomes, agree on the Tessera Fati, resolve on the spot.
+
+> "I want to swing from the chandelier and kick the baron out the window."
+
+That's not in any Module. But it's a Gambit now. Define the four outcomes together, roll, and see what happens.
+
+---
+
+## Three Layers of Flexibility
+
+Even within this structure, the system flexes:
+
+### 1. Pre-Authored (The Floor)
+
+Module Gambits and Core Gambits ship with fully-defined outcomes. Pick up your rifle, you know exactly what its Attack Gambit does. This is your baseline — use it most of the time. It keeps play flowing.
+
+### 2. GM-Modified (The Flex)
+
+The GM can twist outcomes in the moment when it makes the session better.
+
+Maybe your Thermal Lance's Calamitas isn't "weapon overheats" this time — it's "the beam refracts off that crystal wall and hits your ally" because that's more interesting right now.
+
+**But respect the build.** (See GM Guidance below.)
+
+### 3. Improvised (The Ceiling)
+
+Propose new Gambits from nothing. Negotiate outcomes. Roll. This is for the moments no Module anticipated.
+
+---
+
+## Declaring an Improvised Gambit
+
+When proposing a Gambit from scratch, define:
 
 1. **Intent:** What are you trying to accomplish?
 2. **Approach:** How are you doing it?
 3. **Stakes:** What's at risk?
 
-The table (or rules) then determines:
-- The **dice pool** needed
-- The **ranges** for each outcome
+The table then negotiates:
+- The **four outcomes** (Triumphus, Successus, Clades, Calamitas)
+- Which **Tessera Fati** to use (d4? d6? d20? coin?)
+- The **probability ranges** for each outcome
 
-### Example Gambit Declaration
+### Example: Improvised Gambit
 
 > **"I want to leap across the chasm and grab the artifact before the cultist."**
 > 
@@ -108,78 +146,180 @@ The table (or rules) then determines:
 > - **Approach:** Athletic leap
 > - **Stakes:** Fall into the chasm / cultist gets it
 >
-> **Triumphus:** Grab it AND knock the cultist back  
-> **Successus:** Grab the artifact  
-> **Clades:** Miss the grab, both scrambling for it  
-> **Calamitas:** Fall into the chasm
+> **Negotiated outcomes:**
+> - **Triumphus:** Grab it AND knock the cultist back  
+> - **Successus:** Grab the artifact  
+> - **Clades:** Miss the grab, both scrambling for it  
+> - **Calamitas:** Fall into the chasm
+>
+> **DM:** "Roll d6. 1 is Calamitas, 2-3 is Clades, 4-5 is Successus, 6 is Triumphus."
 
 ---
 
-## Dice Pool & Ranges
+## GM Guidance: Modification vs. Trust
 
-*[TODO: Define how dice pools are built and what ranges map to each outcome]*
+The GM has full authority to modify Gambits and create new ones. But with great power comes great responsibility.
+
+### When Modification is Good
+
+- The pre-written outcome doesn't fit the fiction (you're in zero-G, "fall prone" doesn't make sense)
+- A more interesting consequence suggests itself (the crystal wall refraction)
+- The player suggests a creative twist and you agree it's better
+- The situation has unique stakes that override the generic outcome
+
+### When Modification Undermines Trust
+
+- A player spent Complexitās on a Module specifically because its Triumphus was powerful — and you keep rewriting it
+- You're nerfing outcomes because the player is "winning too much"
+- The modification removes player agency rather than enhancing drama
+- It feels arbitrary rather than fictionally grounded
+
+### The Golden Rule
+
+> **Modify outcomes to fit the fiction, but respect the intent of a player's build.**
+
+If someone built their character around a specific Gambit, they chose that Gambit *for a reason*. The outcomes they were promised are part of their character concept. Bending them occasionally for drama is fine. Routinely undermining them is a breach of trust.
+
+---
+
+## Core Gambits (Utility Fallbacks)
+
+These universal Gambits exist for situations where no specific Module applies. They're the safety net — if you have a Module that grants a better version, use that instead.
+
+### Attack Gambit (Generic)
 
 ```
-Example structure:
-
-Pool: [Attribute] + [Skill] + [Modifiers] = Xd?
-
-Ranges (on a pool of Xd6, counting successes?):
-  Calamitas:  0 successes
-  Clades:     1-2 successes
-  Successus:  3-4 successes
-  Triumphus:  5+ successes
+┌────────────────────────────────────────────────────┐
+│ ATTACK GAMBIT                                      │
+│ ─────────────────────────────────────────────────  │
+│                                                    │
+│ TRIUMPHUS: Hit with bonus effect                   │
+│   → Full damage + critical effect (weapon-defined) │
+│                                                    │
+│ SUCCESSUS: Clean hit                               │
+│   → Deal damage (calculate with Icosaedrum)        │
+│                                                    │
+│ CLADES: Miss                                       │
+│   → No damage, minor complication possible         │
+│                                                    │
+│ CALAMITAS: Critical miss                           │
+│   → Something goes wrong (weapon-defined)          │
+│                                                    │
+└────────────────────────────────────────────────────┘
 ```
 
----
+The DM adjusts the Tessera Fati ranges based on circumstances:
 
-## Improvised Gambits
+| Situation | Adjustment |
+|-----------|------------|
+| Easy shot | Wider Successus range |
+| Hard shot | Narrower Successus range |
+| Desperate | Wider Calamitas range |
+| Careful aim | Wider Triumphus range |
 
-When no authored Gambit covers the situation, players can **propose improvised Gambits** for:
+### Other Core Gambits
 
-- Creative solutions the game didn't anticipate
-- Dramatic one-off moments
-- Using the environment in unexpected ways
-- Social maneuvers without a Social skill
+*[TODO: Define these with full outcome structures]*
 
-The DM and player **negotiate the four outcomes together**, then determine appropriate dice.
+- **Defense Gambit** — Dodge, block, or resist (when no defensive Module applies)
+- **Skill Gambit** — Attempt a task based on raw ability
+- **Social Gambit** — Persuade, deceive, or intimidate (when no social Module applies)
+- **Movement Gambit** — Navigate difficult terrain (when no movement Module applies)
+- **Piloting Gambit** — Execute a vehicle maneuver (when no piloting Module applies)
 
-### Improvisation Is Secondary
-
-The system provides **extensive pre-authored Gambits** through Modules and Skills so you rarely need to improvise. When you do:
-
-1. Check if a Module or Skill Gambit could apply (even loosely)
-2. If nothing fits, propose an improvised Gambit
-3. DM and player agree on the four outcomes
-4. Play proceeds
-
-### GM Authority
-
-**The GM has full power over how Gambits are structured and resolved.** Use this power wisely.
-
-The rules aim to cover common actions with authored Gambits for:
-- Hero combat (personal scale)
-- Walker (mecha) combat
-- Heavenstrider (flyer) combat
-- Social encounters
-- Exploration and hazards
-
-But **anyone can propose a Gambit** if the DM agrees it's fair and interesting.
-
-### The Gryst Principle
-
-> **ANYTHING IS POSSIBLE.** Gryst is a wacky reality. Instead of "you can't do that," stack the odds against the player if you must! Life is unpredictable.
-
-- Mundane actions can suddenly require a Gambit if drama demands it
-- Gambits can appear as unexpected boons
-- Use sparingly so rolls don't become tedious
-
-The key: **if failure doesn't matter, don't roll.** Gambits are for moments with meaningful stakes.
+Remember: if you have a Module that grants a specific Gambit for the situation, **use the Module Gambit** — it's probably better and it's what you paid Complexitās for.
 
 ---
 
-## Design Notes
+## Design Philosophy
 
-- Four-tier system (not binary pass/fail) creates narrative texture
-- Player-declared Gambits encourage creative problem-solving
-- Stakes should always be meaningful — if failure doesn't matter, don't roll
+### The Gambit Does the Heavy Lifting
+
+The Gambit is the real atomic unit of the system. It's simultaneously:
+- The **action**
+- The **outcome table**
+- The **scaling formula**
+
+The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the Gambit plugs into. The structure lives in the Gambit itself.
+
+### Outcomes Are Baselines, Not Laws
+
+Pre-authored outcomes are **what usually happens** — not what *must* happen.
+
+**A good roll is always good. A bad roll is always bad.** This is sacred.
+
+What can change is the *narrative framing*, not the *quality* of the outcome:
+
+- A Triumphus might be a clean critical hit — or a "miss" that accidentally hit a stealthed, more important target behind them. Either way, **it's good for you.**
+- A Calamitas might be your weapon jamming — or the shot going wide and shattering the only window between you and vacuum. Either way, **it's bad for you.**
+
+The DM can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The DM *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
+
+The DM is encouraged to add **flair** when it creates a better moment:
+
+- "Weapon overheats" → Does the heat blister your hands? Does the glow give away your position?
+- "Target ignites" → Does the fire spread? Does someone scream?
+- "Critical hit" → Did you find a weak point, or did fate intervene in a stranger way?
+
+The authored outcomes are the baseline expectation — what happens 90% of the time. The other 10% is where memorable stories live.
+
+### Gryst Lives and Dies by GM Quality
+
+This is a feature, not a bug.
+
+The system explicitly trusts the DM to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
+
+**The DM's goal is to create a good session and a great story.**
+
+Flair is good. Surprise is good. Unexpected consequences are good. What's *not* good is constantly treading on player agency until they feel powerless. The difference:
+
+| Good Flair | Bad Habit |
+|------------|-----------|
+| Occasional narrative twist that creates a story beat | Routinely rewriting outcomes to nerf player success |
+| "Your miss actually hit something interesting" | "Your hit actually missed because I said so" |
+| Consequences that open new possibilities | Consequences that just punish creativity |
+| Players excited by the unexpected | Players frustrated they can't rely on anything |
+
+**The golden ratio:** Follow the authored outcomes most of the time, so that when you diverge, it *means* something.
+
+### ANYTHING IS POSSIBLE
+
+Gryst is a wacky reality. Instead of saying "you can't do that," stack the odds appropriately and let the dice decide. Life is unpredictable.
+
+Mundane actions that don't normally require rolls can suddenly become Gambits if the DM thinks it adds spice. Use sparingly so it doesn't become tedious.
+
+Conversely, Gambits can appear as boons — unexpected moments of dramatic opportunity that wouldn't normally exist.
+
+### Stakes Matter
+
+If failure doesn't matter, don't roll. Gambits are for moments where the outcome is uncertain AND meaningful.
+
+### Four Tiers, Not Binary
+
+The four-tier system (not binary pass/fail) creates narrative texture. A Clades isn't just "you fail" — it's "you fail AND here's how the situation shifts." A Triumphus isn't just "you succeed" — it's "you succeed AND here's your moment of glory."
+
+---
+
+## Quick Reference
+
+```
+GAMBIT = Action + Outcomes + Mag Formulas
+
+Sources:
+  MODULE GAMBITS — Primary. Equipment defines specific Gambits.
+  CORE GAMBITS   — Fallbacks. Universal actions without Modules.
+  IMPROVISED     — Anything else. Negotiate at the table.
+
+Flexibility:
+  1. Pre-authored — use the written outcomes most of the time
+  2. GM-modified  — twist when it improves the session
+  3. Improvised   — anyone can propose, negotiate together
+
+Resolution:
+  Tessera Fati → picks which outcome fires
+  Icosaedrum   → calculates the numbers within that outcome
+
+Golden Rule:
+  Modify outcomes to fit the fiction,
+  but respect the intent of a player's build.
+```

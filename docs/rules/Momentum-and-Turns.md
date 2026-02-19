@@ -144,7 +144,110 @@ When someone becomes Pivotal, combat shifts from racing to **stack building**.
 
 The DM resolves the gambit stack, narrating it as **one fluid sequence**. This isn't "you go, then you go" — it's a single cinematic moment built collaboratively.
 
-**Fizzle Rule:** If a gambit no longer applies when it resolves (target dead, situation changed, etc.), it **fizzles** and returns **half the momentum spent, rounded up**. The idea is the character lost some momentum because they were planning on doing something that no longer was possible, they're caught flatfooted, losing half of them momentum they would have fully spent but didn't fully commit to something so they still have energy left in the tank.
+**Fizzle Rule:** If a gambit no longer applies when it resolves (target dead, situation changed, etc.), it **fizzles** and returns **half the momentum spent, rounded up**. The idea is the character lost some momentum because they were planning on doing something that no longer was possible, they're caught flatfooted, losing half of the momentum they would have fully spent but didn't fully commit to something so they still have energy left in the tank.
+
+### Free Fizzle: Conditional Add-Ons
+
+When adding an action to the stack, you can declare it **conditional** on a specific factor. If that condition isn't satisfied, you **fizzle for free** — full momentum refund.
+
+```
+┌────────────────────────────────────────────────────┐
+│ FREE FIZZLE                                        │
+│                                                    │
+│  Wolf: "I Dive for Cover — conditional on          │
+│         something threatening me."                 │
+│                                                    │
+│  (Wolf is anticipating the deflected bolt          │
+│   might come their way)                            │
+│                                                    │
+│  CASE A: Deflected bolt heads toward Wolf          │
+│    → Condition satisfied → Dive for Cover resolves │
+│                                                    │
+│  CASE B: Deflected bolt goes elsewhere             │
+│    → Condition NOT satisfied                       │
+│    → Wolf free fizzles (full momentum returned)    │
+│    → Wolf didn't need to dive, so they didn't      │
+└────────────────────────────────────────────────────┘
+```
+
+**Requirements for Free Fizzle:**
+- The condition must be **clearly defined** when adding to the stack
+- The DM judges whether the condition was satisfied
+- The player doesn't get to retroactively decide "actually, that counts"
+
+**Why this exists:** It allows players to plan reactive actions without wasting resources if the situation doesn't develop as expected. Wolf can prepare to dive without committing if there's nothing to dive from.
+
+### Hijack Failure Cascade
+
+If a **Hijack action itself fails**, the "opportunity" for the hijacking party never materializes. When this happens:
+
+- The hijack couples but the hijacker's gambit results in Clades/Calamitas
+- The door never truly opened — there was no chaos to capitalize on
+- **All add-ons from the hijacking party free fizzle**
+
+```
+┌────────────────────────────────────────────────────┐
+│ HIJACK FAILURE CASCADE                             │
+│                                                    │
+│  Hawk: "Shoot Blaster"                             │
+│  Vex: "Force Reflector" (HIJACK!)                  │
+│  Kira: "Sneak Shot" (riding the chaos)             │
+│  Shade: "Smoke Bomb" (riding the chaos)            │
+│                                                    │
+│  Resolution:                                       │
+│    Hawk fires → Vex attempts deflect...            │
+│    Vex rolls CLADES — the deflect fails!           │
+│    Hawk's shot hits Vex normally.                  │
+│                                                    │
+│  RESULT:                                           │
+│    The "opportunity" never arose.                  │
+│    Kira and Shade FREE FIZZLE.                     │
+│    Their plans depended on successful chaos.       │
+│    No chaos materialized → no commitment lost.     │
+└────────────────────────────────────────────────────┘
+```
+
+### Hijack Outcomes Define the Cascade
+
+The hijack's **own Gambit outcomes** determine what happens to follow-up add-ons. This is part of the Gambit's design:
+
+| Hijack Design | On Failure... |
+|---------------|---------------|
+| **Precise Timing** (e.g., Force Reflector) | Clades/Calamitas → Free fizzle cascade. The window never opened. |
+| **Chaotic Disruption** (e.g., Flash Grenade) | No cascade. The mere attempt creates chaos regardless of outcome. |
+| **Partial Success** (e.g., Interception) | Clades → partial, follow-ups proceed. Calamitas → cascade. |
+
+```
+┌────────────────────────────────────────────────────┐
+│ EXAMPLE: Force Reflector Gambit                    │
+│                                                    │
+│ TRIUMPHUS: Deflect + redirect at target of choice  │
+│   → Door opens, full chaos                         │
+│                                                    │
+│ SUCCESSUS: Deflect into environment                │
+│   → Door opens, chaos ensues                       │
+│                                                    │
+│ CLADES: Deflect fails, hit normally                │
+│   → FREE FIZZLE CASCADE — no opportunity arose     │
+│                                                    │
+│ CALAMITAS: Reflector overloads, extra damage       │
+│   → FREE FIZZLE CASCADE — worse than nothing       │
+└────────────────────────────────────────────────────┘
+
+┌────────────────────────────────────────────────────┐
+│ EXAMPLE: Flash Grenade Gambit                      │
+│                                                    │
+│ TRIUMPHUS: Full blind, enemies staggered           │
+│ SUCCESSUS: Partial blind, disoriented              │
+│ CLADES: Grenade fizzles, but chaos of the toss     │
+│ CALAMITAS: Blinds allies too                       │
+│                                                    │
+│ → NO CASCADE on any outcome — the disruption       │
+│   itself was the point, not the result             │
+└────────────────────────────────────────────────────┘
+```
+
+The hijacker themselves **does not free fizzle** — they committed to the action regardless. They pay the normal cost. Only the follow-up add-ons are affected by the cascade rules defined in the hijack Gambit.
 
 ### After Resolution
 
@@ -448,4 +551,6 @@ The stack resolves as a single moment, not ping-pong turns. "Raven aims, Hawk fi
 | **Negative Momentum** | Momentum below 0; you're far from your next pivot |
 | **Locked Out** | Party passed over without hijacking; can't Add-On this stack |
 | **Fizzle** | Gambit can't apply → refund half momentum (round up) |
+| **Free Fizzle** | Conditional add-on's condition not met → full refund |
+| **Hijack Failure Cascade** | Hijack fails → all hijacking party add-ons free fizzle |
 | **Stack** | Queue of gambits resolved as one narrative moment |
