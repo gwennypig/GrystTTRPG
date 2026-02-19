@@ -68,7 +68,17 @@ done
 
 echo ""
 echo "✅ Sync complete!"
+
+# Generate raw document
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [ -f "$SCRIPT_DIR/generate-raw-doc.sh" ]; then
+  chmod +x "$SCRIPT_DIR/generate-raw-doc.sh"
+  "$SCRIPT_DIR/generate-raw-doc.sh" "$DOCS_TARGET"
+fi
+
 echo ""
 echo "Next steps:"
 echo "  cd /home/gwen/dev/GrystTTRPG"
 echo "  git add . && git commit -m 'Update docs' && git push"
+echo ""
+echo "Raw doc at: https://gwennypig.github.io/GrystTTRPG/raw.txt"

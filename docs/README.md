@@ -6,6 +6,8 @@
 
 Gryst is a TTRPG built around dynamic initiative and collaborative action. Instead of rolling for turn order once and cycling through, players **race** to earn their turns through a **Momentum** system — and when it's time to act, everyone can jump in through **Add-Ons** to build a stack of gambits that resolve as one cinematic moment.
 
+> 📄 [Complete docs as plain text](raw.txt) — auto-generated on each deploy.
+
 ---
 
 ## Quick Links
