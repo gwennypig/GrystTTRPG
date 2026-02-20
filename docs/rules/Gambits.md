@@ -21,9 +21,9 @@ When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](/codex/Co
 
 The outcomes are authored into the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit). The Tessera Fati just picks which one fires.
 
-But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can override them dynamically when something else would serve the story better.
+But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) can override them dynamically when something else would serve the story better.
 
-"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can pivot when inspiration strikes.
+"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) can pivot when inspiration strikes.
 
 This is where emergent stories happen. The Gambit tells you *what usually occurs*. The table discovers *what actually happens*.
 
@@ -208,7 +208,7 @@ These universal Gambits exist for situations where no specific Module applies. T
 └────────────────────────────────────────────────────┘
 ```
 
-The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) adjusts the Tessera Fati ranges based on circumstances:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) adjusts the Tessera Fati ranges based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -253,9 +253,9 @@ What can change is the *narrative framing*, not the *quality* of the outcome:
 - A Triumphus might be a clean critical hit — or a "miss" that accidentally hit a stealthed, more important target behind them. Either way, **it's good for you.**
 - A Calamitas might be your weapon jamming — or the shot going wide and shattering the only window between you and vacuum. Either way, **it's bad for you.**
 
-The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
 
-The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) is encouraged to add **flair** when it creates a better moment:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) is encouraged to add **flair** when it creates a better moment:
 
 - "Weapon overheats" → Does the heat blister your hands? Does the glow give away your position?
 - "Target ignites" → Does the fire spread? Does someone scream?
@@ -267,9 +267,9 @@ The authored outcomes are the baseline expectation — what happens 90% of the t
 
 This is a feature, not a bug.
 
-The system explicitly trusts the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
+The system explicitly trusts the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
 
-**The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs)'s goal is to create a good session and a great story.**
+**The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm)'s goal is to create a good session and a great story.**
 
 Flair is good. Surprise is good. Unexpected consequences are good. What's *not* good is constantly treading on player agency until they feel powerless. The difference:
 
@@ -286,7 +286,7 @@ Flair is good. Surprise is good. Unexpected consequences are good. What's *not* 
 
 Gryst is a wacky reality. Instead of saying "you can't do that," stack the odds appropriately and let the dice decide. Life is unpredictable.
 
-Mundane actions that don't normally require rolls can suddenly become Gambits if the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) thinks it adds spice. Use sparingly so it doesn't become tedious.
+Mundane actions that don't normally require rolls can suddenly become Gambits if the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) thinks it adds spice. Use sparingly so it doesn't become tedious.
 
 Conversely, Gambits can appear as boons — unexpected moments of dramatic opportunity that wouldn't normally exist.
 

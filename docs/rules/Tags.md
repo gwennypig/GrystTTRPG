@@ -119,7 +119,7 @@ Player can use Combat OR Finesse — whichever is higher.
 
 ## Tags on Modules
 
-Modules use tags to define what TYPE of component they are. This creates soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) interprets narratively.
+Modules use tags to define what TYPE of component they are. This creates soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs-dm) interprets narratively.
 
 ### Example: Cor Tags
 

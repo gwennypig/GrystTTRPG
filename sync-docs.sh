@@ -90,8 +90,14 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
       for dict_file in "$version_dir/dictionary"/*.json; do
         [ -f "$dict_file" ] || continue
         name=$(jq -r '.name' "$dict_file")
+        low=$(jq -r '.lowConsensus // ""' "$dict_file")
         color=$(jq -r '.color // ""' "$dict_file")
-        anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        # Anchor must match Docsify's auto-generated anchor (includes low consensus if present)
+        if [ -n "$low" ]; then
+          anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        else
+          anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        fi
         
         # Skip very short terms to avoid false matches
         [ ${#name} -lt 3 ] && continue
@@ -115,8 +121,14 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
       for tag_file in "$version_dir/tags"/*.json; do
         [ -f "$tag_file" ] || continue
         name=$(jq -r '.name' "$tag_file")
+        low=$(jq -r '.lowConsensus // ""' "$tag_file")
         color=$(jq -r '.color // ""' "$tag_file")
-        anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        # Anchor must match Docsify's auto-generated anchor (includes low consensus if present)
+        if [ -n "$low" ]; then
+          anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        else
+          anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        fi
         
         [ ${#name} -lt 3 ] && continue
         

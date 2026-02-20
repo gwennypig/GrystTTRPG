@@ -76,7 +76,14 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
       for dict_id in "${!DICT_NAMES[@]}"; do
         local name="${DICT_NAMES[$dict_id]}"
         local color="${DICT_COLORS[$dict_id]}"
-        local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g')
+        local low="${DICT_LOW[$dict_id]}"
+        # Anchor must match Docsify's auto-generated anchor from heading
+        # If low consensus exists, heading is "NAME / Low" so anchor includes both
+        if [ -n "$low" ]; then
+          local anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        else
+          local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        fi
         
         if [ -n "$color" ]; then
           local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](Dictionary.md#$anchor)"
@@ -90,7 +97,13 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
       for tag_id in "${!TAG_NAMES[@]}"; do
         local name="${TAG_NAMES[$tag_id]}"
         local color="${TAG_COLORS[$tag_id]}"
-        local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g')
+        local low="${TAG_LOW[$tag_id]}"
+        # Anchor must match Docsify's auto-generated anchor from heading
+        if [ -n "$low" ]; then
+          local anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        else
+          local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+        fi
         
         if [ -n "$color" ]; then
           local replacement="[<span style=\"color:$color;font-weight:600\">[$name]</span>](Tags.md#$anchor)"
@@ -313,7 +326,12 @@ EOF
             tname="${TAG_NAMES[$tid]}"
             tcolor="${TAG_COLORS[$tid]}"
             tlow="${TAG_LOW[$tid]}"
-            anchor=$(echo "$tname" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g')
+            # Anchor must match Docsify's auto-generated anchor from heading
+            if [ -n "$tlow" ]; then
+              anchor=$(echo "$tname / $tlow" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+            else
+              anchor=$(echo "$tname" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+            fi
             
             if [ -n "$tcolor" ]; then
               if [ -n "$tlow" ]; then
