@@ -48,6 +48,7 @@
 - **Codex** *(GrystForge Content)*
   - [Overview](codex/)
   - **Cor**
+    - [Dictionary](codex/Cor/Dictionary.md)
     - [Tags](codex/Cor/Tags.md)
     - [Gambits](codex/Cor/Gambits.md)
     - [Modules](codex/Cor/Modules.md)
