@@ -24,11 +24,7 @@ jobs:
       - name: Inject commit ID into README
         run: |
           SHORT_SHA="${GITHUB_SHA::7}"
-          echo "=== DEBUG: Injecting $SHORT_SHA ==="
-          echo "Before: $(head -1 docs/README.md)"
           sed -i "1s/# Gryst TTRPG/# Gryst TTRPG - ${SHORT_SHA}/" docs/README.md
-          echo "After: $(head -1 docs/README.md)"
-          cat docs/README.md | head -3
       
       - name: Generate raw document
         run: |
