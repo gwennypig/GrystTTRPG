@@ -23,6 +23,17 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[RDC (Thread of Fate)](rules/Required-Disambiguation-Canonization.md)** | Undefined details become canon when declared; Schrödinger's Loadout |
 | **[Core Mechanic](rules/Core-Mechanic.md)** | d20 for Mag calculations; dice-agnostic four-tier gambit resolution |
 
+### 📖 Codex (GrystForge Content)
+
+| Section | Description |
+|---------|-------------|
+| **[Dictionary](codex/Cor/Dictionary.md)** | Core terminology — MOMENTVM, COHORS, CONCORDIA, GAMBIT, and all Latin terms |
+| **[Tags](codex/Cor/Tags.md)** | Tag definitions — [INTERVENTVS], [CARDINALIS], [SIMPLEX], etc. |
+| **[Gambits](codex/Cor/Gambits.md)** | Pre-authored actions with four-outcome resolution |
+| **[Modules](codex/Cor/Modules.md)** | Equipment components that grant gambits and stats |
+
+*The Codex is auto-generated from GrystForge bundles. Add content in GrystForge, run `synccodex.sh`, and it appears here.*
+
 ### ✅ Worldbuilding (Developed)
 
 | Section | Description |
@@ -43,17 +54,6 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[Ecosystem Overview](ecosystem/Overview.md)** | Digital tools vision + business model (free core, premium extras) |
 | **[PDA](ecosystem/PDA.md)** | Companion app — character sheets, one-button momentum tracking, DM dashboard |
 | **[Mundi et Caeli Grystis](ecosystem/Mundi-et-Caeli-Grystis.md)** | 3D tabletop with Teddy-based real-time world authoring; .gcp content packs |
-
-### 📖 Codex (GrystForge Content)
-
-| Section | Description |
-|---------|-------------|
-| **[Dictionary](codex/Cor/Dictionary.md)** | Core terminology — MOMENTVM, COHORS, CONCORDIA, GAMBIT, and all Latin terms |
-| **[Tags](codex/Cor/Tags.md)** | Tag definitions — [INTERVENTVS], [CARDINALIS], [SIMPLEX], etc. |
-| **[Gambits](codex/Cor/Gambits.md)** | Pre-authored actions with four-outcome resolution |
-| **[Modules](codex/Cor/Modules.md)** | Equipment components that grant gambits and stats |
-
-*The Codex is auto-generated from GrystForge bundles. Add content in GrystForge, run `synccodex.sh`, and it appears here.*
 
 ### 🚧 Work In Progress
 
