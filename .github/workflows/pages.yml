@@ -21,6 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Inject commit ID into README
+        run: |
+          SHORT_SHA="${GITHUB_SHA::7}"
+          sed -i "s/^# Gryst TTRPG$/# Gryst TTRPG - ${SHORT_SHA}/" docs/README.md
+      
       - name: Generate raw document
         run: |
           chmod +x generate-raw-doc.sh
