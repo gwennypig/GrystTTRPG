@@ -164,8 +164,8 @@ for md_file in $(find "$DOCS_TARGET" -name "*.md" -type f ! -path "*/codex/*" ! 
       continue
     fi
     
-    # Skip table header/separator lines
-    if [[ "$line" =~ ^\|.*\|$ ]] && [[ "$line" =~ ^[\|\-\:\s]+$ ]]; then
+    # Skip table separator lines (|---|---|)
+    if [[ "$line" =~ ^[[:space:]]*\|[-:|[:space:]]+\|[[:space:]]*$ ]]; then
       echo "$line" >> "$tmp_file"
       continue
     fi
