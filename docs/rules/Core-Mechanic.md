@@ -12,7 +12,7 @@ Gryst uses a **two-axis resolution system**. One axis measures fate — whether 
 
 *"Did it happen?"*
 
-The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the DM selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
+The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the CHORAGVS selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
 
 These dice map to the **four outcomes**:
 
@@ -46,7 +46,7 @@ The Icosaedrum is the **physics engine**. Reality is consistent. Gryst responds 
 │   "Did it happen?"          "How much happened?"            │
 │                                                             │
 │   Variable dice             Always d20                      │
-│   DM's choice               Consistent                      │
+│   CHORAGVS's choice               Consistent                      │
 │   Negotiated                Calculated                      │
 │   Narrative/Drama           Physics/Reality                 │
 │   Fate is mutable           Gryst is predictable            │
@@ -60,7 +60,7 @@ The Icosaedrum is the **physics engine**. Reality is consistent. Gryst responds 
 
 | Axis | Die | Question | Nature |
 |------|-----|----------|--------|
-| **Tessera Fati** | DM's choice | "Did it happen?" | Drama — fate is negotiable |
+| **Tessera Fati** | CHORAGVS's choice | "Did it happen?" | Drama — fate is negotiable |
 | **Icosaedrum Magnitudinis** | d20 | "How much?" | Physics — Gryst is consistent |
 
 ---
@@ -74,9 +74,9 @@ A Gambit isn't just "roll to see what happens." It's a complete package:
 - The **four outcomes** (what happens on Triumphus, Successus, Clades, Calamitas)
 - The **Mag formulas** (how the Icosaedrum calculates effects)
 
-When a Module grants you a Gambit, you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
+When a Module grants you a GAMBIT, you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
 
-See the [Gambits](rules/Gambits.md) page for the full breakdown.
+See the [Gambits](rules/GAMBITs.md) page for the full breakdown.
 
 ---
 
@@ -115,16 +115,16 @@ As long as all parties agree on a mapping to the four outcomes, **any dice work*
 | **d4** | 1 = Calamitas, 2 = Clades, 3 = Successus, 4 = Triumphus |
 | **d6** | 1 = Calamitas, 2-3 = Clades, 4-5 = Successus, 6 = Triumphus |
 | **d20** | 1 = Calamitas, 2-7 = Clades, 8-17 = Successus, 18-20 = Triumphus |
-| **Percentile** | DM defines ranges based on difficulty |
-| **2d6** | Bell curve distribution, DM defines thresholds |
+| **Percentile** | CHORAGVS defines ranges based on difficulty |
+| **2d6** | Bell curve distribution, CHORAGVS defines thresholds |
 | **Coin** | Heads = Successus, Tails = Clades (no crits) |
 | **Custom** | Whatever the table agrees on |
 
 The undefined nature of the Tessera Fati is intentional. Fate is mutable, negotiated, situation-dependent.
 
-### The DM Decides
+### The CHORAGVS Decides
 
-The **DM determines the best dice and distribution** for any given Gambit. Factors:
+The **CHORAGVS determines the best dice and distribution** for any given Gambit. Factors:
 
 - **Difficulty** — Harder tasks might have narrower success ranges
 - **Risk** — High-stakes actions might have wider Calamitas ranges
@@ -133,7 +133,7 @@ The **DM determines the best dice and distribution** for any given Gambit. Facto
 
 ### Negotiated Gambits
 
-When a player proposes a Gambit, the DM and player **come to a consensus** on what's fair:
+When a player proposes a GAMBIT, the CHORAGVS and player **come to a consensus** on what's fair:
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -184,7 +184,7 @@ The Icosaedrum handles **numbers**, not success/failure. That's the Tessera Fati
 
 ---
 
-## Module Gambits vs. Core Gambits
+## Module GAMBITs vs. Core GAMBITs
 
 ### Most Gambits Come From Modules
 
@@ -224,9 +224,9 @@ Different Modules provide different Gambits with different outcomes:
 
 The **enum** (Rifle, Pistol, SMG, etc.) can modify specific parameters within the same Gambit — range, damage multiplier, ammo consumption — while keeping the same outcome structure.
 
-### Core Gambits Are Fallbacks
+### Core GAMBITs Are Fallbacks
 
-Core Gambits exist for situations where **no Module provides a better option**:
+Core GAMBITs exist for situations where **no Module provides a better option**:
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -236,19 +236,19 @@ Core Gambits exist for situations where **no Module provides a better option**:
 │ Use when: No weapon Module, improvised attack,     │
 │           punching someone with your bare fists    │
 │                                                    │
-│ TRIUMPHUS: Hit with bonus effect (DM determines)   │
+│ TRIUMPHUS: Hit with bonus effect (CHORAGVS determines)   │
 │ SUCCESSUS: Clean hit, deal base damage             │
 │ CLADES: Miss, possible minor complication          │
 │ CALAMITAS: Something goes wrong                    │
 │                                                    │
-│ This is GENERIC. Module Gambits are SPECIFIC.      │
+│ This is GENERIC. Module GAMBITs are SPECIFIC.      │
 │ If you have a Module, use its Gambit instead.      │
 └────────────────────────────────────────────────────┘
 ```
 
 ### DM Adjustments
 
-Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **Tessera Fati dice and ranges** based on circumstances:
+Regardless of whether it's a Module GAMBIT or Core GAMBIT, the CHORAGVS adjusts the **Tessera Fati dice and ranges** based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -257,7 +257,7 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 | Desperate attack | Wider Calamitas range |
 | Careful aim | Wider Triumphus range |
 
-### Other Core Gambits
+### Other Core GAMBITs
 
 *[TODO: Define these as fallbacks]*
 
@@ -270,7 +270,7 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 
 ## Putting It Together
 
-### Example: Rifle Attack (Module Gambit)
+### Example: Rifle Attack (Module GAMBIT)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -285,9 +285,9 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 
 1. Player: "I shoot the cultist with my rifle."
 
-2. DM checks the Gambit: "Fire Conventional Single Round [Rifle]"
+2. CHORAGVS checks the GAMBIT: "Fire Conventional Single Round [Rifle]"
    → Outcomes are pre-defined by the Module
-   → DM selects Tessera Fati: "Roll d6."
+   → CHORAGVS selects Tessera Fati: "Roll d6."
 
 3. Player rolls Tessera Fati: 5 (Successus)
    → The Gambit's Successus outcome: "Hit, deal damage based on Mag"
@@ -298,18 +298,18 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 5. DM: "The cultist takes 6 damage and staggers back."
 ```
 
-### Example: Triumphus with Module Gambit
+### Example: Triumphus with Module GAMBIT
 
 ```
 1. Player rolls Tessera Fati: 6 on d6 (Triumphus!)
 
-2. DM checks the Module Gambit's Triumphus outcome:
+2. CHORAGVS checks the Module GAMBIT's Triumphus outcome:
    → "Fire Conventional Single Round [Rifle]" says:
      "Clean hit + penetration (ignores light cover/armor)"
 
 3. Player calculates: 6 base damage, penetrates the cultist's vest
 
-4. DM expands the interface: "The round punches through their 
+4. CHORAGVS expands the interface: "The round punches through their 
    armor — they stumble, clutching the wound. Blood on the wall."
 ```
 
@@ -322,7 +322,7 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 
 1. Player: "I fire my thermal lance at the cultist."
 
-2. DM checks the Gambit: "Focused Burn" from Thermal Lance Array
+2. CHORAGVS checks the GAMBIT: "Focused Burn" from Thermal Lance Array
    → Different outcomes than a conventional firearm
 
 3. Player rolls Tessera Fati: 6 (Triumphus!)
@@ -343,17 +343,17 @@ Regardless of whether it's a Module Gambit or Core Gambit, the DM adjusts the **
 3. Psion: d20 (14) + Psi-Amp Mag (3) = 17
    Knight: d20 (11) + Mental Resistance (2) = 13
 
-4. Psion wins by 4 — per the Gambit, the probe holds for 4 rounds.
+4. Psion wins by 4 — per the GAMBIT, the probe holds for 4 rounds.
 ```
 
-### Example: No Module (Core Gambit Fallback)
+### Example: No Module (Core GAMBIT Fallback)
 
 ```
 1. Player: "I punch the cultist in the face."
    → No unarmed combat Module equipped
 
 2. DM: "No Module applies. Using Core Attack Gambit. Roll d6."
-   → Generic outcomes, DM determines specifics
+   → Generic outcomes, CHORAGVS determines specifics
 
 3. Player rolls: 4 (Successus)
 
@@ -377,7 +377,7 @@ Together, they create tension: fate decides *if* you succeed, physics decides *w
 
 ### Why Dice-Agnostic Fate?
 
-1. **DM Control** — The DM can tune probability to the fiction
+1. **DM Control** — The CHORAGVS can tune probability to the fiction
 2. **Flexibility** — Different situations deserve different odds
 3. **Negotiation as Play** — Discussing the gambit IS roleplaying
 4. **No Universal Balance** — Not everything should have equal odds
