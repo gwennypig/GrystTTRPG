@@ -12,7 +12,7 @@ Gryst uses a **two-axis resolution system**. One axis measures fate — whether 
 
 *"Did it happen?"*
 
-The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the CHORAGVS selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
+The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
 
 These dice map to the **four outcomes**:
 
@@ -60,7 +60,7 @@ The Icosaedrum is the **physics engine**. Reality is consistent. Gryst responds 
 
 | Axis | Die | Question | Nature |
 |------|-----|----------|--------|
-| **Tessera Fati** | CHORAGVS's choice | "Did it happen?" | Drama — fate is negotiable |
+| **Tessera Fati** | [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs)'s choice | "Did it happen?" | Drama — fate is negotiable |
 | **Icosaedrum Magnitudinis** | d20 | "How much?" | Physics — Gryst is consistent |
 
 ---
@@ -74,7 +74,7 @@ A Gambit isn't just "roll to see what happens." It's a complete package:
 - The **four outcomes** (what happens on Triumphus, Successus, Clades, Calamitas)
 - The **Mag formulas** (how the Icosaedrum calculates effects)
 
-When a Module grants you a GAMBIT, you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
+When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
 
 See the [Gambits](rules/GAMBITs.md) page for the full breakdown.
 
@@ -115,8 +115,8 @@ As long as all parties agree on a mapping to the four outcomes, **any dice work*
 | **d4** | 1 = Calamitas, 2 = Clades, 3 = Successus, 4 = Triumphus |
 | **d6** | 1 = Calamitas, 2-3 = Clades, 4-5 = Successus, 6 = Triumphus |
 | **d20** | 1 = Calamitas, 2-7 = Clades, 8-17 = Successus, 18-20 = Triumphus |
-| **Percentile** | CHORAGVS defines ranges based on difficulty |
-| **2d6** | Bell curve distribution, CHORAGVS defines thresholds |
+| **Percentile** | [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) defines ranges based on difficulty |
+| **2d6** | Bell curve distribution, [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) defines thresholds |
 | **Coin** | Heads = Successus, Tails = Clades (no crits) |
 | **Custom** | Whatever the table agrees on |
 
@@ -124,7 +124,7 @@ The undefined nature of the Tessera Fati is intentional. Fate is mutable, negoti
 
 ### The CHORAGVS Decides
 
-The **CHORAGVS determines the best dice and distribution** for any given Gambit. Factors:
+The **[<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) determines the best dice and distribution** for any given Gambit. Factors:
 
 - **Difficulty** — Harder tasks might have narrower success ranges
 - **Risk** — High-stakes actions might have wider Calamitas ranges
@@ -133,7 +133,7 @@ The **CHORAGVS determines the best dice and distribution** for any given Gambit.
 
 ### Negotiated Gambits
 
-When a player proposes a GAMBIT, the CHORAGVS and player **come to a consensus** on what's fair:
+When a player proposes a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) and player **come to a consensus** on what's fair:
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -248,7 +248,7 @@ Core GAMBITs exist for situations where **no Module provides a better option**:
 
 ### DM Adjustments
 
-Regardless of whether it's a Module GAMBIT or Core GAMBIT, the CHORAGVS adjusts the **Tessera Fati dice and ranges** based on circumstances:
+Regardless of whether it's a Module [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) or Core [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) adjusts the **Tessera Fati dice and ranges** based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -377,7 +377,7 @@ Together, they create tension: fate decides *if* you succeed, physics decides *w
 
 ### Why Dice-Agnostic Fate?
 
-1. **DM Control** — The CHORAGVS can tune probability to the fiction
+1. **DM Control** — The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can tune probability to the fiction
 2. **Flexibility** — Different situations deserve different odds
 3. **Negotiation as Play** — Discussing the gambit IS roleplaying
 4. **No Universal Balance** — Not everything should have equal odds

@@ -88,7 +88,7 @@ Effective Mag: 7
 
 ### Multiple Tags = Player Choice
 
-When a GAMBIT has multiple tags, the player chooses which skill to apply:
+When a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) has multiple tags, the player chooses which skill to apply:
 
 ```
 GAMBIT: Riposte
@@ -119,7 +119,7 @@ Player can use Combat OR Finesse — whichever is higher.
 
 ## Tags on Modules
 
-Modules use tags to define what TYPE of component they are. This creates soft constraints that the CHORAGVS interprets narratively.
+Modules use tags to define what TYPE of component they are. This creates soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) interprets narratively.
 
 ### Example: Cor Tags
 

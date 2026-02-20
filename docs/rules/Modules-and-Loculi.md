@@ -358,7 +358,7 @@ A **Loculus** (plural: **Loculi**) is anything that can hold modules. Think of i
 ### Loculus Rules
 
 1. **Capacity** — A Loculus can hold modules up to its total capacity
-2. **No Rigid Slots** — Modules exist arbitrarily within a Loculus; the CHORAGVS determines what makes narrative sense
+2. **No Rigid Slots** — Modules exist arbitrarily within a Loculus; the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) determines what makes narrative sense
 3. **Module Tags** — Modules have tags that define what they are (see below)
 4. **Overflow** — You cannot exceed capacity; choose what to install
 
@@ -366,7 +366,7 @@ A **Loculus** (plural: **Loculi**) is anything that can hold modules. Think of i
 
 ## Module Tags & Narrative Constraints
 
-Modules have **tags** that define what type of component they are. These tags create soft constraints that the CHORAGVS interprets narratively.
+Modules have **tags** that define what type of component they are. These tags create soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) interprets narratively.
 
 **See [Tags](rules/Tags.md) for the full tag system.**
 
@@ -384,7 +384,7 @@ Every Walker needs a **Cor** (heart/core) — a power source. All core modules a
 
 ### Soft Constraints via Tags
 
-The CHORAGVS understands baseline expectations:
+The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) understands baseline expectations:
 - "A Walker has 1 Cor" — this is the default
 - "A Walker has 2 Arms" — this is the default
 
