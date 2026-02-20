@@ -86,9 +86,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         fi
         
         if [ -n "$color" ]; then
-          local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](Dictionary.md#$anchor)"
+          local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Dictionary.md#$anchor)"
         else
-          local replacement="[$name](Dictionary.md#$anchor)"
+          local replacement="[$name](/codex/$bundle_name/Dictionary.md#$anchor)"
         fi
         result=$(echo "$result" | sed "s|{{dict:$dict_id}}|$replacement|g")
       done
@@ -106,9 +106,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         fi
         
         if [ -n "$color" ]; then
-          local replacement="[<span style=\"color:$color;font-weight:600\">[$name]</span>](Tags.md#$anchor)"
+          local replacement="[<span style=\"color:$color;font-weight:600\">[$name]</span>](/codex/$bundle_name/Tags.md#$anchor)"
         else
-          local replacement="[[$name]](Tags.md#$anchor)"
+          local replacement="[[$name]](/codex/$bundle_name/Tags.md#$anchor)"
         fi
         result=$(echo "$result" | sed "s|{{tag:$tag_id}}|$replacement|g")
       done
@@ -335,15 +335,15 @@ EOF
             
             if [ -n "$tcolor" ]; then
               if [ -n "$tlow" ]; then
-                echo -n "[<span style=\"color:$tcolor;font-weight:600\">[$tname]</span>](Tags.md#$anchor) / $tlow" >> "$bundle_out/Gambits.md"
+                echo -n "[<span style=\"color:$tcolor;font-weight:600\">[$tname]</span>](/codex/$bundle_name/Tags.md#$anchor) / $tlow" >> "$bundle_out/Gambits.md"
               else
-                echo -n "[<span style=\"color:$tcolor;font-weight:600\">[$tname]</span>](Tags.md#$anchor)" >> "$bundle_out/Gambits.md"
+                echo -n "[<span style=\"color:$tcolor;font-weight:600\">[$tname]</span>](/codex/$bundle_name/Tags.md#$anchor)" >> "$bundle_out/Gambits.md"
               fi
             else
               if [ -n "$tlow" ]; then
-                echo -n "[[$tname]](Tags.md#$anchor) / $tlow" >> "$bundle_out/Gambits.md"
+                echo -n "[[$tname]](/codex/$bundle_name/Tags.md#$anchor) / $tlow" >> "$bundle_out/Gambits.md"
               else
-                echo -n "[[$tname]](Tags.md#$anchor)" >> "$bundle_out/Gambits.md"
+                echo -n "[[$tname]](/codex/$bundle_name/Tags.md#$anchor)" >> "$bundle_out/Gambits.md"
               fi
             fi
           done
