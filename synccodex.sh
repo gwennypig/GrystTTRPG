@@ -88,12 +88,14 @@ EOF
     
     # Count items
     tag_count=$(find "$version_dir/tags" -name "*.json" 2>/dev/null | wc -l)
+    dict_count=$(find "$version_dir/dictionary" -name "*.json" 2>/dev/null | wc -l)
     gambit_count=$(find "$version_dir/gambits" -name "*.json" 2>/dev/null | wc -l)
     module_count=$(find "$version_dir/modules" -name "*.json" 2>/dev/null | wc -l)
     loculus_count=$(find "$version_dir/loculi" -name "*.json" 2>/dev/null | wc -l)
     character_count=$(find "$version_dir/characters" -name "*.json" 2>/dev/null | wc -l)
     
     [ "$tag_count" -gt 0 ] && echo "- [Tags](Tags.md) ($tag_count)" >> "$bundle_out/README.md"
+    [ "$dict_count" -gt 0 ] && echo "- [Dictionary](Dictionary.md) ($dict_count)" >> "$bundle_out/README.md"
     [ "$gambit_count" -gt 0 ] && echo "- [Gambits](Gambits.md) ($gambit_count)" >> "$bundle_out/README.md"
     [ "$module_count" -gt 0 ] && echo "- [Modules](Modules.md) ($module_count)" >> "$bundle_out/README.md"
     [ "$loculus_count" -gt 0 ] && echo "- [Loculi](Loculi.md) ($loculus_count)" >> "$bundle_out/README.md"
@@ -143,6 +145,55 @@ EOF
       done
       
       unset tags_by_class
+    fi
+    
+    # === DICTIONARY ===
+    if [ "$dict_count" -gt 0 ]; then
+      echo "    ✓ Dictionary"
+      cat > "$bundle_out/Dictionary.md" << 'EOF'
+# Dictionary
+
+Common terms and concepts used throughout the rules. These are referenced inline in rules text.
+
+---
+
+EOF
+      
+      # Sort dictionary entries alphabetically by name
+      # Create temp file with name|path pairs, sort by name, then iterate
+      dict_sorted=$(mktemp)
+      for dict_file in "$version_dir/dictionary"/*.json; do
+        [ -f "$dict_file" ] || continue
+        dname=$(jq -r '.name' "$dict_file")
+        echo "$dname|$dict_file"
+      done | sort > "$dict_sorted"
+      
+      while IFS='|' read -r _ dict_file; do
+        [ -f "$dict_file" ] || continue
+        
+        name=$(jq -r '.name' "$dict_file")
+        low=$(jq -r '.lowConsensus // empty' "$dict_file")
+        desc=$(jq -r '.description // "No description."' "$dict_file")
+        color=$(jq -r '.color // empty' "$dict_file")
+        
+        if [ -n "$low" ]; then
+          if [ -n "$color" ]; then
+            echo "## <span style=\"color:$color\">$name</span> / $low" >> "$bundle_out/Dictionary.md"
+          else
+            echo "## $name / $low" >> "$bundle_out/Dictionary.md"
+          fi
+        else
+          if [ -n "$color" ]; then
+            echo "## <span style=\"color:$color\">$name</span>" >> "$bundle_out/Dictionary.md"
+          else
+            echo "## $name" >> "$bundle_out/Dictionary.md"
+          fi
+        fi
+        echo "" >> "$bundle_out/Dictionary.md"
+        echo "$desc" >> "$bundle_out/Dictionary.md"
+        echo "" >> "$bundle_out/Dictionary.md"
+      done < "$dict_sorted"
+      rm -f "$dict_sorted"
     fi
     
     # === GAMBITS ===
