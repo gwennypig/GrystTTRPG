@@ -44,6 +44,14 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[PDA](ecosystem/PDA.md)** | Companion app — character sheets, one-button momentum tracking, DM dashboard |
 | **[Mundi et Caeli Grystis](ecosystem/Mundi-et-Caeli-Grystis.md)** | 3D tabletop with Teddy-based real-time world authoring; .gcp content packs |
 
+### 📖 Codex (GrystForge Content)
+
+| Pack | Description |
+|------|-------------|
+| **[Cor](codex/Cor/)** | Core content pack — foundational Tags, Gambits, and Modules |
+
+*The Codex is auto-generated from GrystForge bundles. Add content in GrystForge, run `synccodex.sh`, and it appears here.*
+
 ### 🚧 Work In Progress
 
 | Section | Status |

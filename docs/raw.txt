@@ -4,7 +4,7 @@ GRYST TTRPG - COMPLETE DOCUMENTATION
 This is an auto-generated plain text version of the Gryst TTRPG documentation.
 For the formatted version, visit: https://gwennypig.github.io/GrystTTRPG/
 
-Generated: 2026-02-19 23:53 UTC
+Generated: 2026-02-20 04:44 UTC
 ================================================================================
 
 
@@ -57,6 +57,14 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 | **[Ecosystem Overview](ecosystem/Overview.md)** | Digital tools vision + business model (free core, premium extras) |
 | **[PDA](ecosystem/PDA.md)** | Companion app — character sheets, one-button momentum tracking, DM dashboard |
 | **[Mundi et Caeli Grystis](ecosystem/Mundi-et-Caeli-Grystis.md)** | 3D tabletop with Teddy-based real-time world authoring; .gcp content packs |
+
+### 📖 Codex (GrystForge Content)
+
+| Pack | Description |
+|------|-------------|
+| **[Cor](codex/Cor/)** | Core content pack — foundational Tags, Gambits, and Modules |
+
+*The Codex is auto-generated from GrystForge bundles. Add content in GrystForge, run `synccodex.sh`, and it appears here.*
 
 ### 🚧 Work In Progress
 
@@ -5109,6 +5117,109 @@ FILE: bestiary/Creature-Template.md
 
 ---
 *Copy this template for each creature*
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/Cor/Gambits.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Gambits
+
+Gambits are actions with pre-authored outcomes. Each has four possible results: Triumphus (critical success), Successus (success), Clades (failure), and Calamitas (critical failure).
+
+---
+
+## Supporting Fire
+
+> Choose a SIMPaLEX TLEs
+
+**Add-On Cost:** —
+
+**Tags:** [CARDINALIS]/Pivotal, [ABSOLUTUM]/Absolute, [TELUM]/Missile
+
+### Outcomes
+
+**Triumphus (Critical Success):** Critical success!
+
+**Successus (Success):** You succeed.
+
+**Clades (Failure):** You fail.
+
+**Calamitas (Critical Failure):** Critical failure!
+
+---
+
+## Conventional Single Shot
+
+> Conventional rounds use BLAZING gryst to propel a metal projectile
+
+**Add-On Cost:** 5
+
+### Outcomes
+
+**Triumphus (Critical Success):** SU+
+
+**Successus (Success):** You hit your TARGET for
+
+**Clades (Failure):** You fail to hit your TARGET. The round harmlessly disappears into the distance.+
+
+**Calamitas (Critical Failure):** 
+
+---
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/Cor/Modules.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Modules
+
+Modules are components that grant stats, perks, and Gambits. They install into Loculi.
+
+---
+
+## New Module
+
+---
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/Cor/Tags.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Tags
+
+Tags define what something IS and what it CAN DO. They appear on Gambits, Modules, and Loculi.
+
+---
+
+## Modifier
+
+### [INTERVENTVS] / Intervention
+
+A gambit tagged with INTERVENTVS allows it to be chosen when you would have momentum priority during the stack even if you should have been passed over due to not having COOPERATION with the pivotal party.
+Many gambits tagged with INTERVENTVS also create an OCCĀSIŌ TURBIDA.
+
+### [SIMPLEX] / Simple
+
+ SIMPLEX denotes the tagged as a simpler concept. For example, gambits that are simple don't require as much mental stack. Gambits that are defined as SIMPLEX benefit from many boons that support SIMPLEX Gambits.
+
+### [ABSOLUTUM] / Absolute
+
+This Gambit does not require a check. It always results in SUCCESSUS.
+
+### [CARDINALIS] / Pivotal
+
+A pivotal gambit cannot be chosen as an ADDON.
+
+## Form
+
+### [TELUM] / Missile
+
+Ranged armament, whether that be a plasma rifle, old timey six shooter, A WALKER's shoulder missiles, a javelin, a bow.
+
 
 
 ────────────────────────────────────────────────────────────────────────────────

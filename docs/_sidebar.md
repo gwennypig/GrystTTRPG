@@ -45,6 +45,13 @@
   - [PDA](ecosystem/PDA.md)
   - [Mundi et Caeli Grystis](ecosystem/Mundi-et-Caeli-Grystis.md)
 
+- **Codex** *(GrystForge Content)*
+  - [Overview](codex/)
+  - **Cor**
+    - [Tags](codex/Cor/Tags.md)
+    - [Gambits](codex/Cor/Gambits.md)
+    - [Modules](codex/Cor/Modules.md)
+
 - **Legal**
   - [ORC Notice](legal/ORC-Notice.md)
   - [Community License](legal/Gryst-Community-License.md)
