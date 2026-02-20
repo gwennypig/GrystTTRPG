@@ -6,7 +6,8 @@ Gambits are actions with pre-authored outcomes. Each has four possible results: 
 
 ## Supporting Fire
 
-> Choose a SIMPaLEX TLEs
+> Choose a SIMPLEX TELUM gambit. You gain X+1 stacks of [[SUPPORTING FIRE]] where 0<X<=5.
+Spend 2X MTM. After every time a party member chooses a gambit, you may spend one stack of [[SUPPORTING FIRE]] to ADDON your chosen gambit with a 0.5 MAG modifier. This instance of the gambit creates an {{dict:OCCĀSIŌTVRBIDA}} upon SuTr.
 
 **Add-On Cost:** —
 
