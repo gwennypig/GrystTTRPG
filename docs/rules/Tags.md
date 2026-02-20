@@ -17,6 +17,7 @@ Every tag belongs to one of these classes:
 | **Proficiency** | Training/skill required | [Martial], [Arcane], [Tech] |
 | **Element** | Damage or effect type | [Fire], [Kinetic], [Psionic] |
 | **Range** | Distance classification | [Melee], [Close], [Far] |
+| **Modifier** | Behavior changes | [Hijack], [Silent], [Charged] |
 | **Source** | Origin (mechanically equivalent) | [Tech], [Magic], [Hybrid] |
 | **Condition** | Status effects | [Burning], [Stunned], [Prone] |
 | **Other** | Catch-all | [Unique], [Prototype] |
