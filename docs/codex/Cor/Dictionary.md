@@ -40,11 +40,11 @@ If something is conditional on [<span style="color:#ff0000;font-weight:600">ClCa
 ## <span style="color:#66023c">COHORS</span> / Cohort
 
 Any group of [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) amongst themselves become a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort).
-This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e within a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occāsiōtvrbida-chaotic-moment).
+This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e within a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
 ## <span style="color:#66023c">CONCORDIA</span> / Cooperation
 
-[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occāsiōtvrbida-chaotic-moment).
+[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
 ## <span style="color:#e770ff">DESIGNA</span> / Designate(d)
 
@@ -69,7 +69,7 @@ It is also spent during the [<span style="color:#43b3ae;font-weight:600">ADDENDV
 
 ## <span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span> / Chaotic Moment
 
-During an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occāsiōtvrbida-chaotic-moment) (chaotic moment), the monopoly on action of the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal) has been broken. The chaos has allowed outside [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) to jump in on the action!
+During an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) (chaotic moment), the monopoly on action of the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal) has been broken. The chaos has allowed outside [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) to jump in on the action!
 
 ## <span style="color:#e2725b">PERSONA</span> / Character
 
