@@ -6,6 +6,11 @@ Tags define what something IS and what it CAN DO. They appear on Gambits, Module
 
 ## Modifier
 
+### <span style="color:#7b7b7b">[MUNDANUS]</span> / Mundane
+
+[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s with [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/Cor/Tags?id=mundanus-mundane) do not have the [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater) (extraordinary) range. They are exclusively [<span style="color:#7b7b7b;font-weight:600">ClSv</span>](/codex/Cor/Dictionary?id=clsv-culsu) (binary).
+When a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) gains the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/Cor/Tags?id=mundanus-mundane) [<span style="color:#ff709b;font-weight:600">MOD</span>](/codex/Cor/Dictionary?id=mod-modifier), it is stripped of its [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater) even if it had one.
+
 ### <span style="color:#9d64f2">[INTERVENTVS]</span> / Intervention
 
 A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) tagged with [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) allows it to be chosen when you would have [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm) priority during the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue) even if you should have been passed over due to not having [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) with the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal).
@@ -13,7 +18,7 @@ Many [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dict
 
 ### <span style="color:#00ff11">[INFALLIBILIS]</span> / Infallible
 
-An [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/Cor/Tags?id=infallibilis-infallible) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) cannot [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/Cor/Dictionary?id=clca) (fail or critical fail). It can still [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/Cor/Dictionary?id=trivmphvs-triumph), as opposed to [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/Cor/Tags?id=absolutum-absolute), which can only [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success).
+An [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/Cor/Tags?id=infallibilis-infallible) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) cannot [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/Cor/Dictionary?id=clca-culca) (fail or critical fail). It can still [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/Cor/Dictionary?id=trivmphvs-triumph), as opposed to [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/Cor/Tags?id=absolutum-absolute), which can only [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success).
 
 ### <span style="color:#30fd89">[SIMPLEX]</span> / Simple
 
