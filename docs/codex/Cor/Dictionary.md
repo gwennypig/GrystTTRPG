@@ -46,7 +46,7 @@ This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSO
 
 [<span style="color:#e2725b;font-weight:600">PERSONA</span>](./Dictionary.md#persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](./Dictionary.md#concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](./Dictionary.md#addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](./Tags.md#interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](./Dictionary.md#occ-si-tvrbida-chaotic-moment).
 
-## <span style="color:#e770ff">DESIGNA</span> / Designated
+## <span style="color:#e770ff">DESIGNA</span> / Designate(d)
 
 [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](./Dictionary.md#designa-designated)te a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](./Dictionary.md#persona-character), [<span style="color:#64e1f2;font-weight:600">MODULUS</span>](./Dictionary.md#modulus-module), LOCULUS, et cetera. When a player is told to [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](./Dictionary.md#designa-designated)te, they are making a choice, such as what a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](./Dictionary.md#gambit), is "targeting".
 

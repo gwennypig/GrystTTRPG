@@ -80,9 +80,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         # Anchor must match Docsify's auto-generated anchor from heading
         # If low consensus exists, heading is "NAME / Low" so anchor includes both
         if [ -n "$low" ]; then
-          local anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[()]//g' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
         else
-          local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[()]//g' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
         fi
         
         if [ -n "$color" ]; then
@@ -100,9 +100,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         local low="${TAG_LOW[$tag_id]}"
         # Anchor must match Docsify's auto-generated anchor from heading
         if [ -n "$low" ]; then
-          local anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name / $low" | tr '[:upper:]' '[:lower:]' | sed 's/[()]//g' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
         else
-          local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name" | tr '[:upper:]' '[:lower:]' | sed 's/[()]//g' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
         fi
         
         if [ -n "$color" ]; then
@@ -328,9 +328,9 @@ EOF
             tlow="${TAG_LOW[$tid]}"
             # Anchor must match Docsify's auto-generated anchor from heading
             if [ -n "$tlow" ]; then
-              anchor=$(echo "$tname / $tlow" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+              anchor=$(echo "$tname / $tlow" | tr '[:upper:]' '[:lower:]' | sed 's/[()]//g' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
             else
-              anchor=$(echo "$tname" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+              anchor=$(echo "$tname" | tr '[:upper:]' '[:lower:]' | sed 's/[()]//g' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
             fi
             
             if [ -n "$tcolor" ]; then
