@@ -80,9 +80,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         # Anchor must match Docsify's auto-generated anchor from heading
         # If low consensus exists, heading is "NAME / Low" so anchor includes both
         if [ -n "$low" ]; then
-          local anchor=$(echo "$name / $low" | python3 -c "import sys,re; print(re.sub(r'[A-Z]', lambda m: m.group().lower(), sys.stdin.read()), end='')"  | sed 's/[()]//g' | sed 's/[ /]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name / $low" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
         else
-          local anchor=$(echo "$name" | python3 -c "import sys,re; print(re.sub(r'[A-Z]', lambda m: m.group().lower(), sys.stdin.read()), end='')"  | sed 's/[()]//g' | sed 's/[ /]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
         fi
         
         if [ -n "$color" ]; then
@@ -100,9 +100,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         local low="${TAG_LOW[$tag_id]}"
         # Anchor must match Docsify's auto-generated anchor from heading
         if [ -n "$low" ]; then
-          local anchor=$(echo "$name / $low" | python3 -c "import sys,re; print(re.sub(r'[A-Z]', lambda m: m.group().lower(), sys.stdin.read()), end='')"  | sed 's/[()]//g' | sed 's/[ /]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name / $low" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
         else
-          local anchor=$(echo "$name" | python3 -c "import sys,re; print(re.sub(r'[A-Z]', lambda m: m.group().lower(), sys.stdin.read()), end='')"  | sed 's/[()]//g' | sed 's/[ /]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+          local anchor=$(echo "$name" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
         fi
         
         if [ -n "$color" ]; then
@@ -337,9 +337,9 @@ EOF
             tlow="${TAG_LOW[$tid]}"
             # Anchor must match Docsify's auto-generated anchor from heading
             if [ -n "$tlow" ]; then
-              anchor=$(echo "$tname / $tlow" | python3 -c "import sys,re; print(re.sub(r'[A-Z]', lambda m: m.group().lower(), sys.stdin.read()), end='')"  | sed 's/[()]//g' | sed 's/[ /]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+              anchor=$(echo "$tname / $tlow" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
             else
-              anchor=$(echo "$tname" | python3 -c "import sys,re; print(re.sub(r'[A-Z]', lambda m: m.group().lower(), sys.stdin.read()), end='')"  | sed 's/[()]//g' | sed 's/[ /]/-/g' | sed 's/--*/-/g' | sed 's/^-//' | sed 's/-$//')
+              anchor=$(echo "$tname" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
             fi
             
             if [ -n "$tcolor" ]; then
