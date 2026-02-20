@@ -240,14 +240,22 @@ EOF
         tags_by_class["$tag_class"]+="$tag_file "
       done
       
-      # Output tags sorted by class priority
+      # Output tags sorted by class priority, then by order within class
       for class in Modifier Form Category Proficiency Element Range Source Condition Other; do
         [ -z "${tags_by_class[$class]}" ] && continue
         
         echo "## $class" >> "$bundle_out/Tags.md"
         echo "" >> "$bundle_out/Tags.md"
         
+        # Sort tags by order field within this class
+        tags_sorted=$(mktemp)
         for tag_file in ${tags_by_class[$class]}; do
+          order=$(jq -r '.order // 9999' "$tag_file")
+          echo "$order|$tag_file"
+        done | sort -t'|' -k1 -n > "$tags_sorted"
+        
+        while IFS='|' read -r _ tag_file; do
+          [ -f "$tag_file" ] || continue
           name=$(jq -r '.name' "$tag_file")
           low=$(jq -r '.lowConsensus // ""' "$tag_file")
           desc=$(jq -r '.description // "No description."' "$tag_file")
@@ -273,7 +281,8 @@ EOF
           resolved_desc=$(resolve_refs "$desc")
           echo "$resolved_desc" >> "$bundle_out/Tags.md"
           echo "" >> "$bundle_out/Tags.md"
-        done
+        done < "$tags_sorted"
+        rm -f "$tags_sorted"
       done
       
       unset tags_by_class
