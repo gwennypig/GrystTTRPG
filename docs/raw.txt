@@ -4,7 +4,7 @@ GRYST TTRPG - COMPLETE DOCUMENTATION
 This is an auto-generated plain text version of the Gryst TTRPG documentation.
 For the formatted version, visit: https://gwennypig.github.io/GrystTTRPG/
 
-Generated: 2026-02-20 08:23 UTC
+Generated: 2026-02-20 08:26 UTC
 ================================================================================
 
 
@@ -810,7 +810,7 @@ Gryst uses a **two-axis resolution system**. One axis measures fate — whether 
 
 *"Did it happen?"*
 
-The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
+The **Tessera Fati** resolve whether your action succeeds. They are **undefined by design** — the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) selects whatever dice fit the dramatic weight of the moment. A d4, d6, d10, d20, percentile, coin flip. Fate is negotiable.
 
 These dice map to the **four outcomes**:
 
@@ -858,7 +858,7 @@ The Icosaedrum is the **physics engine**. Reality is consistent. Gryst responds 
 
 | Axis | Die | Question | Nature |
 |------|-----|----------|--------|
-| **Tessera Fati** | [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs)'s choice | "Did it happen?" | Drama — fate is negotiable |
+| **Tessera Fati** | [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs)'s choice | "Did it happen?" | Drama — fate is negotiable |
 | **Icosaedrum Magnitudinis** | d20 | "How much?" | Physics — Gryst is consistent |
 
 ---
@@ -872,7 +872,7 @@ A Gambit isn't just "roll to see what happens." It's a complete package:
 - The **four outcomes** (what happens on Triumphus, Successus, Clades, Calamitas)
 - The **Mag formulas** (how the Icosaedrum calculates effects)
 
-When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
+When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit), you're getting pre-authored outcomes, not improvising them at the table. The Tessera Fati just selects which outcome fires. The Icosaedrum calculates the numbers within that outcome.
 
 See the [Gambits](rules/GAMBITs.md) page for the full breakdown.
 
@@ -913,8 +913,8 @@ As long as all parties agree on a mapping to the four outcomes, **any dice work*
 | **d4** | 1 = Calamitas, 2 = Clades, 3 = Successus, 4 = Triumphus |
 | **d6** | 1 = Calamitas, 2-3 = Clades, 4-5 = Successus, 6 = Triumphus |
 | **d20** | 1 = Calamitas, 2-7 = Clades, 8-17 = Successus, 18-20 = Triumphus |
-| **Percentile** | [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) defines ranges based on difficulty |
-| **2d6** | Bell curve distribution, [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) defines thresholds |
+| **Percentile** | [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) defines ranges based on difficulty |
+| **2d6** | Bell curve distribution, [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) defines thresholds |
 | **Coin** | Heads = Successus, Tails = Clades (no crits) |
 | **Custom** | Whatever the table agrees on |
 
@@ -922,7 +922,7 @@ The undefined nature of the Tessera Fati is intentional. Fate is mutable, negoti
 
 ### The CHORAGVS Decides
 
-The **[<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) determines the best dice and distribution** for any given Gambit. Factors:
+The **[<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) determines the best dice and distribution** for any given Gambit. Factors:
 
 - **Difficulty** — Harder tasks might have narrower success ranges
 - **Risk** — High-stakes actions might have wider Calamitas ranges
@@ -931,7 +931,7 @@ The **[<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#chor
 
 ### Negotiated Gambits
 
-When a player proposes a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) and player **come to a consensus** on what's fair:
+When a player proposes a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit), the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) and player **come to a consensus** on what's fair:
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -1046,7 +1046,7 @@ Core GAMBITs exist for situations where **no Module provides a better option**:
 
 ### DM Adjustments
 
-Regardless of whether it's a Module [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) or Core [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) adjusts the **Tessera Fati dice and ranges** based on circumstances:
+Regardless of whether it's a Module [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) or Core [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit), the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) adjusts the **Tessera Fati dice and ranges** based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -1175,7 +1175,7 @@ Together, they create tension: fate decides *if* you succeed, physics decides *w
 
 ### Why Dice-Agnostic Fate?
 
-1. **DM Control** — The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can tune probability to the fiction
+1. **DM Control** — The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can tune probability to the fiction
 2. **Flexibility** — Different situations deserve different odds
 3. **Negotiation as Play** — Discussing the gambit IS roleplaying
 4. **No Universal Balance** — Not everything should have equal odds
@@ -1237,24 +1237,24 @@ FILE: rules/Gambits.md
 
 A **Gambit** is the atomic unit of resolution — any action with uncertain outcome that matters to the story.
 
-But a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) is more than just "roll to see what happens." A well-designed Gambit contains:
+But a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) is more than just "roll to see what happens." A well-designed Gambit contains:
 
 - **The action itself** — what you're doing
 - **All four outcomes** — pre-defined results for Triumphus, Successus, Clades, Calamitas
 - **Magnitūdō formulas** — how the Icosaedrum calculates damage, range, duration, etc.
 
-When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), you're getting a complete package. The Thermal Lance Mk.II doesn't just say "deal damage on a hit" — it says:
+When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit), you're getting a complete package. The Thermal Lance Mk.II doesn't just say "deal damage on a hit" — it says:
 
 > **Triumphus:** Target ignites, taking ongoing burn damage  
 > **Successus:** Clean hit, deal Mag × 2 thermal damage  
 > **Clades:** Miss, beam scorches the environment  
 > **Calamitas:** Weapon overheats, disabled for one round
 
-The outcomes are authored into the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit). The Tessera Fati just picks which one fires.
+The outcomes are authored into the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit). The Tessera Fati just picks which one fires.
 
-But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can override them dynamically when something else would serve the story better.
+But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can override them dynamically when something else would serve the story better.
 
-"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can pivot when inspiration strikes.
+"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can pivot when inspiration strikes.
 
 This is where emergent stories happen. The Gambit tells you *what usually occurs*. The table discovers *what actually happens*.
 
@@ -1292,7 +1292,7 @@ Every Gambit has four possible outcomes:
 | **Failure** | *Clades* | You don't achieve it, complications may arise |
 | **Critical Failure** | *Calamitas* | Disaster, significant consequences |
 
-These aren't generic categories you improvise at the table — they're **pre-defined** for each [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit). A rifle's Attack Gambit has different outcomes than a social manipulation Gambit or a piloting maneuver Gambit.
+These aren't generic categories you improvise at the table — they're **pre-defined** for each [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit). A rifle's Attack Gambit has different outcomes than a social manipulation Gambit or a piloting maneuver Gambit.
 
 ---
 
@@ -1322,7 +1322,7 @@ Some Gambits are so universal they exist outside any specific Module:
 - **Social** — Persuade, deceive, or intimidate without specialized gear
 - **Movement** — Navigate difficult terrain without movement-enhancing Modules
 
-These are **fallbacks**. If you have a Module that grants a better version (Shield Drone's Intercept vs. generic Defense), use the Module [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit).
+These are **fallbacks**. If you have a Module that grants a better version (Shield Drone's Intercept vs. generic Defense), use the Module [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit).
 
 ### Improvised Gambits (Anything Else)
 
@@ -1330,7 +1330,7 @@ Anyone at the table — player OR GM — can propose entirely new Gambits from n
 
 > "I want to swing from the chandelier and kick the baron out the window."
 
-That's not in any Module. But it's a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) now. Define the four outcomes together, roll, and see what happens.
+That's not in any Module. But it's a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) now. Define the four outcomes together, roll, and see what happens.
 
 ---
 
@@ -1358,7 +1358,7 @@ Propose new Gambits from nothing. Negotiate outcomes. Roll. This is for the mome
 
 ## Declaring an Improvised Gambit
 
-When proposing a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) from scratch, define:
+When proposing a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) from scratch, define:
 
 1. **Intent:** What are you trying to accomplish?
 2. **Approach:** How are you doing it?
@@ -1439,7 +1439,7 @@ These universal Gambits exist for situations where no specific Module applies. T
 └────────────────────────────────────────────────────┘
 ```
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) adjusts the Tessera Fati ranges based on circumstances:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) adjusts the Tessera Fati ranges based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -1458,7 +1458,7 @@ The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#chorag
 - **Movement Gambit** — Navigate difficult terrain (when no movement Module applies)
 - **Piloting Gambit** — Execute a vehicle maneuver (when no piloting Module applies)
 
-Remember: if you have a Module that grants a specific Gambit for the situation, **use the Module [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit)** — it's probably better and it's what you paid Complexitās for.
+Remember: if you have a Module that grants a specific Gambit for the situation, **use the Module [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit)** — it's probably better and it's what you paid Complexitās for.
 
 ---
 
@@ -1471,7 +1471,7 @@ The Gambit is the real atomic unit of the system. It's simultaneously:
 - The **outcome table**
 - The **scaling formula**
 
-The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) plugs into. The structure lives in the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) itself.
+The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) plugs into. The structure lives in the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) itself.
 
 ### Outcomes Are Baselines, Not Laws
 
@@ -1484,9 +1484,9 @@ What can change is the *narrative framing*, not the *quality* of the outcome:
 - A Triumphus might be a clean critical hit — or a "miss" that accidentally hit a stealthed, more important target behind them. Either way, **it's good for you.**
 - A Calamitas might be your weapon jamming — or the shot going wide and shattering the only window between you and vacuum. Either way, **it's bad for you.**
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) is encouraged to add **flair** when it creates a better moment:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) is encouraged to add **flair** when it creates a better moment:
 
 - "Weapon overheats" → Does the heat blister your hands? Does the glow give away your position?
 - "Target ignites" → Does the fire spread? Does someone scream?
@@ -1498,9 +1498,9 @@ The authored outcomes are the baseline expectation — what happens 90% of the t
 
 This is a feature, not a bug.
 
-The system explicitly trusts the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
+The system explicitly trusts the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
 
-**The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs)'s goal is to create a good session and a great story.**
+**The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs)'s goal is to create a good session and a great story.**
 
 Flair is good. Surprise is good. Unexpected consequences are good. What's *not* good is constantly treading on player agency until they feel powerless. The difference:
 
@@ -1517,7 +1517,7 @@ Flair is good. Surprise is good. Unexpected consequences are good. What's *not* 
 
 Gryst is a wacky reality. Instead of saying "you can't do that," stack the odds appropriately and let the dice decide. Life is unpredictable.
 
-Mundane actions that don't normally require rolls can suddenly become Gambits if the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) thinks it adds spice. Use sparingly so it doesn't become tedious.
+Mundane actions that don't normally require rolls can suddenly become Gambits if the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) thinks it adds spice. Use sparingly so it doesn't become tedious.
 
 Conversely, Gambits can appear as boons — unexpected moments of dramatic opportunity that wouldn't normally exist.
 
@@ -1920,7 +1920,7 @@ A **Loculus** (plural: **Loculi**) is anything that can hold modules. Think of i
 ### Loculus Rules
 
 1. **Capacity** — A Loculus can hold modules up to its total capacity
-2. **No Rigid Slots** — Modules exist arbitrarily within a Loculus; the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) determines what makes narrative sense
+2. **No Rigid Slots** — Modules exist arbitrarily within a Loculus; the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) determines what makes narrative sense
 3. **Module Tags** — Modules have tags that define what they are (see below)
 4. **Overflow** — You cannot exceed capacity; choose what to install
 
@@ -1928,7 +1928,7 @@ A **Loculus** (plural: **Loculi**) is anything that can hold modules. Think of i
 
 ## Module Tags & Narrative Constraints
 
-Modules have **tags** that define what type of component they are. These tags create soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) interprets narratively.
+Modules have **tags** that define what type of component they are. These tags create soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) interprets narratively.
 
 **See [Tags](rules/Tags.md) for the full tag system.**
 
@@ -1946,7 +1946,7 @@ Every Walker needs a **Cor** (heart/core) — a power source. All core modules a
 
 ### Soft Constraints via Tags
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) understands baseline expectations:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) understands baseline expectations:
 - "A Walker has 1 Cor" — this is the default
 - "A Walker has 2 Arms" — this is the default
 
@@ -2089,26 +2089,26 @@ FILE: rules/Momentum-and-Turns.md
 
 ## Overview
 
-Turns are not static initiative order — they're earned through **[<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) (MTM)**, a racing resource that determines when PERSONAe act. Combat flows through two phases: **[<span style="color:#ff3333">PHASEACCRETIALIS</span>](codex/Cor/Dictionary.md#phaseaccretialis) (Accrual Phase)** where everyone races to 20, and **Resolution** where the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) (Queue) builds and resolves.
+Turns are not static initiative order — they're earned through **[<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) (MTM)**, a racing resource that determines when PERSONAe act. Combat flows through two phases: **[<span style="color:#ff3333">PHASEACCRETIALIS</span>](/codex/Cor/Dictionary.md#phaseaccretialis) (Accrual Phase)** where everyone races to 20, and **Resolution** where the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) (Queue) builds and resolves.
 
 ---
 
 ## MOMENTVM Basics
 
 ### MOMENTVM Gain
-Each [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) (Character) has a **[<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) Gain** stat:
+Each [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) (Character) has a **[<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) Gain** stat:
 
 ```
 MOMENTVM Gain = Agility + [Modifiers]
 ```
 
-This represents how quickly a [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) builds toward their next action.
+This represents how quickly a [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) builds toward their next action.
 
 ### Tracking MOMENTVM
 - Use a **d20 as a tracker** (not rolled — just a counter)
 - Start at 0 (or determined by setup)
 - Track carries over between phases
-- [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) can go **negative** (see [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) Tax)
+- [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) can go **negative** (see [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) Tax)
 
 ---
 
@@ -2118,35 +2118,35 @@ Combat is organized into **COHORTes (Cohorts)** — groups of PERSONAe working t
 
 ### What is a COHORS?
 
-A [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors) is any group with **[<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia) (Cooperation)** — the ability to freely coordinate during the [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) window.
+A [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors) is any group with **[<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia) (Cooperation)** — the ability to freely coordinate during the [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) window.
 
 **Typical setup:**
-- 1 Player [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors) vs 1 [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) (DM) Enemy [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)
-- 2 Player COHORTes vs 1 [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) Enemy [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors) (players split on goals)
-- 1 Player [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors) vs 2 [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) Enemy COHORTes (multiple factions)
+- 1 Player [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors) vs 1 [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) (DM) Enemy [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)
+- 2 Player COHORTes vs 1 [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) Enemy [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors) (players split on goals)
+- 1 Player [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors) vs 2 [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) Enemy COHORTes (multiple factions)
 
 ### Forming & Splitting COHORTes
 
 COHORTes can form or split **dynamically** during play:
 
 - **Split:** Players disagree on a goal mid-combat → they can split into separate COHORTes
-- **Merge:** Former enemies align against a common threat → new [<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia)
-- **Betrayal:** A [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) switches sides → joins a different [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)'s [<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia)
+- **Merge:** Former enemies align against a common threat → new [<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia)
+- **Betrayal:** A [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) switches sides → joins a different [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)'s [<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia)
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) adjudicates when [<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia) makes narrative sense.
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) adjudicates when [<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia) makes narrative sense.
 
 ### What CONCORDIA Gives You
 
-Within your [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors) (PERSONAe you have [<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia) with):
+Within your [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors) (PERSONAe you have [<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia) with):
 
-1. **Free ADDENDa** — No special requirements to add onto a cohortmate's [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla)
-2. **Flexible Ordering** — Cohortmates can negotiate who slots where, regardless of raw [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) order
-3. **Shared Strategy** — You're building the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) together
+1. **Free ADDENDa** — No special requirements to add onto a cohortmate's [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla)
+2. **Flexible Ordering** — Cohortmates can negotiate who slots where, regardless of raw [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) order
+3. **Shared Strategy** — You're building the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) together
 
-Without [<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia) (different [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)):
+Without [<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia) (different [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)):
 
-1. **Locked Out** — You cannot [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) to their [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla)...
-2. **Unless You Create an [<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](codex/Cor/Dictionary.md#occ-si-tvrbida)** — [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) GAMBITs open the door (see below)
+1. **Locked Out** — You cannot [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) to their [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla)...
+2. **Unless You Create an [<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary.md#occ-si-tvrbida)** — [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) GAMBITs open the door (see below)
 
 ---
 
@@ -2154,7 +2154,7 @@ Without [<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#c
 
 ### PHASEACCRETIALIS (Accrual Phase)
 
-All PERSONAe add their [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) Gain **simultaneously**. Keep adding until someone reaches 20+.
+All PERSONAe add their [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) Gain **simultaneously**. Keep adding until someone reaches 20+.
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -2170,9 +2170,9 @@ All PERSONAe add their [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/D
 
 ### PERSONA CARDINALIS (Pivotal Character)
 
-The first [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) to reach 20+ becomes the **[<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) (Pivotal Character)** — they've won initiative and will lead this resolution phase.
+The first [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) to reach 20+ becomes the **[<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) (Pivotal Character)** — they've won initiative and will lead this resolution phase.
 
-**Important:** PERSONAe who didn't reach 20 **keep their full [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm)**. They didn't spend anything to lose the race — their [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) is still theirs to spend on ADDENDa.
+**Important:** PERSONAe who didn't reach 20 **keep their full [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm)**. They didn't spend anything to lose the race — their [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) is still theirs to spend on ADDENDa.
 
 ### Multiple PERSONAe at 20+
 
@@ -2181,32 +2181,32 @@ If multiple PERSONAe cross 20 on the same "tick":
 1. **First tiebreaker:** Higher remainder after subtracting 20
 2. **Second tiebreaker:** Roll a d6, higher wins
 
-The winner becomes [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis); the others queue behind them.
+The winner becomes [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis); the others queue behind them.
 
 ### Example
 
-| [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) | [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) Gain | Before | After ACCRVEing | Remainder | Result |
+| [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) | [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) Gain | Before | After ACCRVEing | Remainder | Result |
 |---------|---------------|--------|-----------------|-----------|--------|
 | Raven | 6 | 15 | 21 | **1** | Queued 2nd |
-| Wolf | 4 | 12 | 16 | — | Keeps 16, can [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) |
-| Hawk | 5 | 17 | 22 | **2** | **[<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis)** |
+| Wolf | 4 | 12 | 16 | — | Keeps 16, can [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) |
+| Hawk | 5 | 17 | 22 | **2** | **[<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis)** |
 
-Hawk becomes [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) (remainder 2). Raven queues behind (remainder 1). Wolf didn't hit 20, keeps their 16 [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm).
+Hawk becomes [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) (remainder 2). Raven queues behind (remainder 1). Wolf didn't hit 20, keeps their 16 [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm).
 
 ---
 
 ## Resolution Phase: The TABVLA
 
-When someone becomes [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis), combat shifts from racing to **[<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) building**.
+When someone becomes [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis), combat shifts from racing to **[<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) building**.
 
 ### Building the TABVLA (Queue)
 
-1. **[<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) declares their [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit)** (e.g., "I shoot my blaster")
-2. **[<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) window opens**, ordered by highest [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) → lowest
-3. Each [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) may spend [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) to [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm)
-4. ADDENDa slot **BEFORE** or **AFTER** the [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis)'s [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) in the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla)
-   - Unless the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) specifies its ordering when added on
-5. The [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) is now a **queue of GAMBITs** waiting to resolve
+1. **[<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) declares their [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit)** (e.g., "I shoot my blaster")
+2. **[<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) window opens**, ordered by highest [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) → lowest
+3. Each [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) may spend [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) to [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm)
+4. ADDENDa slot **BEFORE** or **AFTER** the [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis)'s [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) in the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla)
+   - Unless the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) specifies its ordering when added on
+5. The [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) is now a **queue of GAMBITs** waiting to resolve
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -2227,26 +2227,26 @@ When someone becomes [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/D
 
 ### TABVLA Resolution
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) resolves the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla), narrating it as **one fluid sequence**. This isn't "you go, then you go" — it's a single cinematic moment built collaboratively.
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) resolves the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla), narrating it as **one fluid sequence**. This isn't "you go, then you go" — it's a single cinematic moment built collaboratively.
 
-**Fizzle Rule:** If a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) no longer applies when it resolves (target dead, situation changed, etc.), it **fizzles** and returns **half the [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) spent, rounded up**. The [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) lost some [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) because they were planning on doing something that no longer was possible — they're caught flatfooted.
+**Fizzle Rule:** If a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) no longer applies when it resolves (target dead, situation changed, etc.), it **fizzles** and returns **half the [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) spent, rounded up**. The [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) lost some [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) because they were planning on doing something that no longer was possible — they're caught flatfooted.
 
 ### Free Fizzle: Conditional ADDENDa
 
-When adding a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) to the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla), you can declare it **conditional** on a specific factor. If that condition isn't satisfied, you **fizzle for free** — full [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) refund.
+When adding a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) to the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla), you can declare it **conditional** on a specific factor. If that condition isn't satisfied, you **fizzle for free** — full [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) refund.
 
 **Requirements for Free Fizzle:**
-- The condition must be **clearly defined** when adding to the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla)
-- The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) judges whether the condition was satisfied
+- The condition must be **clearly defined** when adding to the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla)
+- The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) judges whether the condition was satisfied
 - The player doesn't get to retroactively decide "actually, that counts"
 
 **Why this exists:** It allows players to plan reactive GAMBITs without wasting resources if the situation doesn't develop as expected.
 
 ### After Resolution
 
-1. Subtract 20 from the [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis)'s tracker
-2. If another [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) is at 20+ → they become [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis), repeat Resolution
-3. If no one is at 20+ → return to [<span style="color:#ff3333">PHASEACCRETIALIS</span>](codex/Cor/Dictionary.md#phaseaccretialis)
+1. Subtract 20 from the [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis)'s tracker
+2. If another [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) is at 20+ → they become [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis), repeat Resolution
+3. If no one is at 20+ → return to [<span style="color:#ff3333">PHASEACCRETIALIS</span>](/codex/Cor/Dictionary.md#phaseaccretialis)
 
 ---
 
@@ -2254,41 +2254,41 @@ When adding a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.m
 
 ### How ADDENDVM Works
 
-During the [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) window, PERSONAe may spend [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) to join the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla).
+During the [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) window, PERSONAe may spend [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) to join the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla).
 
-1. **Order:** Highest current [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) → lowest gets first choice
-2. **Placement:** Choose to go BEFORE or AFTER in the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) (unless [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) specifies)
-3. **Cost:** Subtract [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost from your [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) tracker
-4. Your [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) enters the queue
+1. **Order:** Highest current [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) → lowest gets first choice
+2. **Placement:** Choose to go BEFORE or AFTER in the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) (unless [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) specifies)
+3. **Cost:** Subtract [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost from your [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) tracker
+4. Your [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) enters the queue
 
 ### ADDENDVM Costs
 
-Each [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) has an **[<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost** listed. Higher-impact GAMBITs cost more.
+Each [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) has an **[<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost** listed. Higher-impact GAMBITs cost more.
 
-| [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) Type | Typical [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost |
+| [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) Type | Typical [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost |
 |-------------|----------------------|
-| Minor [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) | 3-5 [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) |
-| Standard [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) | 6-10 [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) |
-| Major [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) | 11-15 [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) |
+| Minor [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) | 3-5 [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) |
+| Standard [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) | 6-10 [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) |
+| Major [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) | 11-15 [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) |
 
 ### ADDENDVM Strategy
 
-- Spending [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) **delays your next turn** (you're further from 20)
+- Spending [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) **delays your next turn** (you're further from 20)
 - Coordinating ADDENDa creates powerful combo moments
 - The fizzle refund protects you if the situation shifts
-- Consider: spend now for teamwork, or save to become [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) yourself?
+- Consider: spend now for teamwork, or save to become [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) yourself?
 
 ---
 
 ## [INTERVENTVS] & OCCĀSIŌTVRBIDA
 
-Some GAMBITs have the **[<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) (Intervention)** tag. [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) is how COHORTes break into each other's TABVLAe.
+Some GAMBITs have the **[<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) (Intervention)** tag. [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) is how COHORTes break into each other's TABVLAe.
 
-During the [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) window, you can only add onto PERSONAe you have **[<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia)** with. If the [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) is in a different [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors), you're locked out.
+During the [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) window, you can only add onto PERSONAe you have **[<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia)** with. If the [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) is in a different [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors), you're locked out.
 
 ### OCCĀSIŌTVRBIDA (Chaotic Moment)
 
-When a [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) uses an **[<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit)**, they force their way into the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla). [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) GAMBITs are responses to other GAMBITs. They create "moments of chaos" when careful plans break down. Putting the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) into this **[<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](codex/Cor/Dictionary.md#occ-si-tvrbida)** state allows non-[<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) COHORTes to join the fray!
+When a [<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) uses an **[<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit)**, they force their way into the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla). [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) GAMBITs are responses to other GAMBITs. They create "moments of chaos" when careful plans break down. Putting the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) into this **[<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary.md#occ-si-tvrbida)** state allows non-[<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) COHORTes to join the fray!
 
 ```
 ┌────────────────────────────────────────────────────┐
@@ -2307,71 +2307,71 @@ When a [<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#pers
 
 ### [INTERVENTVS] Rules
 
-1. **Requires [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) tag** — Only certain GAMBITs can open the door
-2. **Pay normal [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost** — The intervener pays their [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit)'s cost
-3. **Coupling** — Your [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) **couples** with the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) it's intervening (see below)
-4. **Door opens for your [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)** — After your [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs), cohortmates can [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm)
-5. **Post-Couple Ordering** — Intervening [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)'s follow-up GAMBITs must come AFTER the couple
+1. **Requires [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) tag** — Only certain GAMBITs can open the door
+2. **Pay normal [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost** — The intervener pays their [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit)'s cost
+3. **Coupling** — Your [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) **couples** with the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) it's intervening (see below)
+4. **Door opens for your [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)** — After your [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs), cohortmates can [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm)
+5. **Post-Couple Ordering** — Intervening [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)'s follow-up GAMBITs must come AFTER the couple
 
 ### Coupling: The Heart of [INTERVENTVS]
 
-When you use [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs), your [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) doesn't just slot into the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) — it **couples** with the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) you're intervening. The two resolve as a single dramatic unit.
+When you use [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs), your [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) doesn't just slot into the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) — it **couples** with the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) you're intervening. The two resolve as a single dramatic unit.
 
 **Why coupling matters:**
-- The [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) IS the reaction — it doesn't make sense before the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) it's reacting to
-- The chaos of the couple is what opens the door for your [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)
+- The [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) IS the reaction — it doesn't make sense before the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) it's reacting to
+- The chaos of the couple is what opens the door for your [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)
 - It creates a clear narrative beat: action → reaction → fallout
 
 ### The [INTERVENTVS] Tax
 
-Once the door is open, your cohortmates can [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) even **without** [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) GAMBITs — but they pay an **[<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) Tax** on top of their normal [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost.
+Once the door is open, your cohortmates can [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) even **without** [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) GAMBITs — but they pay an **[<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) Tax** on top of their normal [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost.
 
 | Cost | Description |
 |------|-------------|
-| **Intervener** | Normal [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost (they opened the door) |
-| **Cohortmates** | Normal [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm) Cost **+ [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) Tax (5)** |
+| **Intervener** | Normal [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost (they opened the door) |
+| **Cohortmates** | Normal [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm) Cost **+ [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) Tax (5)** |
 
-The [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) Tax is paid **after** the normal cost. This means [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) can go **negative**.
+The [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) Tax is paid **after** the normal cost. This means [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) can go **negative**.
 
 ### Negative MOMENTVM
 
-If the [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) Tax drops you below 0, track it as negative:
+If the [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) Tax drops you below 0, track it as negative:
 - `3 → 2 → 1 → 0 → -1 → -2 → -3...`
-- Negative [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) means you're **far** from your next pivot — you'll be racing back up
+- Negative [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) means you're **far** from your next pivot — you'll be racing back up
 
 ### [INTERVENTVS] Failure Cascade
 
-If an **[<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) itself fails** ([<span style="color:#8c0303">CLADES</span>](codex/Cor/Dictionary.md#clades)/[<span style="color:#ff0000">CALAMITAS</span>](codex/Cor/Dictionary.md#calamitas)), the [<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](codex/Cor/Dictionary.md#occ-si-tvrbida) never materializes:
+If an **[<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) itself fails** ([<span style="color:#8c0303">CLADES</span>](/codex/Cor/Dictionary.md#clades)/[<span style="color:#ff0000">CALAMITAS</span>](/codex/Cor/Dictionary.md#calamitas)), the [<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary.md#occ-si-tvrbida) never materializes:
 - The door never truly opened — there was no chaos to capitalize on
-- **All ADDENDa from the intervening [<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors) free fizzle**
+- **All ADDENDa from the intervening [<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors) free fizzle**
 
-The intervener themselves **does not free fizzle** — they committed to the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) regardless. Only the follow-up ADDENDa are affected.
+The intervener themselves **does not free fizzle** — they committed to the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) regardless. Only the follow-up ADDENDa are affected.
 
 ### Example [INTERVENTVS] GAMBITs
 
-- **Parry** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs)): React to an incoming attack, reduce damage
-- **Counterspell** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs)): Interrupt enemy spellcasting
-- **Intercept** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs)): Move to block an attack targeting an ally
-- **Force Reflector** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs)): Redirect an energy attack
-- **Overwatch** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs)): Prepared shot triggers on enemy [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit)
+- **Parry** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs)): React to an incoming attack, reduce damage
+- **Counterspell** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs)): Interrupt enemy spellcasting
+- **Intercept** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs)): Move to block an attack targeting an ally
+- **Force Reflector** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs)): Redirect an energy attack
+- **Overwatch** ([<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs)): Prepared shot triggers on enemy [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit)
 
 ---
 
 ## Why This System?
 
 ### Player Engagement
-No one is "waiting for their turn." During [<span style="color:#ff3333">PHASEACCRETIALIS</span>](codex/Cor/Dictionary.md#phaseaccretialis), everyone's watching the race. During Resolution, everyone's deciding whether to [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm), where to slot in, how to build the [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla). The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) weaves it all into one narrative beat.
+No one is "waiting for their turn." During [<span style="color:#ff3333">PHASEACCRETIALIS</span>](/codex/Cor/Dictionary.md#phaseaccretialis), everyone's watching the race. During Resolution, everyone's deciding whether to [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm), where to slot in, how to build the [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla). The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) weaves it all into one narrative beat.
 
 ### Dynamic Turn Order
-Initiative isn't rolled once and forgotten. It shifts every phase based on [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) choices. Spend to help allies, and you delay yourself. Save up, and you'll be [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis) more often.
+Initiative isn't rolled once and forgotten. It shifts every phase based on [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) choices. Spend to help allies, and you delay yourself. Save up, and you'll be [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis) more often.
 
 ### Narrative Combat
-The [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) resolves as a single moment, not ping-pong turns. "Raven aims, Hawk fires, Wolf dives for cover" happens together — it *feels* like a [<span style="color:#68001a">SCAENA</span>](codex/Cor/Dictionary.md#scaena) (Scene).
+The [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) resolves as a single moment, not ping-pong turns. "Raven aims, Hawk fires, Wolf dives for cover" happens together — it *feels* like a [<span style="color:#68001a">SCAENA</span>](/codex/Cor/Dictionary.md#scaena) (Scene).
 
 ### Meaningful Choices
-- Spend [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) to [<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm)? Or save for your own turn?
-- Slot before (set up the [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis)) or after (capitalize on their [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit))?
-- [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) an enemy? Worth the [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) cost?
+- Spend [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) to [<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm)? Or save for your own turn?
+- Slot before (set up the [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis)) or after (capitalize on their [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit))?
+- [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) an enemy? Worth the [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) cost?
 
 ---
 
@@ -2379,18 +2379,18 @@ The [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) 
 
 | Term | Latin | Meaning |
 |------|-------|---------|
-| **[<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm)** | MTM | Resource tracked on d20, builds toward turns (can go negative) |
-| **[<span style="color:#ff3333">PHASEACCRETIALIS</span>](codex/Cor/Dictionary.md#phaseaccretialis)** | Accrual Phase | Phase where everyone races to 20 |
-| **[<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](codex/Cor/Dictionary.md#cardinalis)** | Pivotal Character | First to reach 20+, leads the resolution |
-| **[<span style="color:#66023c">COHORS</span>](codex/Cor/Dictionary.md#cohors)** | Cohort | Group of PERSONAe with shared goals |
-| **[<span style="color:#66023c">CONCORDIA</span>](codex/Cor/Dictionary.md#concordia)** | Cooperation | Relationship that allows free ADDENDa |
-| **[<span style="color:#43b3ae">ADDENDVM</span>](codex/Cor/Dictionary.md#addendvm)** | Add-on | Spend [<span style="color:#ff3333">MOMENTVM</span>](codex/Cor/Dictionary.md#momentvm) to join someone else's [<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla) |
-| **[<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs)** | Intervention | Tag on GAMBITs that open the door to enemy TABVLAe |
-| **[<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](codex/Cor/Dictionary.md#occ-si-tvrbida)** | Chaotic Moment | State when [<span style="color:#9d64f2">[INTERVENTVS]</span>](codex/Cor/Tags.md#interventvs) opens the door |
-| **[<span style="color:#708090">TABVLA</span>](codex/Cor/Dictionary.md#tabvla)** | Queue | Queue of GAMBITs resolved as one moment |
-| **[<span style="color:#68001a">SCAENA</span>](codex/Cor/Dictionary.md#scaena)** | Scene | Gryst's "encounter/combat" |
-| **[<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs)** | DM | The game master |
-| **[<span style="color:#e2725b">PERSONA</span>](codex/Cor/Dictionary.md#persona)** | Character | A character in the [<span style="color:#dc143c">FABVLA</span>](codex/Cor/Dictionary.md#fabvla) (Campaign) |
+| **[<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm)** | MTM | Resource tracked on d20, builds toward turns (can go negative) |
+| **[<span style="color:#ff3333">PHASEACCRETIALIS</span>](/codex/Cor/Dictionary.md#phaseaccretialis)** | Accrual Phase | Phase where everyone races to 20 |
+| **[<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona) [<span style="color:#ffd500">CARDINALIS</span>](/codex/Cor/Dictionary.md#cardinalis)** | Pivotal Character | First to reach 20+, leads the resolution |
+| **[<span style="color:#66023c">COHORS</span>](/codex/Cor/Dictionary.md#cohors)** | Cohort | Group of PERSONAe with shared goals |
+| **[<span style="color:#66023c">CONCORDIA</span>](/codex/Cor/Dictionary.md#concordia)** | Cooperation | Relationship that allows free ADDENDa |
+| **[<span style="color:#43b3ae">ADDENDVM</span>](/codex/Cor/Dictionary.md#addendvm)** | Add-on | Spend [<span style="color:#ff3333">MOMENTVM</span>](/codex/Cor/Dictionary.md#momentvm) to join someone else's [<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla) |
+| **[<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs)** | Intervention | Tag on GAMBITs that open the door to enemy TABVLAe |
+| **[<span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary.md#occ-si-tvrbida)** | Chaotic Moment | State when [<span style="color:#9d64f2">[INTERVENTVS]</span>](/codex/Cor/Tags.md#interventvs) opens the door |
+| **[<span style="color:#708090">TABVLA</span>](/codex/Cor/Dictionary.md#tabvla)** | Queue | Queue of GAMBITs resolved as one moment |
+| **[<span style="color:#68001a">SCAENA</span>](/codex/Cor/Dictionary.md#scaena)** | Scene | Gryst's "encounter/combat" |
+| **[<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs)** | DM | The game master |
+| **[<span style="color:#e2725b">PERSONA</span>](/codex/Cor/Dictionary.md#persona)** | Character | A character in the [<span style="color:#dc143c">FABVLA</span>](/codex/Cor/Dictionary.md#fabvla) (Campaign) |
 
 
 ────────────────────────────────────────────────────────────────────────────────
@@ -3156,7 +3156,7 @@ Effective Mag: 7
 
 ### Multiple Tags = Player Choice
 
-When a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) has multiple tags, the player chooses which skill to apply:
+When a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) has multiple tags, the player chooses which skill to apply:
 
 ```
 GAMBIT: Riposte
@@ -3187,7 +3187,7 @@ Player can use Combat OR Finesse — whichever is higher.
 
 ## Tags on Modules
 
-Modules use tags to define what TYPE of component they are. This creates soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) interprets narratively.
+Modules use tags to define what TYPE of component they are. This creates soft constraints that the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) interprets narratively.
 
 ### Example: Cor Tags
 

@@ -6,24 +6,24 @@
 
 A **Gambit** is the atomic unit of resolution — any action with uncertain outcome that matters to the story.
 
-But a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) is more than just "roll to see what happens." A well-designed Gambit contains:
+But a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) is more than just "roll to see what happens." A well-designed Gambit contains:
 
 - **The action itself** — what you're doing
 - **All four outcomes** — pre-defined results for Triumphus, Successus, Clades, Calamitas
 - **Magnitūdō formulas** — how the Icosaedrum calculates damage, range, duration, etc.
 
-When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit), you're getting a complete package. The Thermal Lance Mk.II doesn't just say "deal damage on a hit" — it says:
+When a Module grants you a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit), you're getting a complete package. The Thermal Lance Mk.II doesn't just say "deal damage on a hit" — it says:
 
 > **Triumphus:** Target ignites, taking ongoing burn damage  
 > **Successus:** Clean hit, deal Mag × 2 thermal damage  
 > **Clades:** Miss, beam scorches the environment  
 > **Calamitas:** Weapon overheats, disabled for one round
 
-The outcomes are authored into the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit). The Tessera Fati just picks which one fires.
+The outcomes are authored into the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit). The Tessera Fati just picks which one fires.
 
-But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can override them dynamically when something else would serve the story better.
+But these outcomes are **interfaces, not laws**. They provide *intent* and *baseline results* — what usually happens when you use this Gambit. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can override them dynamically when something else would serve the story better.
 
-"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can pivot when inspiration strikes.
+"Target ignites" is the default. But maybe this time, your Triumphus sets off a chain reaction that blows the fuel depot. Or your Calamitas isn't "weapon overheats" — it's "the beam refracts and alerts every guard in the compound." The authored outcome is a starting point; the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can pivot when inspiration strikes.
 
 This is where emergent stories happen. The Gambit tells you *what usually occurs*. The table discovers *what actually happens*.
 
@@ -61,7 +61,7 @@ Every Gambit has four possible outcomes:
 | **Failure** | *Clades* | You don't achieve it, complications may arise |
 | **Critical Failure** | *Calamitas* | Disaster, significant consequences |
 
-These aren't generic categories you improvise at the table — they're **pre-defined** for each [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit). A rifle's Attack Gambit has different outcomes than a social manipulation Gambit or a piloting maneuver Gambit.
+These aren't generic categories you improvise at the table — they're **pre-defined** for each [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit). A rifle's Attack Gambit has different outcomes than a social manipulation Gambit or a piloting maneuver Gambit.
 
 ---
 
@@ -91,7 +91,7 @@ Some Gambits are so universal they exist outside any specific Module:
 - **Social** — Persuade, deceive, or intimidate without specialized gear
 - **Movement** — Navigate difficult terrain without movement-enhancing Modules
 
-These are **fallbacks**. If you have a Module that grants a better version (Shield Drone's Intercept vs. generic Defense), use the Module [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit).
+These are **fallbacks**. If you have a Module that grants a better version (Shield Drone's Intercept vs. generic Defense), use the Module [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit).
 
 ### Improvised Gambits (Anything Else)
 
@@ -99,7 +99,7 @@ Anyone at the table — player OR GM — can propose entirely new Gambits from n
 
 > "I want to swing from the chandelier and kick the baron out the window."
 
-That's not in any Module. But it's a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) now. Define the four outcomes together, roll, and see what happens.
+That's not in any Module. But it's a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) now. Define the four outcomes together, roll, and see what happens.
 
 ---
 
@@ -127,7 +127,7 @@ Propose new Gambits from nothing. Negotiate outcomes. Roll. This is for the mome
 
 ## Declaring an Improvised Gambit
 
-When proposing a [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) from scratch, define:
+When proposing a [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) from scratch, define:
 
 1. **Intent:** What are you trying to accomplish?
 2. **Approach:** How are you doing it?
@@ -208,7 +208,7 @@ These universal Gambits exist for situations where no specific Module applies. T
 └────────────────────────────────────────────────────┘
 ```
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) adjusts the Tessera Fati ranges based on circumstances:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) adjusts the Tessera Fati ranges based on circumstances:
 
 | Situation | Adjustment |
 |-----------|------------|
@@ -227,7 +227,7 @@ The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#chorag
 - **Movement Gambit** — Navigate difficult terrain (when no movement Module applies)
 - **Piloting Gambit** — Execute a vehicle maneuver (when no piloting Module applies)
 
-Remember: if you have a Module that grants a specific Gambit for the situation, **use the Module [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit)** — it's probably better and it's what you paid Complexitās for.
+Remember: if you have a Module that grants a specific Gambit for the situation, **use the Module [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit)** — it's probably better and it's what you paid Complexitās for.
 
 ---
 
@@ -240,7 +240,7 @@ The Gambit is the real atomic unit of the system. It's simultaneously:
 - The **outcome table**
 - The **scaling formula**
 
-The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) plugs into. The structure lives in the [<span style="color:#70e697">GAMBIT</span>](codex/Cor/Dictionary.md#gambit) itself.
+The two dice systems (Tessera Fati and Icosaedrum) are just resolution engines that the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) plugs into. The structure lives in the [<span style="color:#70e697">GAMBIT</span>](/codex/Cor/Dictionary.md#gambit) itself.
 
 ### Outcomes Are Baselines, Not Laws
 
@@ -253,9 +253,9 @@ What can change is the *narrative framing*, not the *quality* of the outcome:
 - A Triumphus might be a clean critical hit — or a "miss" that accidentally hit a stealthed, more important target behind them. Either way, **it's good for you.**
 - A Calamitas might be your weapon jamming — or the shot going wide and shattering the only window between you and vacuum. Either way, **it's bad for you.**
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) can never say "you rolled Triumphus but actually it's bad." That's a betrayal. The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) *can* say "your Triumphus looked like a miss, but fate had other plans" — as long as the result is still a win.
 
-The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) is encouraged to add **flair** when it creates a better moment:
+The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) is encouraged to add **flair** when it creates a better moment:
 
 - "Weapon overheats" → Does the heat blister your hands? Does the glow give away your position?
 - "Target ignites" → Does the fire spread? Does someone scream?
@@ -267,9 +267,9 @@ The authored outcomes are the baseline expectation — what happens 90% of the t
 
 This is a feature, not a bug.
 
-The system explicitly trusts the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
+The system explicitly trusts the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) to create great sessions. The rules are scaffolding, not shackles. A great DM will use this freedom to craft incredible moments. A mediocre DM might flounder without guardrails.
 
-**The [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs)'s goal is to create a good session and a great story.**
+**The [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs)'s goal is to create a good session and a great story.**
 
 Flair is good. Surprise is good. Unexpected consequences are good. What's *not* good is constantly treading on player agency until they feel powerless. The difference:
 
@@ -286,7 +286,7 @@ Flair is good. Surprise is good. Unexpected consequences are good. What's *not* 
 
 Gryst is a wacky reality. Instead of saying "you can't do that," stack the odds appropriately and let the dice decide. Life is unpredictable.
 
-Mundane actions that don't normally require rolls can suddenly become Gambits if the [<span style="color:#9d8015">CHORAGVS</span>](codex/Cor/Dictionary.md#choragvs) thinks it adds spice. Use sparingly so it doesn't become tedious.
+Mundane actions that don't normally require rolls can suddenly become Gambits if the [<span style="color:#9d8015">CHORAGVS</span>](/codex/Cor/Dictionary.md#choragvs) thinks it adds spice. Use sparingly so it doesn't become tedious.
 
 Conversely, Gambits can appear as boons — unexpected moments of dramatic opportunity that wouldn't normally exist.
 

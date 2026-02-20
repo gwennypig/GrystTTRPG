@@ -97,10 +97,11 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         [ ${#name} -lt 3 ] && continue
         
         # Create replacement - with color if available
+        # Use absolute path (leading /) for Docsify hash routing
         if [ -n "$color" ]; then
-          replacement="[<span style=\"color:$color\">$name<\/span>](codex\/$bundle_name\/Dictionary.md#$anchor)"
+          replacement="[<span style=\"color:$color\">$name<\/span>](\/codex\/$bundle_name\/Dictionary.md#$anchor)"
         else
-          replacement="[$name](codex\/$bundle_name\/Dictionary.md#$anchor)"
+          replacement="[$name](\/codex\/$bundle_name\/Dictionary.md#$anchor)"
         fi
         
         # Add sed command - replace whole word, not in headers or existing links
@@ -120,9 +121,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         [ ${#name} -lt 3 ] && continue
         
         if [ -n "$color" ]; then
-          replacement="[<span style=\"color:$color\">\\[$name\\]<\/span>](codex\/$bundle_name\/Tags.md#$anchor)"
+          replacement="[<span style=\"color:$color\">\\[$name\\]<\/span>](\/codex\/$bundle_name\/Tags.md#$anchor)"
         else
-          replacement="[\\[$name\\]](codex\/$bundle_name\/Tags.md#$anchor)"
+          replacement="[\\[$name\\]](\/codex\/$bundle_name\/Tags.md#$anchor)"
         fi
         
         # Tags are wrapped in [] so match that pattern
