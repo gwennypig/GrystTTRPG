@@ -46,9 +46,12 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 
 ### 📖 Codex (GrystForge Content)
 
-| Pack | Description |
-|------|-------------|
-| **[Cor](codex/Cor/)** | Core content pack — foundational Tags, Gambits, and Modules |
+| Section | Description |
+|---------|-------------|
+| **[Dictionary](codex/Cor/Dictionary.md)** | Core terminology — MOMENTVM, COHORS, CONCORDIA, GAMBIT, and all Latin terms |
+| **[Tags](codex/Cor/Tags.md)** | Tag definitions — [INTERVENTVS], [CARDINALIS], [SIMPLEX], etc. |
+| **[Gambits](codex/Cor/Gambits.md)** | Pre-authored actions with four-outcome resolution |
+| **[Modules](codex/Cor/Modules.md)** | Equipment components that grant gambits and stats |
 
 *The Codex is auto-generated from GrystForge bundles. Add content in GrystForge, run `synccodex.sh`, and it appears here.*
 
