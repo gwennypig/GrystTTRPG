@@ -6,4 +6,5 @@ The Codex contains all content packs created with GrystForge. These are the buil
 
 ## Content Packs
 
-- [Cor](Cor/)
+- [CorV1](CorV1/)
+- [Piscatio](Piscatio/)

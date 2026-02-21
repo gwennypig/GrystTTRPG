@@ -33,15 +33,21 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
     
     echo "  📦 Processing $pack_name v$pack_version"
     
-    # Create bundle output directory
-    bundle_out="$DOCS_TARGET/$bundle_name"
+    # Create bundle output directory (use version_name as the bundle ID, not parent workspace name)
+    bundle_out="$DOCS_TARGET/$version_name"
     mkdir -p "$bundle_out"
     
+    # Use version_name for internal links too
+    bundle_name="$version_name"
+    
     # === BUILD LOOKUP TABLES ===
-    # These allow us to resolve {{tag:uuid}} and {{dict:uuid}} references
+    # These allow us to resolve {{type:uuid}} references
     
     declare -A TAG_NAMES TAG_COLORS TAG_LOW TAG_CLASS
     declare -A DICT_NAMES DICT_COLORS DICT_LOW
+    declare -A GAMBIT_NAMES
+    declare -A VIRTUS_NAMES VIRTUS_COLORS VIRTUS_LOW
+    declare -A ARS_NAMES ARS_COLORS ARS_LOW
     
     # Load all tags
     if [ -d "$version_dir/tags" ]; then
@@ -66,8 +72,44 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
       done
     fi
     
+    # Load all gambits
+    if [ -d "$version_dir/gambits" ]; then
+      for gambit_file in "$version_dir/gambits"/*.json; do
+        [ -f "$gambit_file" ] || continue
+        gambit_id=$(jq -r '.id' "$gambit_file")
+        GAMBIT_NAMES["$gambit_id"]=$(jq -r '.name' "$gambit_file")
+      done
+    fi
+    
+    # Load all virtutes
+    if [ -d "$version_dir/virtutes" ]; then
+      for virtus_file in "$version_dir/virtutes"/*.json; do
+        [ -f "$virtus_file" ] || continue
+        virtus_id=$(jq -r '.id' "$virtus_file")
+        VIRTUS_NAMES["$virtus_id"]=$(jq -r '.name' "$virtus_file")
+        VIRTUS_COLORS["$virtus_id"]=$(jq -r '.color // ""' "$virtus_file")
+        VIRTUS_LOW["$virtus_id"]=$(jq -r '.lowConsensus // ""' "$virtus_file")
+      done
+    fi
+    
+    # Load all artes
+    if [ -d "$version_dir/artes" ]; then
+      for ars_file in "$version_dir/artes"/*.json; do
+        [ -f "$ars_file" ] || continue
+        ars_id=$(jq -r '.id' "$ars_file")
+        ARS_NAMES["$ars_id"]=$(jq -r '.name' "$ars_file")
+        ARS_COLORS["$ars_id"]=$(jq -r '.color // ""' "$ars_file")
+        ARS_LOW["$ars_id"]=$(jq -r '.lowConsensus // ""' "$ars_file")
+      done
+    fi
+    
+    # === HELPER: Generate anchor from name ===
+    make_anchor() {
+      echo "$1" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')"
+    }
+    
     # === HELPER: Resolve references in text ===
-    # Converts {{tag:uuid}} and {{dict:uuid}} to colored markdown links
+    # Converts {{type:uuid}} to colored markdown links
     resolve_refs() {
       local text="$1"
       local result="$text"
@@ -77,13 +119,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         local name="${DICT_NAMES[$dict_id]}"
         local color="${DICT_COLORS[$dict_id]}"
         local low="${DICT_LOW[$dict_id]}"
-        # Anchor must match Docsify's auto-generated anchor from heading
-        # If low consensus exists, heading is "NAME / Low" so anchor includes both
-        if [ -n "$low" ]; then
-          local anchor=$(echo "$name / $low" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
-        else
-          local anchor=$(echo "$name" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
-        fi
+        local anchor_text="$name"
+        [ -n "$low" ] && anchor_text="$name / $low"
+        local anchor=$(make_anchor "$anchor_text")
         
         if [ -n "$color" ]; then
           local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Dictionary?id=$anchor)"
@@ -98,12 +136,9 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         local name="${TAG_NAMES[$tag_id]}"
         local color="${TAG_COLORS[$tag_id]}"
         local low="${TAG_LOW[$tag_id]}"
-        # Anchor must match Docsify's auto-generated anchor from heading
-        if [ -n "$low" ]; then
-          local anchor=$(echo "$name / $low" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
-        else
-          local anchor=$(echo "$name" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')")
-        fi
+        local anchor_text="$name"
+        [ -n "$low" ] && anchor_text="$name / $low"
+        local anchor=$(make_anchor "$anchor_text")
         
         if [ -n "$color" ]; then
           local replacement="[<span style=\"color:$color;font-weight:600\">[$name]</span>](/codex/$bundle_name/Tags?id=$anchor)"
@@ -111,6 +146,38 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
           local replacement="[[$name]](/codex/$bundle_name/Tags?id=$anchor)"
         fi
         result=$(echo "$result" | sed "s|{{tag:$tag_id}}|$replacement|g")
+      done
+      
+      # Replace {{gambit:uuid}} references
+      for gambit_id in "${!GAMBIT_NAMES[@]}"; do
+        local name="${GAMBIT_NAMES[$gambit_id]}"
+        local anchor=$(make_anchor "$name")
+        local replacement="[<span style=\"color:#22c55e;font-weight:600\">$name</span>](/codex/$bundle_name/Gambits?id=$anchor)"
+        result=$(echo "$result" | sed "s|{{gambit:$gambit_id}}|$replacement|g")
+      done
+      
+      # Replace {{virtus:uuid}} references
+      for virtus_id in "${!VIRTUS_NAMES[@]}"; do
+        local name="${VIRTUS_NAMES[$virtus_id]}"
+        local color="${VIRTUS_COLORS[$virtus_id]:-#f59e0b}"
+        local low="${VIRTUS_LOW[$virtus_id]}"
+        local anchor_text="$name"
+        [ -n "$low" ] && anchor_text="$name / $low"
+        local anchor=$(make_anchor "$anchor_text")
+        local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Virtutes?id=$anchor)"
+        result=$(echo "$result" | sed "s|{{virtus:$virtus_id}}|$replacement|g")
+      done
+      
+      # Replace {{ars:uuid}} references
+      for ars_id in "${!ARS_NAMES[@]}"; do
+        local name="${ARS_NAMES[$ars_id]}"
+        local color="${ARS_COLORS[$ars_id]:-#f43f5e}"
+        local low="${ARS_LOW[$ars_id]}"
+        local anchor_text="$name"
+        [ -n "$low" ] && anchor_text="$name / $low"
+        local anchor=$(make_anchor "$anchor_text")
+        local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Artes?id=$anchor)"
+        result=$(echo "$result" | sed "s|{{ars:$ars_id}}|$replacement|g")
       done
       
       echo "$result"
@@ -142,6 +209,8 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
     tag_count=$(find "$version_dir/tags" -name "*.json" 2>/dev/null | wc -l)
     dict_count=$(find "$version_dir/dictionary" -name "*.json" 2>/dev/null | wc -l)
     gambit_count=$(find "$version_dir/gambits" -name "*.json" 2>/dev/null | wc -l)
+    virtus_count=$(find "$version_dir/virtutes" -name "*.json" 2>/dev/null | wc -l)
+    ars_count=$(find "$version_dir/artes" -name "*.json" 2>/dev/null | wc -l)
     module_count=$(find "$version_dir/modules" -name "*.json" 2>/dev/null | wc -l)
     loculus_count=$(find "$version_dir/loculi" -name "*.json" 2>/dev/null | wc -l)
     character_count=$(find "$version_dir/characters" -name "*.json" 2>/dev/null | wc -l)
@@ -164,6 +233,8 @@ EOF
     [ "$dict_count" -gt 0 ] && echo "- [Dictionary](Dictionary.md) ($dict_count)" >> "$bundle_out/README.md"
     [ "$tag_count" -gt 0 ] && echo "- [Tags](Tags.md) ($tag_count)" >> "$bundle_out/README.md"
     [ "$gambit_count" -gt 0 ] && echo "- [Gambits](Gambits.md) ($gambit_count)" >> "$bundle_out/README.md"
+    [ "$virtus_count" -gt 0 ] && echo "- [Virtutes](Virtutes.md) ($virtus_count)" >> "$bundle_out/README.md"
+    [ "$ars_count" -gt 0 ] && echo "- [Artēs](Artes.md) ($ars_count)" >> "$bundle_out/README.md"
     [ "$module_count" -gt 0 ] && echo "- [Modules](Modules.md) ($module_count)" >> "$bundle_out/README.md"
     [ "$loculus_count" -gt 0 ] && echo "- [Loculi](Loculi.md) ($loculus_count)" >> "$bundle_out/README.md"
     [ "$character_count" -gt 0 ] && echo "- [Characters](Characters.md) ($character_count)" >> "$bundle_out/README.md"
@@ -382,6 +453,167 @@ EOF
       done
     fi
     
+    # === VIRTUTES ===
+    if [ "$virtus_count" -gt 0 ]; then
+      echo "    ✓ Virtutes"
+      cat > "$bundle_out/Virtutes.md" << 'EOF'
+# Virtutes
+
+Virtutes are passive abilities (perks) that may have trigger conditions. When their condition is met, they activate automatically or grant an option to the player.
+
+---
+
+EOF
+      
+      for virtus_file in "$version_dir/virtutes"/*.json; do
+        [ -f "$virtus_file" ] || continue
+        
+        name=$(jq -r '.name' "$virtus_file")
+        low=$(jq -r '.lowConsensus // ""' "$virtus_file")
+        condition=$(jq -r '.condition // ""' "$virtus_file")
+        desc=$(jq -r '.description // ""' "$virtus_file")
+        color=$(jq -r '.color // ""' "$virtus_file")
+        
+        # Header with color
+        if [ -n "$color" ]; then
+          if [ -n "$low" ]; then
+            echo "## <span style=\"color:$color\">$name</span> / $low" >> "$bundle_out/Virtutes.md"
+          else
+            echo "## <span style=\"color:$color\">$name</span>" >> "$bundle_out/Virtutes.md"
+          fi
+        else
+          if [ -n "$low" ]; then
+            echo "## $name / $low" >> "$bundle_out/Virtutes.md"
+          else
+            echo "## $name" >> "$bundle_out/Virtutes.md"
+          fi
+        fi
+        echo "" >> "$bundle_out/Virtutes.md"
+        
+        if [ -n "$condition" ]; then
+          resolved_condition=$(resolve_refs "$condition")
+          echo "> **Condition:** $resolved_condition" >> "$bundle_out/Virtutes.md"
+          echo "" >> "$bundle_out/Virtutes.md"
+        fi
+        
+        if [ -n "$desc" ]; then
+          resolved_desc=$(resolve_refs "$desc")
+          echo "$resolved_desc" >> "$bundle_out/Virtutes.md"
+          echo "" >> "$bundle_out/Virtutes.md"
+        fi
+        
+        echo "---" >> "$bundle_out/Virtutes.md"
+        echo "" >> "$bundle_out/Virtutes.md"
+      done
+    fi
+    
+    # === ARTES ===
+    if [ "$ars_count" -gt 0 ]; then
+      echo "    ✓ Artēs"
+      cat > "$bundle_out/Artes.md" << 'EOF'
+# Artēs
+
+Artēs (Skills) are bundles of Gambits and Virtutes that characters can learn. Each ability within an Ars has a Peritia (proficiency) requirement.
+
+---
+
+EOF
+      
+      for ars_file in "$version_dir/artes"/*.json; do
+        [ -f "$ars_file" ] || continue
+        
+        name=$(jq -r '.name' "$ars_file")
+        low=$(jq -r '.lowConsensus // ""' "$ars_file")
+        desc=$(jq -r '.description // ""' "$ars_file")
+        color=$(jq -r '.color // ""' "$ars_file")
+        parent=$(jq -r '.parent // ""' "$ars_file")
+        
+        # Header with color
+        if [ -n "$color" ]; then
+          if [ -n "$low" ]; then
+            echo "## <span style=\"color:$color\">$name</span> / $low" >> "$bundle_out/Artes.md"
+          else
+            echo "## <span style=\"color:$color\">$name</span>" >> "$bundle_out/Artes.md"
+          fi
+        else
+          if [ -n "$low" ]; then
+            echo "## $name / $low" >> "$bundle_out/Artes.md"
+          else
+            echo "## $name" >> "$bundle_out/Artes.md"
+          fi
+        fi
+        echo "" >> "$bundle_out/Artes.md"
+        
+        # Show parent if exists
+        if [ -n "$parent" ]; then
+          parent_name="${ARS_NAMES[$parent]}"
+          if [ -n "$parent_name" ]; then
+            echo "> Sub-art of **$parent_name**" >> "$bundle_out/Artes.md"
+            echo "" >> "$bundle_out/Artes.md"
+          fi
+        fi
+        
+        if [ -n "$desc" ]; then
+          resolved_desc=$(resolve_refs "$desc")
+          echo "$resolved_desc" >> "$bundle_out/Artes.md"
+          echo "" >> "$bundle_out/Artes.md"
+        fi
+        
+        # List abilities with Peritia
+        abilities=$(jq -r '.abilities // []' "$ars_file")
+        ability_count=$(echo "$abilities" | jq 'length')
+        
+        if [ "$ability_count" -gt 0 ]; then
+          echo "### Abilities" >> "$bundle_out/Artes.md"
+          echo "" >> "$bundle_out/Artes.md"
+          
+          echo "$abilities" | jq -c '.[]' | while read -r ability; do
+            atype=$(echo "$ability" | jq -r '.type')
+            ref_id=$(echo "$ability" | jq -r '.referenceId')
+            peritia=$(echo "$ability" | jq -r '.peritia')
+            postulata=$(echo "$ability" | jq -r '.postulata // ""')
+            
+            # Convert peritia to Roman numeral
+            roman=""
+            p=$peritia
+            while [ $p -ge 1000 ]; do roman+="M"; p=$((p-1000)); done
+            while [ $p -ge 900 ]; do roman+="CM"; p=$((p-900)); done
+            while [ $p -ge 500 ]; do roman+="D"; p=$((p-500)); done
+            while [ $p -ge 400 ]; do roman+="CD"; p=$((p-400)); done
+            while [ $p -ge 100 ]; do roman+="C"; p=$((p-100)); done
+            while [ $p -ge 90 ]; do roman+="XC"; p=$((p-90)); done
+            while [ $p -ge 50 ]; do roman+="L"; p=$((p-50)); done
+            while [ $p -ge 40 ]; do roman+="XL"; p=$((p-40)); done
+            while [ $p -ge 10 ]; do roman+="X"; p=$((p-10)); done
+            while [ $p -ge 9 ]; do roman+="IX"; p=$((p-9)); done
+            while [ $p -ge 5 ]; do roman+="V"; p=$((p-5)); done
+            while [ $p -ge 4 ]; do roman+="IV"; p=$((p-4)); done
+            while [ $p -ge 1 ]; do roman+="I"; p=$((p-1)); done
+            
+            # Get ability name
+            if [ "$atype" = "gambit" ]; then
+              aname="${GAMBIT_NAMES[$ref_id]:-Unknown Gambit}"
+              echo -n "- **$roman** — <span style=\"color:#22c55e\">$aname</span> (Gambit)" >> "$bundle_out/Artes.md"
+            else
+              aname="${VIRTUS_NAMES[$ref_id]:-Unknown Virtus}"
+              vcolor="${VIRTUS_COLORS[$ref_id]:-#f59e0b}"
+              echo -n "- **$roman** — <span style=\"color:$vcolor\">$aname</span> (Virtus)" >> "$bundle_out/Artes.md"
+            fi
+            
+            if [ -n "$postulata" ]; then
+              echo " — *$postulata*" >> "$bundle_out/Artes.md"
+            else
+              echo "" >> "$bundle_out/Artes.md"
+            fi
+          done
+          echo "" >> "$bundle_out/Artes.md"
+        fi
+        
+        echo "---" >> "$bundle_out/Artes.md"
+        echo "" >> "$bundle_out/Artes.md"
+      done
+    fi
+    
     # === MODULES ===
     if [ "$module_count" -gt 0 ]; then
       echo "    ✓ Modules"
@@ -475,6 +707,9 @@ EOF
     # Clean up associative arrays for next bundle
     unset TAG_NAMES TAG_COLORS TAG_LOW TAG_CLASS
     unset DICT_NAMES DICT_COLORS DICT_LOW
+    unset GAMBIT_NAMES
+    unset VIRTUS_NAMES VIRTUS_COLORS VIRTUS_LOW
+    unset ARS_NAMES ARS_COLORS ARS_LOW
     
   done
 done

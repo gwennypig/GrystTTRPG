@@ -4,7 +4,7 @@ GRYST TTRPG - COMPLETE DOCUMENTATION
 This is an auto-generated plain text version of the Gryst TTRPG documentation.
 For the formatted version, visit: https://gwennypig.github.io/GrystTTRPG/
 
-Generated: 2026-02-20 10:53 UTC
+Generated: 2026-02-21 04:09 UTC
 ================================================================================
 
 
@@ -4879,7 +4879,38 @@ FILE: bestiary/Creature-Template.md
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: codex/Cor/Dictionary.md
+FILE: codex/CorV1/Artes.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Artēs
+
+Artēs (Skills) are bundles of Gambits and Virtutes that characters can learn. Each ability within an Ars has a Peritia (proficiency) requirement.
+
+---
+
+## <span style="color:#ff9500">Ars Armignifera</span> / Fire-armament Arts
+
+> Sub-art of **Ars Telaria**
+
+A sub-art of [<span style="color:#bdbdbd;font-weight:600">Ars Telaria</span>](/codex/CorV1/Artes?id=ars-telaria-projectile-arts). Concerns the skill of operating [<span style="color:#ff881a;font-weight:600">[ARMA SULPHURICA]</span>](/codex/CorV1/Tags?id=arma-sulphurica-conventional-firearms).
+
+---
+
+## <span style="color:#bdbdbd">Ars Telaria</span> / Projectile Arts
+
+The arts of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile). All manners of projectile warfare.
+
+### Abilities
+
+- **I** — <span style="color:#22c55e">Supporting Fire</span> (Gambit)
+- **X** — <span style="color:#f59e0b">EXTINCTIO SVBITA</span> (Virtus)
+
+---
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/CorV1/Dictionary.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Dictionary
@@ -4890,85 +4921,97 @@ Common terms and concepts used throughout the rules. These are referenced inline
 
 ## <span style="color:#ff3333">ACCRVE</span> / Accrue
 
-During the [<span style="color:#ff3333;font-weight:600">PHASEACCRETIALIS</span>](/codex/Cor/Dictionary?id=phaseaccretialis-accrual-phase), [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e with agency simultaneously gain [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm).
+During the [<span style="color:#ff3333;font-weight:600">PHASEACCRETIALIS</span>](/codex/CorV1/Dictionary?id=phaseaccretialis-accrual-phase), [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with agency simultaneously gain [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm).
 
 ## <span style="color:#43b3ae">ADDENDVM</span> / Addon
 
-An [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) is a gambit added during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window. By paying the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) cost of a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit), a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character) may jump into the fray in support of their [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort).
+An [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) is a gambit added during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window. By paying the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) cost of a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit), a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) may jump into the fray in support of their [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort).
+
+## <span style="color:#006eff">AD HOC</span> / As needed.
+
+No description.
+
+## <span style="color:#373890">AUSPICIUM</span> / Opener
+
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) is [<span style="color:#373890;font-weight:600">AUSPICIUM</span>](/codex/CorV1/Dictionary?id=auspicium-opener) when it is chosen as the first [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) to intialize a [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue).
 
 ## <span style="color:#ff0000">CALAMITAS</span> / Calamity
 
-Your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) hasn't just [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/Cor/Dictionary?id=clades-failure)'d. It has [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/Cor/Dictionary?id=calamitas-calamity)'d. You or your [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) are worse than when you started.
+Your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) hasn't just [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/CorV1/Dictionary?id=clades-failure)'d. It has [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/CorV1/Dictionary?id=calamitas-calamity)'d. You or your [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) are worse than when you started.
 
 ## <span style="color:#ffd500">CARDINALIS</span> / Pivotal
 
-The [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal) character sets the scene. They have access to [<span style="color:#0004ff;font-weight:600">[CARDINALIS]</span>](/codex/Cor/Tags?id=cardinalis-pivotal) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s and initialize the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue) upon selecting a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit).
+The [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal) character sets the scene. They have access to [<span style="color:#0004ff;font-weight:600">[CARDINALIS]</span>](/codex/CorV1/Tags?id=cardinalis-pivotal) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s and initialize the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue) upon selecting a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit).
 
 ## <span style="color:#aeff00">CaTr</span> / Cater
 
-If something is conditional on [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater), it is conditional on either [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/Cor/Dictionary?id=calamitas-calamity) or [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/Cor/Dictionary?id=trivmphvs-triumph)
+If something is conditional on [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater), it is conditional on either [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/CorV1/Dictionary?id=calamitas-calamity) or [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph)
 This represents the extraordinary range.
 
 ## <span style="color:#9d8015">CHORAGVS</span> / DM
 
-The Dungeon Master. During Roman times, the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) was the patron of the Roman art of theatre. This person, known by a Greek-derived title, oversaw the entire logistics and production of the [<span style="color:#dc143c;font-weight:600">FABVLA</span>](/codex/Cor/Dictionary?id=fabvla-campaign).
+The Dungeon Master. During Roman times, the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) was the patron of the Roman art of theatre. This person, known by a Greek-derived title, oversaw the entire logistics and production of the [<span style="color:#dc143c;font-weight:600">FABVLA</span>](/codex/CorV1/Dictionary?id=fabvla-campaign).
 
-The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm)'s PRIME DIRECTIVE is to optimize for [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun) and eliminate [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/Cor/Dictionary?id=>:-scheiße)
+The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm)'s PRIME DIRECTIVE is to optimize for [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun) and eliminate [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/CorV1/Dictionary?id=gt-scheiße)
 
 ## <span style="color:#000000">CHORAGVS PERSONAEQVE GRYSTI</span> / CPQG
 
-The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) and [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e of Gryst.
+The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) and [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e of Gryst.
 Search for "SPQR" if you are not familiar with the term. This is the table and all concerned parties.
 
 ## <span style="color:#8c0303">CLADES</span> / Failure
 
-You have failed in your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit).
+You have failed in your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit).
 
 ## <span style="color:#ff0000">ClCa</span> / Culca
 
-If something is conditional on [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/Cor/Dictionary?id=clca-culca), it is conditional on either [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/Cor/Dictionary?id=clades-failure) or [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/Cor/Dictionary?id=calamitas-calamity).
+If something is conditional on [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/CorV1/Dictionary?id=clca-culca), it is conditional on either [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/CorV1/Dictionary?id=clades-failure) or [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/CorV1/Dictionary?id=calamitas-calamity).
 
 ## <span style="color:#7b7b7b">ClSv</span> / Culsu
 
-If something is conditional on [<span style="color:#7b7b7b;font-weight:600">ClSv</span>](/codex/Cor/Dictionary?id=clsv-culsu), it is conditional on either [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/Cor/Dictionary?id=clades-failure) or [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success).
+If something is conditional on [<span style="color:#7b7b7b;font-weight:600">ClSv</span>](/codex/CorV1/Dictionary?id=clsv-culsu), it is conditional on either [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/CorV1/Dictionary?id=clades-failure) or [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success).
 This represents the lack of the extraordinary range.
 
 ## <span style="color:#66023c">COHORS</span> / Cohort
 
-Any group of [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) amongst themselves become a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort).
-This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e within a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
+Any group of [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) amongst themselves become a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort).
+This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e within a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
 ## <span style="color:#66023c">CONCORDIA</span> / Cooperation
 
-[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
+[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
 ## <span style="color:#e770ff">DESIGNA</span> / Designate(d)
 
-[<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/Cor/Dictionary?id=designa-designated)te a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character), [<span style="color:#64e1f2;font-weight:600">MODVLVS</span>](/codex/Cor/Dictionary?id=modvlvs-module), LOCULUS, et cetera. When a player is told to [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/Cor/Dictionary?id=designa-designated)te, they are making a choice, such as what a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit), is "targeting".
+[<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d)te a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character), [<span style="color:#64e1f2;font-weight:600">MODVLVS</span>](/codex/CorV1/Dictionary?id=modvlvs-module), LOCULUS, et cetera. When a player is told to [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d)te, they are making a choice, such as what a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit), is "targeting".
+
+## <span style="color:#8082e5">EXSEQUE</span> / Excecute
+
+Call forth a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit), [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite), et cetera.
 
 ## <span style="color:#dc143c">FABVLA</span> / Campaign
 
-The story that the [<span style="color:#000000;font-weight:600">CHORAGVS PERSONAEQVE GRYSTI</span>](/codex/Cor/Dictionary?id=choragvs-personaeqve-grysti-cpqg) is trying to tell. It is the campaign that we have embarked on. The story waiting to unfold.
+The story that the [<span style="color:#000000;font-weight:600">CHORAGVS PERSONAEQVE GRYSTI</span>](/codex/CorV1/Dictionary?id=choragvs-personaeqve-grysti-cpqg) is trying to tell. It is the campaign that we have embarked on. The story waiting to unfold.
 
 ## <span style="color:#70e697">GAMBIT</span>
 
-A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) is the atomic unit of resolution. Any action that requires mechanical resolution is a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit). Most [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s can have 1 of 4 outcomes; [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success) (success), [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/Cor/Dictionary?id=clades-failure) (failure), [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/Cor/Dictionary?id=trivmphvs-triumph) (critical success), or [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/Cor/Dictionary?id=calamitas-calamity) (critical failure).
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) is the atomic unit of resolution. Any action that requires mechanical resolution is a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit). Most [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s can have 1 of 4 outcomes; [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success) (success), [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/CorV1/Dictionary?id=clades-failure) (failure), [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph) (critical success), or [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/CorV1/Dictionary?id=calamitas-calamity) (critical failure).
 
 ## <span style="color:#7c634b">>:(</span> / Scheiße
 
-The opposite of [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun).
-Lasting frustration can split the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) and lead to dis[<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation). The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) has great powers vested in them but as the ARACHNID APEKIN once said.... You know what he said.
+The opposite of [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun).
+Lasting frustration can split the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) and lead to dis[<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation). The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) has great powers vested in them but as the ARACHNID APEKIN once said.... You know what he said.
 
-Railroading, poor uses of forced [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater)ing, repeatedly FOAM SWORDING players because their build is more powerful than you expected. These are examples of sources of [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/Cor/Dictionary?id=>:-scheiße)
-Don't be an ass. This is obviously a good policy for the entire [<span style="color:#000000;font-weight:600">CHORAGVS PERSONAEQVE GRYSTI</span>](/codex/Cor/Dictionary?id=choragvs-personaeqve-grysti-cpqg). 
+Railroading, poor uses of forced [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater)ing, repeatedly FOAM SWORDING players because their build is more powerful than you expected. These are examples of sources of [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/CorV1/Dictionary?id=gt-scheiße)
+Don't be an ass. This is obviously a good policy for the entire [<span style="color:#000000;font-weight:600">CHORAGVS PERSONAEQVE GRYSTI</span>](/codex/CorV1/Dictionary?id=choragvs-personaeqve-grysti-cpqg). 
 
 ## <span style="color:#43f9ed">;)</span> / FUN
 
-The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm)' job is to create [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun) (fun) for the players. Well.. And themselves of course. After all. The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) is just another player. Gryst as a game lives and dies by the quality of the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm). This is not a bug. It is by design. As such. Most of its systems and rules not only allow, but actively encourage the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) to improvise and [<span style="color:#ff709b;font-weight:600">MOD</span>](/codex/Cor/Dictionary?id=mod-modifier) the threads of fate. This includes such things as [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater)ing to the players and their [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e when the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) deems that this would optimize for [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun). 
-[<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun) is the opposite of @>:
-If fun is so great.. Why isn't ther.. There is! [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun)2.  
-Fun 2 (Type 2 Fun), seems like [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/Cor/Dictionary?id=>:-scheiße) when you're stuck in it. It has its pros and cons, but atleast it leaves the [<span style="color:#000000;font-weight:600">CHORAGVS PERSONAEQVE GRYSTI</span>](/codex/Cor/Dictionary?id=choragvs-personaeqve-grysti-cpqg) in a positive state at the end of it.
-This is contrasted with true [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/Cor/Dictionary?id=>:-scheiße). Try not to inflict [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/Cor/Dictionary?id=>:-scheiße) upon your players. That causes [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/Cor/Tags?id=noxivs-harming).
+The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm)' job is to create [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun) (fun) for the players. Well.. And themselves of course. After all. The [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) is just another player. Gryst as a game lives and dies by the quality of the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm). This is not a bug. It is by design. As such. Most of its systems and rules not only allow, but actively encourage the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) to improvise and [<span style="color:#ff709b;font-weight:600">MOD</span>](/codex/CorV1/Dictionary?id=mod-modifier) the threads of fate. This includes such things as [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater)ing to the players and their [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e when the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) deems that this would optimize for [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun). 
+[<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun) is the opposite of [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/CorV1/Dictionary?id=gt-scheiße)
+If fun is so great.. Why isn't ther.. There is! [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun)2.  
+Fun 2 (Type 2 Fun), seems like [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/CorV1/Dictionary?id=gt-scheiße) when you're stuck in it. It has its pros and cons, but atleast it leaves the [<span style="color:#000000;font-weight:600">CHORAGVS PERSONAEQVE GRYSTI</span>](/codex/CorV1/Dictionary?id=choragvs-personaeqve-grysti-cpqg) in a positive state at the end of it.
+This is contrasted with true [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/CorV1/Dictionary?id=gt-scheiße). Try not to inflict [<span style="color:#7c634b;font-weight:600">>:(</span>](/codex/CorV1/Dictionary?id=gt-scheiße) upon your players. That causes [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming).
 
 ## <span style="color:#ff709b">MOD</span> / Modifier
 
@@ -4980,20 +5023,20 @@ A TAG CATEGORY.
 
 ## <span style="color:#ff3333">MOMENTVM</span> / MTM
 
-[<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm) is a resource that [<span style="color:#ff3333;font-weight:600">ACCRVE</span>](/codex/Cor/Dictionary?id=accrve-accrue)s during the [<span style="color:#ff3333;font-weight:600">PHASEACCRETIALIS</span>](/codex/Cor/Dictionary?id=phaseaccretialis-accrual-phase). Upon reaching 20 MTM, that [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character) becomes the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal) and their [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) becomes the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal).
-It is also spent during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) window to make [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon)s to the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue).It is simultaneously the "turn order" (sic) and Action Economy of Gryst.
+[<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm) is a resource that [<span style="color:#ff3333;font-weight:600">ACCRVE</span>](/codex/CorV1/Dictionary?id=accrve-accrue)s during the [<span style="color:#ff3333;font-weight:600">PHASEACCRETIALIS</span>](/codex/CorV1/Dictionary?id=phaseaccretialis-accrual-phase). Upon reaching 20 MTM, that [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) becomes the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal) and their [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) becomes the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal).
+It is also spent during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window to make [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon)s to the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue).It is simultaneously the "turn order" (sic) and Action Economy of Gryst.
 
 ## <span style="color:#9d64f2">OCCĀSIŌTVRBIDA</span> / Chaotic Moment
 
-During an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) (chaotic moment), the monopoly on action of the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal) has been broken. The chaos has allowed outside [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) to jump in on the action!
+During an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) (chaotic moment), the monopoly on action of the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal) has been broken. The chaos has allowed outside [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) to jump in on the action!
 
 ## <span style="color:#e2725b">PERSONA</span> / Character
 
-[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e are the characters within our [<span style="color:#dc143c;font-weight:600">FABVLA</span>](/codex/Cor/Dictionary?id=fabvla-campaign). They can be controlled by players or the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm). They can act alone or in a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation).
+[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e are the characters within our [<span style="color:#dc143c;font-weight:600">FABVLA</span>](/codex/CorV1/Dictionary?id=fabvla-campaign). They can be controlled by players or the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm). They can act alone or in a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation).
 
 ## <span style="color:#ff3333">PHASEACCRETIALIS</span> / Accrual Phase
 
-All characters [<span style="color:#ff3333;font-weight:600">ACCRVE</span>](/codex/Cor/Dictionary?id=accrve-accrue) [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm) during this phase. Upon reaching 20 [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm) and winning any required tiebreakers, that [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character) becomes the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal), setting the scene for the current immediate moment in this [<span style="color:#68001a;font-weight:600">SCAENA</span>](/codex/Cor/Dictionary?id=scaena-scene), initializing the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue).
+All characters [<span style="color:#ff3333;font-weight:600">ACCRVE</span>](/codex/CorV1/Dictionary?id=accrve-accrue) [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm) during this phase. Upon reaching 20 [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm) and winning any required tiebreakers, that [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) becomes the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal), setting the scene for the current immediate moment in this [<span style="color:#68001a;font-weight:600">SCAENA</span>](/codex/CorV1/Dictionary?id=scaena-scene), initializing the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue).
 
 ## <span style="color:#a3a3a3">RATIO FATI</span> / Ratio of fate
 
@@ -5001,28 +5044,32 @@ This is the dice range (wip)
 
 ## <span style="color:#68001a">SCAENA</span> / Scene
 
-Gryst's "encounters/combat". When moments get tense. We are in a [<span style="color:#68001a;font-weight:600">SCAENA</span>](/codex/Cor/Dictionary?id=scaena-scene). Minute [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s get written onto the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue) for the 
+Gryst's "encounters/combat". When moments get tense. We are in a [<span style="color:#68001a;font-weight:600">SCAENA</span>](/codex/CorV1/Dictionary?id=scaena-scene). Minute [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s get written onto the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue) for the 
 
 ## <span style="color:#00ff7b">SVCCVSSVS</span> / Success
 
-Your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) has succeeded. 
+Your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) has succeeded. 
 
 ## <span style="color:#00ff55">SvTr</span> / Sutr
 
-If something is conditional on [<span style="color:#00ff55;font-weight:600">SvTr</span>](/codex/Cor/Dictionary?id=svtr-sutr), it is conditional on either [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success) or [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/Cor/Dictionary?id=trivmphvs-triumph).
+If something is conditional on [<span style="color:#00ff55;font-weight:600">SvTr</span>](/codex/CorV1/Dictionary?id=svtr-sutr), it is conditional on either [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success) or [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph).
 
 ## <span style="color:#708090">TABVLA</span> / Queue
 
-During [<span style="color:#68001a;font-weight:600">SCAENA</span>](/codex/Cor/Dictionary?id=scaena-scene)e, the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue) is the queue of [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s that describes a momentary beat of dramatic action. It is initialized by the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal) upon their selection of a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit).
+During [<span style="color:#68001a;font-weight:600">SCAENA</span>](/codex/CorV1/Dictionary?id=scaena-scene)e, the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue) is the queue of [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s that describes a momentary beat of dramatic action. It is initialized by the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal) upon their selection of a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit).
 
 ## <span style="color:#ffea00">TRIVMPHVS</span> / Triumph
 
-Your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) has paid off greatly!
+Your [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) has paid off greatly!
+
+## <span style="color:#f00068">VIDE SVPRA</span> / See above.
+
+Refer to the rules text.
 
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: codex/Cor/Gambits.md
+FILE: codex/CorV1/Gambits.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Gambits
@@ -5033,20 +5080,43 @@ Gambits are actions with pre-authored outcomes. Each has four possible results: 
 
 ## Supporting Fire
 
-> [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/Cor/Dictionary?id=designa-designated) a [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/Cor/Tags?id=simplex-simple) [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/Cor/Tags?id=telum-missile) gambit. You gain X+1 stacks of [[SUPPORTING FIRE]] where 0<X<=5.
-Spend 2X [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm). After every time a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) chooses a gambit, you may spend one stack of [[SUPPORTING FIRE]] to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon) your chosen [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) with a 0.5 MAG modifier. This instance of the [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) creates an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) upon [<span style="color:#00ff55;font-weight:600">SvTr</span>](/codex/Cor/Dictionary?id=svtr-sutr).
+> [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d) a [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) gambit. You gain X+1 stacks of [[SUPPORTING FIRE]] where 0<X<=5.
+Spend 2X [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm). After every time a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) chooses a gambit, you may spend one stack of [[SUPPORTING FIRE]] to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) your chosen [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) with a 0.5 MAG modifier. This instance of the [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) creates an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) upon [<span style="color:#00ff55;font-weight:600">SvTr</span>](/codex/CorV1/Dictionary?id=svtr-sutr).
+This [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) counts as being a [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite) and having been [<span style="color:#8082e5;font-weight:600">EXSEQUE</span>](/codex/CorV1/Dictionary?id=exseque-excecute)'d.
 
-[<span style="color:#a3a3a3;font-weight:600">RATIO FATI</span>](/codex/Cor/Dictionary?id=ratio-fati-ratio-of-fate): [9:1]
+[<span style="color:#a3a3a3;font-weight:600">RATIO FATI</span>](/codex/CorV1/Dictionary?id=ratio-fati-ratio-of-fate): [9:1]
 
 **Add-On Cost:** N/A
 
-**Tags:** [<span style="color:#0004ff;font-weight:600">[CARDINALIS]</span>](/codex/Cor/Tags?id=cardinalis-pivotal) / Pivotal, [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/Cor/Tags?id=infallibilis-infallible) / Infallible, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/Cor/Tags?id=telum-missile) / Missile
+**Tags:** [<span style="color:#0004ff;font-weight:600">[CARDINALIS]</span>](/codex/CorV1/Tags?id=cardinalis-pivotal) / Pivotal, [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/CorV1/Tags?id=infallibilis-infallible) / Infallible, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile
 
 ### Outcomes
 
-**Triumphus (Critical Success):** [<span style="color:#ff3333;font-weight:600">ACCRVE</span>](/codex/Cor/Dictionary?id=accrve-accrue) X/2 [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm) and gain an extra stack.
+**Triumphus (Critical Success):** [<span style="color:#ff3333;font-weight:600">ACCRVE</span>](/codex/CorV1/Dictionary?id=accrve-accrue) X/2 [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm) and gain an extra stack.
 
-**Successus (Success):** Refer to rules text. (WIP)
+**Successus (Success):** [<span style="color:#f00068;font-weight:600">VIDE SVPRA</span>](/codex/CorV1/Dictionary?id=vide-svpra-see-above)
+
+**Clades (Failure):** N/A
+
+**Calamitas (Critical Failure):** N/A
+
+---
+
+## Reload!
+
+> [<span style="color:#8082e5;font-weight:600">EXSEQUE</span>](/codex/CorV1/Dictionary?id=exseque-excecute) [[PRAESTO]](/codex/CorV1/Tags?id=praesto-readied) [<span style="color:#b8b8b8;font-weight:600">[REPLE]</span>](/codex/CorV1/Tags?id=reple-reload) [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite).
+(haha thats a lot of jargon!)
+Execute a reload rite that is available to you. 
+
+**Add-On Cost:** 0
+
+**Tags:** [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/CorV1/Tags?id=absolutum-absolute) / Absolute, [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) / Ammunition, [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) / Reflex, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile
+
+### Outcomes
+
+**Triumphus (Critical Success):** N/A
+
+**Successus (Success):** [<span style="color:#f00068;font-weight:600">VIDE SVPRA</span>](/codex/CorV1/Dictionary?id=vide-svpra-see-above)
 
 **Clades (Failure):** N/A
 
@@ -5056,11 +5126,11 @@ Spend 2X [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Co
 
 ## Conventional Single Shot
 
-> Conventional rounds use BLAZING gryst to propel a metal projectile
+> Conventional rounds use BLAZING gryst to propel a metal projectile.
 
 **Add-On Cost:** 5
 
-**Tags:** [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/Cor/Tags?id=simplex-simple) / Simple, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/Cor/Tags?id=telum-missile) / Missile, [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/Cor/Tags?id=noxivs-harming) / Harming
+**Tags:** [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) / Simple, [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) / Ammunition, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile, [<span style="color:#ff881a;font-weight:600">[ARMA SULPHURICA]</span>](/codex/CorV1/Tags?id=arma-sulphurica-conventional-firearms) / Conventional Firearms, [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) / Harming
 
 ### Outcomes
 
@@ -5077,7 +5147,7 @@ Spend 2X [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Co
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: codex/Cor/Modules.md
+FILE: codex/CorV1/Modules.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Modules
@@ -5090,10 +5160,14 @@ Modules are components that grant stats, perks, and Gambits. They install into L
 
 ---
 
+## New Module
+
+---
+
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: codex/Cor/Tags.md
+FILE: codex/CorV1/Tags.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Tags
@@ -5106,47 +5180,163 @@ Tags define what something IS and what it CAN DO. They appear on Gambits, Module
 
 ### <span style="color:#0004ff">[CARDINALIS]</span> / Pivotal
 
-A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) [<span style="color:#0004ff;font-weight:600">[CARDINALIS]</span>](/codex/Cor/Tags?id=cardinalis-pivotal) cannot be chosen as an [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/Cor/Dictionary?id=addendvm-addon).
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) [<span style="color:#0004ff;font-weight:600">[CARDINALIS]</span>](/codex/CorV1/Tags?id=cardinalis-pivotal) cannot be chosen as an [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon). Only as [<span style="color:#373890;font-weight:600">AUSPICIUM</span>](/codex/CorV1/Dictionary?id=auspicium-opener).
 
 ### <span style="color:#000000">[ABSOLUTUM]</span> / Absolute
 
-This [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) does not require a check. It always results in [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success).
+This [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) does not require a check. It always results in [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success).
 
 ### <span style="color:#9d64f2">[INTERVENTVS]</span> / Intervention
 
-A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) tagged with [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) allows it to be chosen when you would have [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/Cor/Dictionary?id=momentvm-mtm) priority during the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/Cor/Dictionary?id=tabvla-queue) even if you should have been passed over due to not having [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/Cor/Dictionary?id=concordia-cooperation) with the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/Cor/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/Cor/Dictionary?id=cardinalis-pivotal).
-Many [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s tagged with [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/Cor/Tags?id=interventvs-intervention) also create an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/Cor/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) tagged with [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) allows it to be chosen when you would have [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm) priority during the [<span style="color:#708090;font-weight:600">TABVLA</span>](/codex/CorV1/Dictionary?id=tabvla-queue) even if you should have been passed over due to not having [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) with the [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) [<span style="color:#ffd500;font-weight:600">CARDINALIS</span>](/codex/CorV1/Dictionary?id=cardinalis-pivotal).
+Many [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s tagged with [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) also create an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
 ### <span style="color:#30fd89">[SIMPLEX]</span> / Simple
 
- [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/Cor/Tags?id=simplex-simple) denotes the tagged as a simpler concept. For example, [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s that are simple don't require as much mental stack. [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s that are defined as [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/Cor/Tags?id=simplex-simple) benefit from many boons that support [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/Cor/Tags?id=simplex-simple) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s.
+ [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) denotes the tagged as a simpler concept. For example, [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s that are simple don't require as much mental stack. [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s that are defined as [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) benefit from many boons that support [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s.
+
+### <span style="color:#ff9933">[RITUS]</span> / Rite
+
+A [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) is a protocol. It cannot be chosen Ex Ritu. 
 
 ### <span style="color:#7b7b7b">[MUNDANUS]</span> / Mundane
 
-[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit)s with [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/Cor/Tags?id=mundanus-mundane) do not have the [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater) (extraordinary) range. They are exclusively [<span style="color:#7b7b7b;font-weight:600">ClSv</span>](/codex/Cor/Dictionary?id=clsv-culsu) (binary).
-When a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) gains the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/Cor/Tags?id=mundanus-mundane) [<span style="color:#ff709b;font-weight:600">MOD</span>](/codex/Cor/Dictionary?id=mod-modifier), it is stripped of its [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater) even if it had one.
+[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s with [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/CorV1/Tags?id=mundanus-mundane) do not have the [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater) (extraordinary) range. They are exclusively [<span style="color:#7b7b7b;font-weight:600">ClSv</span>](/codex/CorV1/Dictionary?id=clsv-culsu) (binary).
+When a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) gains the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/CorV1/Tags?id=mundanus-mundane) [<span style="color:#ff709b;font-weight:600">MOD</span>](/codex/CorV1/Dictionary?id=mod-modifier), it is stripped of its [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater) even if it had one.
 
-As always, the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/Cor/Dictionary?id=choragvs-dm) can choose to elevate even the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/Cor/Tags?id=mundanus-mundane) to [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/Cor/Dictionary?id=catr-cater) for our beloved [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/Cor/Dictionary?id=persona-character)e [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/Cor/Dictionary?id=;-fun)
+As always, the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) can choose to elevate even the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/CorV1/Tags?id=mundanus-mundane) to [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater) for our beloved [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun)
 
 ### <span style="color:#00ff11">[INFALLIBILIS]</span> / Infallible
 
-An [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/Cor/Tags?id=infallibilis-infallible) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) cannot [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/Cor/Dictionary?id=clca-culca) (fail or critical fail). It can still [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/Cor/Dictionary?id=trivmphvs-triumph), as opposed to [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/Cor/Tags?id=absolutum-absolute), which can only [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/Cor/Dictionary?id=svccvssvs-success).
+An [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/CorV1/Tags?id=infallibilis-infallible) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) cannot [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/CorV1/Dictionary?id=clca-culca) (fail or critical fail). It can still [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph), as opposed to [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/CorV1/Tags?id=absolutum-absolute), which can only [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success).
+
+### <span style="color:#00bfff">[REFLEXUS]</span> / Reflex
+
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) with [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) is muscle memory.
+When [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s are chosen as [<span style="color:#373890;font-weight:600">AUSPICIUM</span>](/codex/CorV1/Dictionary?id=auspicium-opener), they [<span style="color:#ff709b;font-weight:600">MOD</span>](/codex/CorV1/Dictionary?id=mod-modifier) the [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm) cost to become the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) cost instead.
+[<span style="color:#373890;font-weight:600">AUSPICIUM</span>](/codex/CorV1/Dictionary?id=auspicium-opener) [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s allow the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) to self-[<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) before passing priority.
+[<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s do not consume [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) priority during the window. You may choose to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) again.
+
+### <span style="color:#c2c2c2">[COPIA TELORUM]</span> / Ammunition
+
+A [<span style="color:#64e1f2;font-weight:600">MODVLVS</span>](/codex/CorV1/Dictionary?id=modvlvs-module) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) it can contain.
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) it requires or expends.
+[<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) represents the amount of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) is available.
+[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s fizzle when they do not have [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) available.
 
 ## Form
 
 ### <span style="color:#a600ff">[MACHINA]</span> / Walker
 
-[<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/Cor/Tags?id=machina-walker)e or Walkers are the tanks of Gryst. They are mechanical vehicles, often crafted in the image of Grystborn.
+[<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/CorV1/Tags?id=machina-walker)e or Walkers are the tanks of Gryst. They are mechanical vehicles, often crafted in the image of Grystborn.
+[<span style="color:#6e6e91;font-weight:600">[MATERIALIS]</span>](/codex/CorV1/Tags?id=materialis-material)
+
+### <span style="color:#6e6e91">[MATERIALIS]</span> / Material
+
+Of the physical form.
+
+### <span style="color:#ff881a">[ARMA SULPHURICA]</span> / Conventional Firearms
+
+The essence of Blazing gryst, harnessed through its emanations of [<span style="color:#949494;font-weight:600">[CHTHONICA]</span>](/codex/CorV1/Tags?id=chthonica-cthonic). Volatile substances of sulphurs and carbons.
 
 ### <span style="color:#ee5858">[TELUM]</span> / Missile
 
-Ranged armament, whether that be a plasma rifle, old timey six shooter, A [<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/Cor/Tags?id=machina-walker)'s shoulder missiles, a javelin, a bow, et cetera.
+Ranged armament, whether that be a plasma rifle, old timey six shooter, A [<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/CorV1/Tags?id=machina-walker)'s shoulder missiles, a javelin, a bow, et cetera.
 
 ## Category
 
+### <span style="color:#e60000">[CORPORIS]</span> / Of the Body
+
+Referring to the physical entity of a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character), a [<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/CorV1/Tags?id=machina-walker), 
+
+### [PRAESTO] / Readied
+
+What one has available to them.
+
+### <span style="color:#b8b8b8">[REPLE]</span> / Reload
+
+The concept of restocking one's [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition)
+
 ### <span style="color:#700006">[NOXIVS]</span> / Harming
 
-A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/Cor/Dictionary?id=gambit) that is [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/Cor/Tags?id=noxivs-harming) 
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) that is [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) 
+
+## Source
+
+### <span style="color:#949494">[CHTHONICA]</span> / Cthonic
+
+Arising from the domain of [<span style="color:#949494;font-weight:600">[CHTHONICA]</span>](/codex/CorV1/Tags?id=chthonica-cthonic).
+
+## Condition
+
+### <span style="color:#61ffa5">[VIGILIA]</span> / Vigilance
+
+To place watchful protection upon a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character).
+Retains a source [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character). 
+[<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) -> [<span style="color:#61ffa5;font-weight:600">[VIGILIA]</span>](/codex/CorV1/Tags?id=vigilia-vigilance) [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)
+
+## Other
+
+### [NEW TAG]
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/CorV1/Virtutes.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Virtutes
+
+Virtutes are passive abilities (perks) that may have trigger conditions. When their condition is met, they activate automatically or grant an option to the player.
+
+---
+
+## EXTINCTIO SVBITA / Emergency Suppression
+
+> **Condition:** [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) that has [<span style="color:#61ffa5;font-weight:600">[VIGILIA]</span>](/codex/CorV1/Tags?id=vigilia-vigilance) from you receives [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) [<span style="color:#e60000;font-weight:600">[CORPORIS]</span>](/codex/CorV1/Tags?id=corporis-of-the-body) (Physical Harm)
+
+(WIP)
+Immediately gain 1 stack of [<span style="color:#22c55e;font-weight:600">Supporting Fire</span>](/codex/CorV1/Gambits?id=supporting-fire) and resolve it whenever priority is free.
+The [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d)ted [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) shall be chosen [<span style="color:#006eff;font-weight:600">AD HOC</span>](/codex/CorV1/Dictionary?id=ad-hoc-as-needed).
+
+---
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/Piscatio/Artes.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Artēs
+
+Artēs (Skills) are bundles of Gambits and Virtutes that characters can learn. Each ability within an Ars has a Peritia (proficiency) requirement.
+
+---
+
+## <span style="color:#859ccc">Ars Piscatoria</span> / Piscatory
+
+The art of Piscatory is an ancient one.
+WIP
+
+---
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+FILE: codex/Piscatio/Virtutes.md
+────────────────────────────────────────────────────────────────────────────────
+
+# Virtutes
+
+Virtutes are passive abilities (perks) that may have trigger conditions. When their condition is met, they activate automatically or grant an option to the player.
+
+---
+
+## New Virtus
+
+---
 
 
 
