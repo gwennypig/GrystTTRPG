@@ -1,11 +1,5 @@
 - [Home](/)
 
-- **Core Design**
-  - [Vision Statement](core-design/Vision-Statement.md)
-  - [Design Pillars](core-design/Design-Pillars.md)
-  - [Core Loop](core-design/Core-Loop.md)
-  - [Inspirations](core-design/Inspirations.md)
-
 - **Rules**
   - [Core Mechanic](rules/Core-Mechanic.md)
   - [Momentum & Turns](rules/Momentum-and-Turns.md)
