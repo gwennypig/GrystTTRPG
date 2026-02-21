@@ -47,11 +47,16 @@
 
 - **Codex** *(GrystForge Content)*
   - [Overview](codex/)
-  - **Cor**
-    - [Dictionary](codex/Cor/Dictionary.md)
-    - [Tags](codex/Cor/Tags.md)
-    - [Gambits](codex/Cor/Gambits.md)
-    - [Modules](codex/Cor/Modules.md)
+  - **CorV1** *(Core Rules)*
+    - [Dictionary](codex/CorV1/Dictionary.md)
+    - [Tags](codex/CorV1/Tags.md)
+    - [Gambits](codex/CorV1/Gambits.md)
+    - [Virtutes](codex/CorV1/Virtutes.md)
+    - [Artēs](codex/CorV1/Artes.md)
+    - [Modules](codex/CorV1/Modules.md)
+  - **Piscatio** *(Expansion)*
+    - [Virtutes](codex/Piscatio/Virtutes.md)
+    - [Artēs](codex/Piscatio/Artes.md)
 
 - **Legal**
   - [ORC Notice](legal/ORC-Notice.md)
