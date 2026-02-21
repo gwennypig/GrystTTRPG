@@ -18,8 +18,8 @@ The arts of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/
 
 ### Abilities
 
-- **I** — <span style="color:#22c55e">Supporting Fire</span> (Gambit)
-- **X** — <span style="color:#f59e0b">EXTINCTIO SVBITA</span> (Virtus)
+- **I** — [<span style="color:#22c55e">Supporting Fire</span>](/codex/CorV1/Gambits?id=supporting-fire) (Gambit)
+- **X** — [<span style="color:#f59e0b">EXTINCTIO SVBITA</span>](/codex/CorV1/Virtutes?id=extinctio-svbita-emergency-suppression) (Virtus)
 
 ---
 

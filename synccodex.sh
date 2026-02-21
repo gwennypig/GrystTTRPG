@@ -590,14 +590,19 @@ EOF
             while [ $p -ge 4 ]; do roman+="IV"; p=$((p-4)); done
             while [ $p -ge 1 ]; do roman+="I"; p=$((p-1)); done
             
-            # Get ability name
+            # Get ability name and create link
             if [ "$atype" = "gambit" ]; then
               aname="${GAMBIT_NAMES[$ref_id]:-Unknown Gambit}"
-              echo -n "- **$roman** — <span style=\"color:#22c55e\">$aname</span> (Gambit)" >> "$bundle_out/Artes.md"
+              anchor=$(make_anchor "$aname")
+              echo -n "- **$roman** — [<span style=\"color:#22c55e\">$aname</span>](/codex/$bundle_name/Gambits?id=$anchor) (Gambit)" >> "$bundle_out/Artes.md"
             else
               aname="${VIRTUS_NAMES[$ref_id]:-Unknown Virtus}"
               vcolor="${VIRTUS_COLORS[$ref_id]:-#f59e0b}"
-              echo -n "- **$roman** — <span style=\"color:$vcolor\">$aname</span> (Virtus)" >> "$bundle_out/Artes.md"
+              vlow="${VIRTUS_LOW[$ref_id]}"
+              anchor_text="$aname"
+              [ -n "$vlow" ] && anchor_text="$aname / $vlow"
+              anchor=$(make_anchor "$anchor_text")
+              echo -n "- **$roman** — [<span style=\"color:$vcolor\">$aname</span>](/codex/$bundle_name/Virtutes?id=$anchor) (Virtus)" >> "$bundle_out/Artes.md"
             fi
             
             if [ -n "$postulata" ]; then
