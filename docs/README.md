@@ -58,10 +58,9 @@ Gryst is a TTRPG built around dynamic initiative and collaborative action. Inste
 ### 🚧 Work In Progress
 
 | Section | Status |
+|---------|--------|
 | [Character Creation](rules/Character-Creation.md) | Template only |
 | [Advancement](rules/Advancement.md) | Template only |
-| [Vision Statement](core-design/Vision-Statement.md) | Template only |
-| [Design Pillars](core-design/Design-Pillars.md) | Template only |
 | Bestiary, Adventures, Playtest | Templates only |
 
 ---
