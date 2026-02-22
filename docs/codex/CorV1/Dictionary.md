@@ -14,7 +14,7 @@ An [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Di
 
 ## <span style="color:#006eff">AD HOC</span> / As needed.
 
-No description.
+
 
 ## <span style="color:#373890">AUSPICIUM</span> / Opener
 
@@ -62,6 +62,11 @@ This represents the lack of the extraordinary range.
 Any group of [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) amongst themselves become a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort).
 This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e within a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
+## <span style="color:#7d7dff">COMPLEXITAS</span> / Complexity
+
+Represents something's footprint in reality.
+Higher [<span style="color:#7d7dff;font-weight:600">COMPLEXITAS</span>](/codex/CorV1/Dictionary?id=complexitas-complexity) requires higher [<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis) to manipulate.
+
 ## <span style="color:#66023c">CONCORDIA</span> / Cooperation
 
 [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
@@ -81,6 +86,10 @@ The story that the [<span style="color:#000000;font-weight:600">CHORAGVS PERSONA
 ## <span style="color:#70e697">GAMBIT</span>
 
 A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) is the atomic unit of resolution. Any action that requires mechanical resolution is a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit). Most [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s can have 1 of 4 outcomes; [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success) (success), [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/CorV1/Dictionary?id=clades-failure) (failure), [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph) (critical success), or [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/CorV1/Dictionary?id=calamitas-calamity) (critical failure).
+
+## <span style="color:#0004ff">GNOSIS</span>
+
+No description.
 
 ## <span style="color:#7c634b">>:(</span> / Scheiße
 

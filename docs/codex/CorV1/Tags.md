@@ -34,6 +34,10 @@ When a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/
 
 As always, the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) can choose to elevate even the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/CorV1/Tags?id=mundanus-mundane) to [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater) for our beloved [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun)
 
+### <span style="color:#c59bc3">[TRANSIENT]</span>
+
+No description.
+
 ### <span style="color:#00ff11">[INFALLIBILIS]</span> / Infallible
 
 An [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/CorV1/Tags?id=infallibilis-infallible) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) cannot [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/CorV1/Dictionary?id=clca-culca) (fail or critical fail). It can still [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph), as opposed to [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/CorV1/Tags?id=absolutum-absolute), which can only [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success).
@@ -45,14 +49,22 @@ When [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV
 [<span style="color:#373890;font-weight:600">AUSPICIUM</span>](/codex/CorV1/Dictionary?id=auspicium-opener) [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s allow the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) to self-[<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) before passing priority.
 [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s do not consume [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) priority during the window. You may choose to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) again.
 
-### <span style="color:#c2c2c2">[COPIA TELORUM]</span> / Ammunition
+### <span style="color:#c2c2c2">[COPIA TELORUM]</span> / Projectile Supply
 
-A [<span style="color:#64e1f2;font-weight:600">MODVLVS</span>](/codex/CorV1/Dictionary?id=modvlvs-module) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) it can contain.
-A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) it requires or expends.
-[<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) represents the amount of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) is available.
-[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s fizzle when they do not have [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) available.
+A [<span style="color:#64e1f2;font-weight:600">[MODVLVS]</span>](/codex/CorV1/Tags?id=modvlvs-module) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) it can contain.
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) it requires or expends.
+[<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) represents the amount of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) is available.
+[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s generally fizzle when they do not have [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) as required.
 
 ## Form
+
+### <span style="color:#64e1f2">[MODVLVS]</span> / Module
+
+
+
+### <span style="color:#d4d4d4">[MECHANISMUS]</span> / Mechanism
+
+
 
 ### <span style="color:#a600ff">[MACHINA]</span> / Walker
 
@@ -63,15 +75,21 @@ A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dicti
 
 Of the physical form.
 
-### <span style="color:#ff881a">[ARMA SULPHURICA]</span> / Conventional Firearms
-
-The essence of Blazing gryst, harnessed through its emanations of [<span style="color:#949494;font-weight:600">[CHTHONICA]</span>](/codex/CorV1/Tags?id=chthonica-cthonic). Volatile substances of sulphurs and carbons.
-
 ### <span style="color:#ee5858">[TELUM]</span> / Missile
 
 Ranged armament, whether that be a plasma rifle, old timey six shooter, A [<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/CorV1/Tags?id=machina-walker)'s shoulder missiles, a javelin, a bow, et cetera.
 
+### <span style="color:#ff881a">[ARMA SULPHURICA]</span> / Conventional Firearms
+
+The essence of Blazing gryst, harnessed through its emanations of [<span style="color:#949494;font-weight:600">[CHTHONICA]</span>](/codex/CorV1/Tags?id=chthonica-cthonic). Volatile substances of sulphurs and carbons.
+
 ## Category
+
+### <span style="color:#00ffff">[SYSTEMATICA]</span> / Systematic
+
+A way of understanding [<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis).
+[<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis) [<span style="color:#00ffff;font-weight:600">[SYSTEMATICA]</span>](/codex/CorV1/Tags?id=systematica-systematic) is one of architectural understanding. It allows one to harness the principles of the world and imbue it within artifice.
+Often exists in a simplified dichotomy with [<span style="color:#ff00ff;font-weight:600">[VISCERĀLIS]</span>](/codex/CorV1/Tags?id=viscerĀlis-visceral), where it represents the structured artifice.
 
 ### <span style="color:#e60000">[CORPORIS]</span> / Of the Body
 
@@ -83,11 +101,17 @@ What one has available to them.
 
 ### <span style="color:#b8b8b8">[REPLE]</span> / Reload
 
-The concept of restocking one's [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition)
+The concept of restocking one's [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply)
 
 ### <span style="color:#700006">[NOXIVS]</span> / Harming
 
 A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) that is [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) 
+
+### <span style="color:#ff00ff">[VISCERĀLIS]</span> / Visceral
+
+A way of understanding [<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis).
+[<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis) [<span style="color:#ff00ff;font-weight:600">[VISCERĀLIS]</span>](/codex/CorV1/Tags?id=viscerĀlis-visceral) is one of raw enlightenment. It allows one to harness the principles of the world as arcane incarnate. 
+Often exists in a simplified dichotomy with [<span style="color:#00ffff;font-weight:600">[SYSTEMATICA]</span>](/codex/CorV1/Tags?id=systematica-systematic), where it represents the unstructured arcane.
 
 ## Source
 

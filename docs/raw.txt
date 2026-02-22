@@ -4,7 +4,7 @@ GRYST TTRPG - COMPLETE DOCUMENTATION
 This is an auto-generated plain text version of the Gryst TTRPG documentation.
 For the formatted version, visit: https://gwennypig.github.io/GrystTTRPG/
 
-Generated: 2026-02-21 05:32 UTC
+Generated: 2026-02-22 05:46 UTC
 ================================================================================
 
 
@@ -4499,7 +4499,7 @@ FILE: worldbuilding/locations/Location-Template.md
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/adventures/Starter-Adventure.md
+FILE: adventures/Starter-Adventure.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Starter Adventure: [Title]
@@ -4589,7 +4589,7 @@ FILE: docs/adventures/Starter-Adventure.md
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/bestiary/Creature-Template.md
+FILE: bestiary/Creature-Template.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # [Creature Name]
@@ -4650,7 +4650,7 @@ FILE: docs/bestiary/Creature-Template.md
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/CorV1/Artes.md
+FILE: codex/CorV1/Artes.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Artēs
@@ -4681,7 +4681,7 @@ The arts of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/CorV1/Dictionary.md
+FILE: codex/CorV1/Dictionary.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Dictionary
@@ -4700,7 +4700,7 @@ An [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Di
 
 ## <span style="color:#006eff">AD HOC</span> / As needed.
 
-No description.
+
 
 ## <span style="color:#373890">AUSPICIUM</span> / Opener
 
@@ -4748,6 +4748,11 @@ This represents the lack of the extraordinary range.
 Any group of [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) amongst themselves become a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort).
 This is the "party" in Gryst. [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e within a [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
 
+## <span style="color:#7d7dff">COMPLEXITAS</span> / Complexity
+
+Represents something's footprint in reality.
+Higher [<span style="color:#7d7dff;font-weight:600">COMPLEXITAS</span>](/codex/CorV1/Dictionary?id=complexitas-complexity) requires higher [<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis) to manipulate.
+
 ## <span style="color:#66023c">CONCORDIA</span> / Cooperation
 
 [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e with [<span style="color:#66023c;font-weight:600">CONCORDIA</span>](/codex/CorV1/Dictionary?id=concordia-cooperation) may freely contribute during the [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) window without needing [<span style="color:#9d64f2;font-weight:600">[INTERVENTVS]</span>](/codex/CorV1/Tags?id=interventvs-intervention) or an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment).
@@ -4767,6 +4772,10 @@ The story that the [<span style="color:#000000;font-weight:600">CHORAGVS PERSONA
 ## <span style="color:#70e697">GAMBIT</span>
 
 A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) is the atomic unit of resolution. Any action that requires mechanical resolution is a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit). Most [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s can have 1 of 4 outcomes; [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success) (success), [<span style="color:#8c0303;font-weight:600">CLADES</span>](/codex/CorV1/Dictionary?id=clades-failure) (failure), [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph) (critical success), or [<span style="color:#ff0000;font-weight:600">CALAMITAS</span>](/codex/CorV1/Dictionary?id=calamitas-calamity) (critical failure).
+
+## <span style="color:#0004ff">GNOSIS</span>
+
+No description.
 
 ## <span style="color:#7c634b">>:(</span> / Scheiße
 
@@ -4840,7 +4849,7 @@ Refer to the rules text.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/CorV1/Gambits.md
+FILE: codex/CorV1/Gambits.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Gambits
@@ -4852,10 +4861,10 @@ Gambits are actions with pre-authored outcomes. Each has four possible results: 
 ## Supporting Fire
 
 > [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d) a [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) gambit. You gain X+1 stacks of [[SUPPORTING FIRE]] where 0<X<=5.
-Spend 2X [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm). After every time a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) chooses a gambit, you may spend one stack of [[SUPPORTING FIRE]] to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) your chosen [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) with a 0.5 MAG modifier. This instance of the [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) creates an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) upon [<span style="color:#00ff55;font-weight:600">SvTr</span>](/codex/CorV1/Dictionary?id=svtr-sutr).
-This [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) counts as being a [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite) and having been [<span style="color:#8082e5;font-weight:600">EXSEQUE</span>](/codex/CorV1/Dictionary?id=exseque-excecute)'d.
-
-[<span style="color:#a3a3a3;font-weight:600">RATIO FATI</span>](/codex/CorV1/Dictionary?id=ratio-fati-ratio-of-fate): [9:1]
+> Spend 2X [<span style="color:#ff3333;font-weight:600">MOMENTVM</span>](/codex/CorV1/Dictionary?id=momentvm-mtm). After every time a [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e [<span style="color:#66023c;font-weight:600">COHORS</span>](/codex/CorV1/Dictionary?id=cohors-cohort) chooses a gambit, you may spend one stack of [[SUPPORTING FIRE]] to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) your chosen [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) with a 0.5 MAG modifier. This instance of the [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) creates an [<span style="color:#9d64f2;font-weight:600">OCCĀSIŌTVRBIDA</span>](/codex/CorV1/Dictionary?id=occĀsiŌtvrbida-chaotic-moment) upon [<span style="color:#00ff55;font-weight:600">SvTr</span>](/codex/CorV1/Dictionary?id=svtr-sutr).
+> This [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) counts as being a [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite) and having been [<span style="color:#8082e5;font-weight:600">EXSEQUE</span>](/codex/CorV1/Dictionary?id=exseque-excecute)'d.
+> 
+> [<span style="color:#a3a3a3;font-weight:600">RATIO FATI</span>](/codex/CorV1/Dictionary?id=ratio-fati-ratio-of-fate): [9:1]
 
 **Add-On Cost:** N/A
 
@@ -4876,12 +4885,14 @@ This [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/
 ## Reload!
 
 > [<span style="color:#8082e5;font-weight:600">EXSEQUE</span>](/codex/CorV1/Dictionary?id=exseque-excecute) [[PRAESTO]](/codex/CorV1/Tags?id=praesto-readied) [<span style="color:#b8b8b8;font-weight:600">[REPLE]</span>](/codex/CorV1/Tags?id=reple-reload) [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite).
-(haha thats a lot of jargon!)
-Execute a reload rite that is available to you. 
+> X = [<span style="color:#b8b8b8;font-weight:600">[REPLE]</span>](/codex/CorV1/Tags?id=reple-reload) [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite) [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) cost.
+> OR
+> IF [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d) [<span style="color:#06b6d4;font-weight:600">Copia Mechanismus</span>](/codex/CorV1/Modules?id=copia-mechanismus-supply-mechanism) does not have [<span style="color:#b8b8b8;font-weight:600">[REPLE]</span>](/codex/CorV1/Tags?id=reple-reload) [<span style="color:#ff9933;font-weight:600">[RITUS]</span>](/codex/CorV1/Tags?id=ritus-rite):
+> X = [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d)ted [<span style="color:#06b6d4;font-weight:600">Copia Mechanismus</span>](/codex/CorV1/Modules?id=copia-mechanismus-supply-mechanism) max [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) / 3.
 
-**Add-On Cost:** 0
+**Add-On Cost:** X
 
-**Tags:** [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/CorV1/Tags?id=absolutum-absolute) / Absolute, [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) / Ammunition, [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) / Reflex, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile
+**Tags:** [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/CorV1/Tags?id=absolutum-absolute) / Absolute, [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) / Projectile Supply, [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) / Reflex, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile
 
 ### Outcomes
 
@@ -4901,7 +4912,7 @@ Execute a reload rite that is available to you.
 
 **Add-On Cost:** 5
 
-**Tags:** [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) / Simple, [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) / Ammunition, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile, [<span style="color:#ff881a;font-weight:600">[ARMA SULPHURICA]</span>](/codex/CorV1/Tags?id=arma-sulphurica-conventional-firearms) / Conventional Firearms, [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) / Harming
+**Tags:** [<span style="color:#30fd89;font-weight:600">[SIMPLEX]</span>](/codex/CorV1/Tags?id=simplex-simple) / Simple, [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) / Projectile Supply, [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) / Missile, [<span style="color:#ff881a;font-weight:600">[ARMA SULPHURICA]</span>](/codex/CorV1/Tags?id=arma-sulphurica-conventional-firearms) / Conventional Firearms, [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) / Harming
 
 ### Outcomes
 
@@ -4918,7 +4929,7 @@ Execute a reload rite that is available to you.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/CorV1/Modules.md
+FILE: codex/CorV1/Modules.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Modules
@@ -4931,14 +4942,31 @@ Modules are components that grant stats, perks, and Gambits. They install into L
 
 ---
 
-## New Module
+## Mechanismus Simplex Armigniferālis
+
+Draws from [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) using the metaphysical aspects of [<span style="color:#ff881a;font-weight:600">[ARMA SULPHURICA]</span>](/codex/CorV1/Tags?id=arma-sulphurica-conventional-firearms) to deliver [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) ad [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d).
+QVALITASSVPERQVANTITATEM.
+
+---
+
+## Copia Mechanismus
+
+[<span style="color:#d4d4d4;font-weight:600">[MECHANISMUS]</span>](/codex/CorV1/Tags?id=mechanismus-mechanism) for storing [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile).
+X = [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) [<span style="color:#7d7dff;font-weight:600">COMPLEXITAS</span>](/codex/CorV1/Dictionary?id=complexitas-complexity) * [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) capacity.
+
+---
+
+## Mechanismus Duplex Armigniferālis
+
+Draws from [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) using the metaphysical aspects of [<span style="color:#ff881a;font-weight:600">[ARMA SULPHURICA]</span>](/codex/CorV1/Tags?id=arma-sulphurica-conventional-firearms) to deliver [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) ad [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Dictionary?id=designa-designate-d).
+QVANTITASSVPERQVALITATEM.
 
 ---
 
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/CorV1/Tags.md
+FILE: codex/CorV1/Tags.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Tags
@@ -4977,6 +5005,10 @@ When a [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/
 
 As always, the [<span style="color:#9d8015;font-weight:600">CHORAGVS</span>](/codex/CorV1/Dictionary?id=choragvs-dm) can choose to elevate even the [<span style="color:#7b7b7b;font-weight:600">[MUNDANUS]</span>](/codex/CorV1/Tags?id=mundanus-mundane) to [<span style="color:#aeff00;font-weight:600">CaTr</span>](/codex/CorV1/Dictionary?id=catr-cater) for our beloved [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character)e [<span style="color:#43f9ed;font-weight:600">;)</span>](/codex/CorV1/Dictionary?id=-fun)
 
+### <span style="color:#c59bc3">[TRANSIENT]</span>
+
+No description.
+
 ### <span style="color:#00ff11">[INFALLIBILIS]</span> / Infallible
 
 An [<span style="color:#00ff11;font-weight:600">[INFALLIBILIS]</span>](/codex/CorV1/Tags?id=infallibilis-infallible) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) cannot [<span style="color:#ff0000;font-weight:600">ClCa</span>](/codex/CorV1/Dictionary?id=clca-culca) (fail or critical fail). It can still [<span style="color:#ffea00;font-weight:600">TRIVMPHVS</span>](/codex/CorV1/Dictionary?id=trivmphvs-triumph), as opposed to [<span style="color:#000000;font-weight:600">[ABSOLUTUM]</span>](/codex/CorV1/Tags?id=absolutum-absolute), which can only [<span style="color:#00ff7b;font-weight:600">SVCCVSSVS</span>](/codex/CorV1/Dictionary?id=svccvssvs-success).
@@ -4988,14 +5020,22 @@ When [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV
 [<span style="color:#373890;font-weight:600">AUSPICIUM</span>](/codex/CorV1/Dictionary?id=auspicium-opener) [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s allow the [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/codex/CorV1/Dictionary?id=persona-character) to self-[<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) before passing priority.
 [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) [<span style="color:#00bfff;font-weight:600">[REFLEXUS]</span>](/codex/CorV1/Tags?id=reflexus-reflex) [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s do not consume [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) priority during the window. You may choose to [<span style="color:#43b3ae;font-weight:600">ADDENDVM</span>](/codex/CorV1/Dictionary?id=addendvm-addon) again.
 
-### <span style="color:#c2c2c2">[COPIA TELORUM]</span> / Ammunition
+### <span style="color:#c2c2c2">[COPIA TELORUM]</span> / Projectile Supply
 
-A [<span style="color:#64e1f2;font-weight:600">MODVLVS</span>](/codex/CorV1/Dictionary?id=modvlvs-module) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) it can contain.
-A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) it requires or expends.
-[<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) represents the amount of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) is available.
-[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s fizzle when they do not have [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition) available.
+A [<span style="color:#64e1f2;font-weight:600">[MODVLVS]</span>](/codex/CorV1/Tags?id=modvlvs-module) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) it can contain.
+A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) may define how much [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) it requires or expends.
+[<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) represents the amount of [<span style="color:#ee5858;font-weight:600">[TELUM]</span>](/codex/CorV1/Tags?id=telum-missile) is available.
+[<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit)s generally fizzle when they do not have [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply) as required.
 
 ## Form
+
+### <span style="color:#64e1f2">[MODVLVS]</span> / Module
+
+
+
+### <span style="color:#d4d4d4">[MECHANISMUS]</span> / Mechanism
+
+
 
 ### <span style="color:#a600ff">[MACHINA]</span> / Walker
 
@@ -5006,15 +5046,21 @@ A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dicti
 
 Of the physical form.
 
-### <span style="color:#ff881a">[ARMA SULPHURICA]</span> / Conventional Firearms
-
-The essence of Blazing gryst, harnessed through its emanations of [<span style="color:#949494;font-weight:600">[CHTHONICA]</span>](/codex/CorV1/Tags?id=chthonica-cthonic). Volatile substances of sulphurs and carbons.
-
 ### <span style="color:#ee5858">[TELUM]</span> / Missile
 
 Ranged armament, whether that be a plasma rifle, old timey six shooter, A [<span style="color:#a600ff;font-weight:600">[MACHINA]</span>](/codex/CorV1/Tags?id=machina-walker)'s shoulder missiles, a javelin, a bow, et cetera.
 
+### <span style="color:#ff881a">[ARMA SULPHURICA]</span> / Conventional Firearms
+
+The essence of Blazing gryst, harnessed through its emanations of [<span style="color:#949494;font-weight:600">[CHTHONICA]</span>](/codex/CorV1/Tags?id=chthonica-cthonic). Volatile substances of sulphurs and carbons.
+
 ## Category
+
+### <span style="color:#00ffff">[SYSTEMATICA]</span> / Systematic
+
+A way of understanding [<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis).
+[<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis) [<span style="color:#00ffff;font-weight:600">[SYSTEMATICA]</span>](/codex/CorV1/Tags?id=systematica-systematic) is one of architectural understanding. It allows one to harness the principles of the world and imbue it within artifice.
+Often exists in a simplified dichotomy with [<span style="color:#ff00ff;font-weight:600">[VISCERĀLIS]</span>](/codex/CorV1/Tags?id=viscerĀlis-visceral), where it represents the structured artifice.
 
 ### <span style="color:#e60000">[CORPORIS]</span> / Of the Body
 
@@ -5026,11 +5072,17 @@ What one has available to them.
 
 ### <span style="color:#b8b8b8">[REPLE]</span> / Reload
 
-The concept of restocking one's [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-ammunition)
+The concept of restocking one's [<span style="color:#c2c2c2;font-weight:600">[COPIA TELORUM]</span>](/codex/CorV1/Tags?id=copia-telorum-projectile-supply)
 
 ### <span style="color:#700006">[NOXIVS]</span> / Harming
 
 A [<span style="color:#70e697;font-weight:600">GAMBIT</span>](/codex/CorV1/Dictionary?id=gambit) that is [<span style="color:#700006;font-weight:600">[NOXIVS]</span>](/codex/CorV1/Tags?id=noxivs-harming) 
+
+### <span style="color:#ff00ff">[VISCERĀLIS]</span> / Visceral
+
+A way of understanding [<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis).
+[<span style="color:#0004ff;font-weight:600">GNOSIS</span>](/codex/CorV1/Dictionary?id=gnosis) [<span style="color:#ff00ff;font-weight:600">[VISCERĀLIS]</span>](/codex/CorV1/Tags?id=viscerĀlis-visceral) is one of raw enlightenment. It allows one to harness the principles of the world as arcane incarnate. 
+Often exists in a simplified dichotomy with [<span style="color:#00ffff;font-weight:600">[SYSTEMATICA]</span>](/codex/CorV1/Tags?id=systematica-systematic), where it represents the unstructured arcane.
 
 ## Source
 
@@ -5055,7 +5107,7 @@ Retains a source [<span style="color:#e2725b;font-weight:600">PERSONA</span>](/c
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/CorV1/Virtutes.md
+FILE: codex/CorV1/Virtutes.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Virtutes
@@ -5077,7 +5129,7 @@ The [<span style="color:#e770ff;font-weight:600">DESIGNA</span>](/codex/CorV1/Di
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/Piscatio/Artes.md
+FILE: codex/Piscatio/Artes.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Artēs
@@ -5096,7 +5148,7 @@ WIP
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/codex/Piscatio/Virtutes.md
+FILE: codex/Piscatio/Virtutes.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Virtutes
@@ -5112,7 +5164,7 @@ Virtutes are passive abilities (perks) that may have trigger conditions. When th
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/ecosystem/Mundi-et-Caeli-Grystis.md
+FILE: ecosystem/Mundi-et-Caeli-Grystis.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Mundi et Caeli Grystis
@@ -5400,7 +5452,7 @@ Content Pack Structure:
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/ecosystem/Overview.md
+FILE: ecosystem/Overview.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Ecosystem
@@ -5514,7 +5566,7 @@ PDA gives you a functional tactical map. Mundi gives you a living world.
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/ecosystem/PDA.md
+FILE: ecosystem/PDA.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # PDA
@@ -5660,7 +5712,7 @@ Stack:
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/legal/Gryst-Community-License.md
+FILE: legal/Gryst-Community-License.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Gryst Community License
@@ -5829,7 +5881,7 @@ For licensing questions or to discuss official partnerships, content packs, or f
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/legal/ORC-Notice.md
+FILE: legal/ORC-Notice.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # ORC Notice
@@ -5941,7 +5993,7 @@ For licensing questions, contact: [TODO: Add contact email or form]
 
 
 ────────────────────────────────────────────────────────────────────────────────
-FILE: docs/playtest/Session-Log-Template.md
+FILE: playtest/Session-Log-Template.md
 ────────────────────────────────────────────────────────────────────────────────
 
 # Playtest Session [#]

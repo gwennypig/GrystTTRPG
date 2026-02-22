@@ -48,6 +48,7 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
     declare -A GAMBIT_NAMES
     declare -A VIRTUS_NAMES VIRTUS_COLORS VIRTUS_LOW
     declare -A ARS_NAMES ARS_COLORS ARS_LOW
+    declare -A MODULE_NAMES MODULE_COLORS MODULE_LOW
     
     # Load all tags
     if [ -d "$version_dir/tags" ]; then
@@ -103,6 +104,17 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
       done
     fi
     
+    # Load all modules
+    if [ -d "$version_dir/modules" ]; then
+      for module_file in "$version_dir/modules"/*.json; do
+        [ -f "$module_file" ] || continue
+        module_id=$(jq -r '.id' "$module_file")
+        MODULE_NAMES["$module_id"]=$(jq -r '.name' "$module_file")
+        MODULE_COLORS["$module_id"]=$(jq -r '.color // ""' "$module_file")
+        MODULE_LOW["$module_id"]=$(jq -r '.lowConsensus // ""' "$module_file")
+      done
+    fi
+    
     # === HELPER: Generate anchor from name ===
     make_anchor() {
       echo "$1" | python3 -c "import sys,re; s=sys.stdin.read(); s=s.replace('>','gt'); s=re.sub(r'[A-Z]', lambda m: m.group().lower(), s); s=re.sub(r'[^\\w\\s-]', '-', s, flags=re.UNICODE); s=re.sub(r'\\s+', '-', s); s=re.sub(r'-+', '-', s); s=s.rstrip('-'); print(s, end='')"
@@ -110,6 +122,7 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
     
     # === HELPER: Resolve references in text ===
     # Converts {{type:uuid}} to colored markdown links
+    # Preserves newlines by using printf and careful handling
     resolve_refs() {
       local text="$1"
       local result="$text"
@@ -128,7 +141,7 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         else
           local replacement="[$name](/codex/$bundle_name/Dictionary?id=$anchor)"
         fi
-        result=$(echo "$result" | sed "s|{{dict:$dict_id}}|$replacement|g")
+        result="${result//\{\{dict:$dict_id\}\}/$replacement}"
       done
       
       # Replace {{tag:uuid}} references
@@ -145,7 +158,7 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         else
           local replacement="[[$name]](/codex/$bundle_name/Tags?id=$anchor)"
         fi
-        result=$(echo "$result" | sed "s|{{tag:$tag_id}}|$replacement|g")
+        result="${result//\{\{tag:$tag_id\}\}/$replacement}"
       done
       
       # Replace {{gambit:uuid}} references
@@ -153,7 +166,7 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         local name="${GAMBIT_NAMES[$gambit_id]}"
         local anchor=$(make_anchor "$name")
         local replacement="[<span style=\"color:#22c55e;font-weight:600\">$name</span>](/codex/$bundle_name/Gambits?id=$anchor)"
-        result=$(echo "$result" | sed "s|{{gambit:$gambit_id}}|$replacement|g")
+        result="${result//\{\{gambit:$gambit_id\}\}/$replacement}"
       done
       
       # Replace {{virtus:uuid}} references
@@ -165,7 +178,7 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         [ -n "$low" ] && anchor_text="$name / $low"
         local anchor=$(make_anchor "$anchor_text")
         local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Virtutes?id=$anchor)"
-        result=$(echo "$result" | sed "s|{{virtus:$virtus_id}}|$replacement|g")
+        result="${result//\{\{virtus:$virtus_id\}\}/$replacement}"
       done
       
       # Replace {{ars:uuid}} references
@@ -177,10 +190,22 @@ for bundle_dir in "$CODEX_SOURCE"/*/; do
         [ -n "$low" ] && anchor_text="$name / $low"
         local anchor=$(make_anchor "$anchor_text")
         local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Artes?id=$anchor)"
-        result=$(echo "$result" | sed "s|{{ars:$ars_id}}|$replacement|g")
+        result="${result//\{\{ars:$ars_id\}\}/$replacement}"
       done
       
-      echo "$result"
+      # Replace {{module:uuid}} references
+      for module_id in "${!MODULE_NAMES[@]}"; do
+        local name="${MODULE_NAMES[$module_id]}"
+        local color="${MODULE_COLORS[$module_id]:-#06b6d4}"
+        local low="${MODULE_LOW[$module_id]}"
+        local anchor_text="$name"
+        [ -n "$low" ] && anchor_text="$name / $low"
+        local anchor=$(make_anchor "$anchor_text")
+        local replacement="[<span style=\"color:$color;font-weight:600\">$name</span>](/codex/$bundle_name/Modules?id=$anchor)"
+        result="${result//\{\{module:$module_id\}\}/$replacement}"
+      done
+      
+      printf '%s' "$result"
     }
     
     # === HELPER: Format tag with color ===
@@ -283,10 +308,10 @@ EOF
         fi
         echo "" >> "$bundle_out/Dictionary.md"
         
-        # Resolve references in description
+        # Resolve references in description (preserve newlines, convert to markdown line breaks)
         resolved_desc=$(resolve_refs "$desc")
-        echo "$resolved_desc" >> "$bundle_out/Dictionary.md"
-        echo "" >> "$bundle_out/Dictionary.md"
+        # Convert single newlines to markdown line breaks (two spaces + newline) or double newlines for paragraphs
+        printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Dictionary.md"
       done < "$dict_sorted"
       rm -f "$dict_sorted"
     fi
@@ -348,10 +373,9 @@ EOF
           fi
           echo "" >> "$bundle_out/Tags.md"
           
-          # Resolve references in description
+          # Resolve references in description (preserve newlines)
           resolved_desc=$(resolve_refs "$desc")
-          echo "$resolved_desc" >> "$bundle_out/Tags.md"
-          echo "" >> "$bundle_out/Tags.md"
+          printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Tags.md"
         done < "$tags_sorted"
         rm -f "$tags_sorted"
       done
@@ -384,7 +408,8 @@ EOF
         
         if [ -n "$desc" ]; then
           resolved_desc=$(resolve_refs "$desc")
-          echo "> $resolved_desc" >> "$bundle_out/Gambits.md"
+          # For blockquote, prefix each line with >
+          echo "$resolved_desc" | sed 's/^/> /' >> "$bundle_out/Gambits.md"
           echo "" >> "$bundle_out/Gambits.md"
         fi
         
@@ -431,7 +456,7 @@ EOF
           echo "" >> "$bundle_out/Gambits.md"
         fi
         
-        # Outcomes with resolved references
+        # Outcomes with resolved references (preserve newlines)
         echo "### Outcomes" >> "$bundle_out/Gambits.md"
         echo "" >> "$bundle_out/Gambits.md"
         
@@ -440,14 +465,19 @@ EOF
         clades=$(jq -r '.outcomes.clades.text // "—"' "$gambit_file")
         calamitas=$(jq -r '.outcomes.calamitas.text // "—"' "$gambit_file")
         
-        echo "**Triumphus (Critical Success):** $(resolve_refs "$triumphus")" >> "$bundle_out/Gambits.md"
-        echo "" >> "$bundle_out/Gambits.md"
-        echo "**Successus (Success):** $(resolve_refs "$successus")" >> "$bundle_out/Gambits.md"
-        echo "" >> "$bundle_out/Gambits.md"
-        echo "**Clades (Failure):** $(resolve_refs "$clades")" >> "$bundle_out/Gambits.md"
-        echo "" >> "$bundle_out/Gambits.md"
-        echo "**Calamitas (Critical Failure):** $(resolve_refs "$calamitas")" >> "$bundle_out/Gambits.md"
-        echo "" >> "$bundle_out/Gambits.md"
+        resolved_triumphus=$(resolve_refs "$triumphus")
+        resolved_successus=$(resolve_refs "$successus")
+        resolved_clades=$(resolve_refs "$clades")
+        resolved_calamitas=$(resolve_refs "$calamitas")
+        
+        echo -n "**Triumphus (Critical Success):** " >> "$bundle_out/Gambits.md"
+        printf '%s\n\n' "$resolved_triumphus" >> "$bundle_out/Gambits.md"
+        echo -n "**Successus (Success):** " >> "$bundle_out/Gambits.md"
+        printf '%s\n\n' "$resolved_successus" >> "$bundle_out/Gambits.md"
+        echo -n "**Clades (Failure):** " >> "$bundle_out/Gambits.md"
+        printf '%s\n\n' "$resolved_clades" >> "$bundle_out/Gambits.md"
+        echo -n "**Calamitas (Critical Failure):** " >> "$bundle_out/Gambits.md"
+        printf '%s\n\n' "$resolved_calamitas" >> "$bundle_out/Gambits.md"
         echo "---" >> "$bundle_out/Gambits.md"
         echo "" >> "$bundle_out/Gambits.md"
       done
@@ -492,14 +522,13 @@ EOF
         
         if [ -n "$condition" ]; then
           resolved_condition=$(resolve_refs "$condition")
-          echo "> **Condition:** $resolved_condition" >> "$bundle_out/Virtutes.md"
-          echo "" >> "$bundle_out/Virtutes.md"
+          echo -n "> **Condition:** " >> "$bundle_out/Virtutes.md"
+          printf '%s\n\n' "$resolved_condition" >> "$bundle_out/Virtutes.md"
         fi
         
         if [ -n "$desc" ]; then
           resolved_desc=$(resolve_refs "$desc")
-          echo "$resolved_desc" >> "$bundle_out/Virtutes.md"
-          echo "" >> "$bundle_out/Virtutes.md"
+          printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Virtutes.md"
         fi
         
         echo "---" >> "$bundle_out/Virtutes.md"
@@ -555,8 +584,7 @@ EOF
         
         if [ -n "$desc" ]; then
           resolved_desc=$(resolve_refs "$desc")
-          echo "$resolved_desc" >> "$bundle_out/Artes.md"
-          echo "" >> "$bundle_out/Artes.md"
+          printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Artes.md"
         fi
         
         # List abilities with Peritia
@@ -641,8 +669,7 @@ EOF
         echo "" >> "$bundle_out/Modules.md"
         if [ -n "$desc" ]; then
           resolved_desc=$(resolve_refs "$desc")
-          echo "$resolved_desc" >> "$bundle_out/Modules.md"
-          echo "" >> "$bundle_out/Modules.md"
+          printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Modules.md"
         fi
         echo "---" >> "$bundle_out/Modules.md"
         echo "" >> "$bundle_out/Modules.md"
@@ -671,8 +698,7 @@ EOF
         echo "" >> "$bundle_out/Loculi.md"
         if [ -n "$desc" ]; then
           resolved_desc=$(resolve_refs "$desc")
-          echo "$resolved_desc" >> "$bundle_out/Loculi.md"
-          echo "" >> "$bundle_out/Loculi.md"
+          printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Loculi.md"
         fi
         echo "---" >> "$bundle_out/Loculi.md"
         echo "" >> "$bundle_out/Loculi.md"
@@ -701,8 +727,7 @@ EOF
         echo "" >> "$bundle_out/Characters.md"
         if [ -n "$desc" ]; then
           resolved_desc=$(resolve_refs "$desc")
-          echo "$resolved_desc" >> "$bundle_out/Characters.md"
-          echo "" >> "$bundle_out/Characters.md"
+          printf '%s\n\n' "$resolved_desc" >> "$bundle_out/Characters.md"
         fi
         echo "---" >> "$bundle_out/Characters.md"
         echo "" >> "$bundle_out/Characters.md"
@@ -715,6 +740,7 @@ EOF
     unset GAMBIT_NAMES
     unset VIRTUS_NAMES VIRTUS_COLORS VIRTUS_LOW
     unset ARS_NAMES ARS_COLORS ARS_LOW
+    unset MODULE_NAMES MODULE_COLORS MODULE_LOW
     
   done
 done
