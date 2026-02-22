@@ -4,7 +4,7 @@ GRYST TTRPG - COMPLETE DOCUMENTATION
 This is an auto-generated plain text version of the Gryst TTRPG documentation.
 For the formatted version, visit: https://gwennypig.github.io/GrystTTRPG/
 
-Generated: 2026-02-22 05:46 UTC
+Generated: 2026-02-22 11:44 UTC
 ================================================================================
 
 
@@ -2672,6 +2672,81 @@ FILE: rules/SPARKLE.md
 
 ---
 
+## The Baseline
+
+**0 SPARKLE represents the average, normalized individual.** This is the baseline — a person of typical human capability in that attribute.
+
+- **Positive SPARKLE** — Above average, exceptional
+- **Negative SPARKLE** — Below average, impaired
+- **0** — Average, unremarkable
+
+---
+
+## SPARKLE at Character Creation
+
+Starting characters receive **2 free points** to add to any SPARKLE attributes.
+
+### Trading Points
+
+You can **subtract** from any SPARKLE (down to **-5**) to gain points to add elsewhere (up to **+5** before free points).
+
+**Example:**
+```
+Starting: All at 0
+Subtract 3 from Strength → Strength: -3
+Add those 3 to Knowledge → Knowledge: +3
+Add 2 free points to Rizz → Rizz: +2
+
+Final: S:-3 P:0 A:0 R:+2 K:+3 L:0 E:0
+```
+
+### Limits
+
+| Minimum | Maximum |
+|---------|---------|
+| -5 | No hard cap (but +5 from trades + 2 free = +7 theoretical max at creation) |
+
+---
+
+## Using SPARKLE in Checks
+
+SPARKLE determines **how many dice you roll** and whether you take the highest or lowest result.
+
+### The Dice Pool Rule
+
+| SPARKLE Value | Dice Rolled | Result Used |
+|---------------|-------------|-------------|
+| -6 or lower | 7 dice | Take **lowest** |
+| -5 | 6 dice | Take **lowest** |
+| -4 | 5 dice | Take **lowest** |
+| -3 | 4 dice | Take **lowest** |
+| -2 | 3 dice | Take **lowest** |
+| -1 | 2 dice | Take **lowest** |
+| **0** | **1 die** | **Baseline** |
+| +1 | 2 dice | Take **highest** |
+| +2 | 3 dice | Take **highest** |
+| +3 | 4 dice | Take **highest** |
+| +4 | 5 dice | Take **highest** |
+| +5 | 6 dice | Take **highest** |
+| +6 or higher | 7 dice | Take **highest** |
+
+**In short:** Your SPARKLE value = number of *extra* dice. Positive means advantage (take highest), negative means disadvantage (take lowest).
+
+### Combined Checks
+
+When a check involves **multiple SPARKLE attributes**, sum them together.
+
+> **Example:** A check requiring both Strength and Agility  
+> STR: +2, AGI: -1 → Total: +1 → Roll 2 dice, take highest
+
+### Cap
+
+The combined total **caps at ±6** regardless of how many attributes contribute.
+
+> STR: +4, AGI: +5 → Sum: +9 → Capped to +6 → Roll 7 dice, take highest
+
+---
+
 ## SubSPARKLES
 
 Each SPARKLE can be specialized into **SubSPARKLES** — narrower focuses within the broader attribute.
@@ -2683,21 +2758,21 @@ When you gain a SPARKLE point, you choose:
 1. **Generalized** — adds to the base SPARKLE, applies everywhere
 2. **Specialized** — assign to a SubSPARKLE, higher ceiling for specific applications
 
-**Your total SPARKLE = Generalized + Sum of SubSPARKLES**
+**Your total SPARKLE = Generalized + Relevant SubSPARKLES**
 
 ### Example
 
 ```
-Knowledge: 5 total
-├── Generalized: 2
-├── Arcane: 2
-└── Systematics: 1
+Knowledge: Base +2
+├── Generalized: +2
+├── Arcane: +2 (specialized)
+└── Systematics: +1 (specialized)
 ```
 
-- When rolling general Knowledge checks: use 5
-- When rolling specifically Arcane Knowledge: use 5 (but some abilities might require Arcane specifically)
-- An ability requiring "Knowledge 4, Arcane 2" — you qualify!
-- An ability requiring "Knowledge 4, Systematics 2" — you don't (only have 1)
+- General Knowledge check: use +2 (generalized only)
+- Arcane Knowledge check: use +4 (generalized + arcane)
+- Systematics check: use +3 (generalized + systematics)
+- An ability requiring "Knowledge 3, Arcane 2" — you qualify!
 
 ---
 
@@ -2757,27 +2832,7 @@ These are the default SubSPARKLES. Content packs can add more.
 
 ---
 
-## Using SPARKLE
-
-### Checks
-
-When the GM calls for a check, they'll specify:
-- The SPARKLE attribute (and possibly a SubSPARKLE)
-- The target number or opposing roll
-
-> "Roll Perception." — Use your total Perception  
-> "Roll Perception (Visual)." — Use total, but Visual-specific bonuses may apply  
-> "This ability requires Perception 3, Intuition 2." — Must meet both
-
-### Modifying Magnitude
-
-Some Gambits use SPARKLE to modify the **Icosaedrum Magnitudinis** (d20 roll):
-
-> "Magnitūdō = d20 + STR modifier"
-
-The modifier is typically derived from the SPARKLE score (exact formula TBD).
-
-### Derived Stats
+## Derived Stats
 
 Several stats derive from SPARKLE:
 
@@ -2792,19 +2847,13 @@ Several stats derive from SPARKLE:
 
 ## Design Notes
 
-### Why SPARKLE?
+### Why This System?
 
-- **Memorable acronym** — players remember their stats
-- **Seven attributes** — enough granularity without overload
-- **Luck as a stat** — embraces the chaos of TTRPGs
-- **Rizz** — social ability deserves its own stat, not just "Charisma"
-- **SubSPARKLES** — allows specialization without bloating the core list
-
-### Generalized vs. Specialized Trade-off
-
-- **Generalized** is safe — applies everywhere
-- **Specialized** is powerful — unlocks specific abilities, higher peaks
-- **Optimal play** is a mix — some base, some focus
+- **Intuitive baseline** — 0 is average, positive is good, negative is bad
+- **Dice pool advantage/disadvantage** — more dramatic swings for extreme values
+- **Combinable** — multi-attribute checks feel natural (just add them)
+- **Capped** — prevents infinite stacking from breaking the game
+- **Trade-offs matter** — dumping a stat has real consequences
 
 ### SubSPARKLES Are Soft
 
@@ -2813,27 +2862,6 @@ SubSPARKLE categories are **guidelines, not prisons**:
 - A GM might allow Performance (Rizz) for a distracting dance in combat
 - Arcane (Knowledge) might help identify a magical trap
 - Flexibility is encouraged; rigid categorization kills creativity
-
----
-
-## SPARKLE at Character Creation
-
-Starting characters receive **X SPARKLE points** to distribute. Options:
-
-### Point Buy
-- Each point costs 1
-- Maximum in any SPARKLE: Y (before SubSPARKLE bonuses)
-
-### Standard Array
-- Distribute: 3, 2, 2, 2, 1, 1, 0 (or similar)
-- Then add SubSPARKLE picks
-
-### Roll (Variant)
-- Roll 4d6 drop lowest, seven times
-- Assign as desired
-- Then add SubSPARKLE picks
-
-*Exact numbers determined by playtesting.*
 
 
 ────────────────────────────────────────────────────────────────────────────────

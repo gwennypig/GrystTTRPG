@@ -1,5 +1,8 @@
 - [Home](/)
 
+- **Animus**
+  - [The Soul of Gryst](animus/README.md)
+
 - **Rules**
   - [Core Mechanic](rules/Core-Mechanic.md)
   - [Momentum & Turns](rules/Momentum-and-Turns.md)
